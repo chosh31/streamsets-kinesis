@@ -1,9 +1,20 @@
 # Streamsets-kinesis
 
+
+
 ## Setup
+### pre-configuration
+- path info 
+
+```
+export STREAMSETS_HOME=$HOME/works/streamsets-kinesis
+export STREAMSETS_DATA=$STREAMSETS_HOME/data
+```
+
+### installation
+
 ```
 $ cp -R config_template config
-$ ./script/init.js
 $ ./script/build.js
 $ ./script/run.js
 ```

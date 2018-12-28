@@ -1,0 +1,18 @@
+{
+  "pipelineId" : "testaca75696-acb2-4d5e-93c1-157a54ecb6ca",
+  "title" : "test",
+  "description" : "",
+  "created" : 1545964475529,
+  "lastModified" : 1545964489767,
+  "creator" : "knowre",
+  "lastModifier" : "knowre",
+  "lastRev" : "0",
+  "uuid" : "08993e81-a58b-47b5-938b-9494198c54c9",
+  "valid" : false,
+  "metadata" : {
+    "labels" : [ ]
+  },
+  "name" : "testaca75696-acb2-4d5e-93c1-157a54ecb6ca",
+  "sdcVersion" : "3.6.1",
+  "sdcId" : "0f8f71e0-0a49-11e9-97a1-dbf38039aeee"
+}

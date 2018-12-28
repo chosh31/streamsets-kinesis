@@ -4,6 +4,7 @@ USER ${SDC_USER}
 # custom configured
 COPY config/ ${SDC_CONF}/
 COPY sdc-extras/ ${STREAMSETS_LIBRARIES_EXTRA_DIR}/
+VOLUME [ "/data" ]
 
 ARG SDC_LIBS=streamsets-datacollector-jdbc-lib,streamsets-datacollector-mysql-binlog-lib
 RUN if [ -n "${SDC_LIBS}" ]; then "${SDC_DIST}/bin/streamsets" stagelibs -install="${SDC_LIBS}"; fi

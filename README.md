@@ -15,7 +15,6 @@ export STREAMSETS_DATA=$STREAMSETS_HOME/data
 
 ```
 $ cp -R config_template config
-$ chmod 600 ./config/*-realm.properties
 $ ./script/build.js
 $ ./script/run.js
 ```

@@ -7,14 +7,18 @@
 - path info 
 
 ```
+ex)
 export STREAMSETS_HOME=$HOME/works/streamsets-kinesis
 export STREAMSETS_DATA=$STREAMSETS_HOME/data
 ```
+
+- config/runtime.properties
 
 ### installation
 
 ```
 $ cp -R config_template config
+$ ./script/build-base.js
 $ ./script/build.js
 $ ./script/run.js
 ```

@@ -2,15 +2,15 @@
   "ToEvent_01" : {
     "description" : "",
     "label" : "To Event 1",
-    "xPos" : 280,
-    "yPos" : 50,
+    "xPos" : 325,
+    "yPos" : 73,
     "stageType" : "TARGET"
   },
   "MySQLBinaryLog_01" : {
     "description" : "",
     "label" : "MySQL Binary Log 1",
-    "xPos" : 60,
-    "yPos" : 50,
+    "xPos" : 91,
+    "yPos" : 68,
     "stageType" : "SOURCE"
   },
   ":pipeline:" : {

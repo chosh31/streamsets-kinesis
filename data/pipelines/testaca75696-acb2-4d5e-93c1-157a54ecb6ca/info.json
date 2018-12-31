@@ -3,12 +3,12 @@
   "title" : "binlog-",
   "description" : "",
   "created" : 1545964475529,
-  "lastModified" : 1546231453684,
+  "lastModified" : 1546236009731,
   "creator" : "knowre",
   "lastModifier" : "admin",
   "lastRev" : "0",
-  "uuid" : "caeba6b2-5fa5-4a42-a8cb-174650a60b5a",
-  "valid" : false,
+  "uuid" : "b2562a28-5249-4a31-9c1b-c6deb4e6306f",
+  "valid" : true,
   "metadata" : {
     "labels" : [ ]
   },

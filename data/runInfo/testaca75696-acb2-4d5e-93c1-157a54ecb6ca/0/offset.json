@@ -1,6 +1,6 @@
 {
   "version" : 2,
   "offsets" : {
-    "$com.streamsets.datacollector.pollsource.offset$" : "mysql-bin-changelog.001435:37039530"
+    "$com.streamsets.datacollector.pollsource.offset$" : "mysql-bin-changelog.001453:6731915"
   }
 }

@@ -1,0 +1,15 @@
+{
+  "resourceId" : "testaca75696-acb2-4d5e-93c1-157a54ecb6ca",
+  "resourceOwner" : "admin",
+  "resourceCreatedTime" : 1545964475529,
+  "resourceType" : "PIPELINE",
+  "lastModifiedBy" : "knowre",
+  "lastModifiedOn" : 1545964475529,
+  "permissions" : [ {
+    "subjectId" : "admin",
+    "subjectType" : "USER",
+    "lastModifiedBy" : "admin",
+    "lastModifiedOn" : 1545964475529,
+    "actions" : [ "READ", "WRITE", "EXECUTE" ]
+  } ]
+}

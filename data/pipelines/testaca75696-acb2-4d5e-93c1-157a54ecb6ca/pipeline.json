@@ -4,7 +4,7 @@
   "pipelineId" : "testaca75696-acb2-4d5e-93c1-157a54ecb6ca",
   "title" : "binlog-",
   "description" : "",
-  "uuid" : "caeba6b2-5fa5-4a42-a8cb-174650a60b5a",
+  "uuid" : "b2562a28-5249-4a31-9c1b-c6deb4e6306f",
   "configuration" : [ {
     "name" : "executionMode",
     "value" : "STANDALONE"
@@ -232,12 +232,12 @@
     "uiInfo" : {
       "description" : "",
       "label" : "MySQL Binary Log 1",
-      "xPos" : 60,
-      "yPos" : 50,
+      "xPos" : 91,
+      "yPos" : 68,
       "stageType" : "SOURCE"
     },
     "inputLanes" : [ ],
-    "outputLanes" : [ "MySQLBinaryLog_01OutputLane15459644806950" ],
+    "outputLanes" : [ "MySQLBinaryLog_01OutputLane15462352939090" ],
     "eventLanes" : [ ],
     "services" : [ ]
   }, {
@@ -258,11 +258,11 @@
     "uiInfo" : {
       "description" : "",
       "label" : "To Event 1",
-      "xPos" : 280,
-      "yPos" : 50,
+      "xPos" : 325,
+      "yPos" : 73,
       "stageType" : "TARGET"
     },
-    "inputLanes" : [ "MySQLBinaryLog_01OutputLane15459644806950" ],
+    "inputLanes" : [ "MySQLBinaryLog_01OutputLane15462352939090" ],
     "outputLanes" : [ ],
     "eventLanes" : [ ],
     "services" : [ ]
@@ -290,11 +290,11 @@
     "title" : "binlog-",
     "description" : "",
     "created" : 1545964475529,
-    "lastModified" : 1546231452065,
+    "lastModified" : 1546235998094,
     "creator" : "knowre",
     "lastModifier" : "admin",
     "lastRev" : "0",
-    "uuid" : "83abe6c1-b257-48ac-b88d-299e62ac9547",
+    "uuid" : "a1f89e61-598d-482a-8516-c11693c12938",
     "valid" : false,
     "metadata" : {
       "labels" : [ ]
@@ -595,31 +595,11 @@
       } ]
     } ]
   },
-  "valid" : false,
+  "valid" : true,
   "issues" : {
-    "issueCount" : 2,
-    "stageIssues" : {
-      "MySQLBinaryLog_01" : [ {
-        "count" : 1,
-        "level" : "STAGE_CONFIG",
-        "instanceName" : "MySQLBinaryLog_01",
-        "additionalInfo" : null,
-        "configGroup" : "MYSQL",
-        "serviceName" : null,
-        "configName" : "config.port",
-        "message" : "CREATION_005 - Could not resolve implicit EL expression '${runtime:conf(\"BinlogPort\")}': com.streamsets.pipeline.api.el.ELEvalException: CTRCMN_0100 - Error evaluating expression ${runtime:conf(\"BinlogPort\")}: java.lang.IllegalArgumentException: Could not resolve property 'BinlogPort'"
-      }, {
-        "count" : 1,
-        "level" : "STAGE_CONFIG",
-        "instanceName" : "MySQLBinaryLog_01",
-        "additionalInfo" : null,
-        "configGroup" : "MYSQL",
-        "serviceName" : null,
-        "configName" : "config.serverId",
-        "message" : "CREATION_005 - Could not resolve implicit EL expression '${runtime:conf(\"BinlogServerID\")}': com.streamsets.pipeline.api.el.ELEvalException: CTRCMN_0100 - Error evaluating expression ${runtime:conf(\"BinlogServerID\")}: java.lang.IllegalArgumentException: Could not resolve property 'BinlogServerID'"
-      } ]
-    },
-    "pipelineIssues" : [ ]
+    "stageIssues" : { },
+    "pipelineIssues" : [ ],
+    "issueCount" : 0
   },
-  "previewable" : false
+  "previewable" : true
 }

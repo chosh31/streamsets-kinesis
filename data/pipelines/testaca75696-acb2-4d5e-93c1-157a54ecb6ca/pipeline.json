@@ -4,7 +4,7 @@
   "pipelineId" : "testaca75696-acb2-4d5e-93c1-157a54ecb6ca",
   "title" : "binlog-",
   "description" : "",
-  "uuid" : "b2562a28-5249-4a31-9c1b-c6deb4e6306f",
+  "uuid" : "6b520cdd-d1d6-4cb8-a70c-72fce2a08d5e",
   "configuration" : [ {
     "name" : "executionMode",
     "value" : "STANDALONE"
@@ -231,13 +231,167 @@
     } ],
     "uiInfo" : {
       "description" : "",
-      "label" : "MySQL Binary Log 1",
-      "xPos" : 91,
-      "yPos" : 68,
+      "label" : "MySQL Binary Log",
+      "xPos" : 60,
+      "yPos" : 50,
       "stageType" : "SOURCE"
     },
     "inputLanes" : [ ],
     "outputLanes" : [ "MySQLBinaryLog_01OutputLane15462352939090" ],
+    "eventLanes" : [ ],
+    "services" : [ ]
+  }, {
+    "instanceName" : "FieldRemover_01",
+    "library" : "streamsets-datacollector-basic-lib",
+    "stageName" : "com_streamsets_pipeline_stage_processor_fieldfilter_FieldFilterDProcessor",
+    "stageVersion" : "1",
+    "configuration" : [ {
+      "name" : "filterOperation",
+      "value" : "KEEP"
+    }, {
+      "name" : "fields",
+      "value" : [ "/Table", "/Type" ]
+    }, {
+      "name" : "stageRequiredFields",
+      "value" : [ ]
+    }, {
+      "name" : "stageRecordPreconditions",
+      "value" : [ ]
+    } ],
+    "uiInfo" : {
+      "description" : "",
+      "label" : "Field Remover 1",
+      "xPos" : 280,
+      "yPos" : 50,
+      "stageType" : "PROCESSOR"
+    },
+    "inputLanes" : [ "MySQLBinaryLog_01OutputLane15462352939090" ],
+    "outputLanes" : [ "FieldRemover_01OutputLane15462370393440" ],
+    "eventLanes" : [ ],
+    "services" : [ ]
+  }, {
+    "instanceName" : "StreamSelector_01",
+    "library" : "streamsets-datacollector-basic-lib",
+    "stageName" : "com_streamsets_pipeline_stage_processor_selector_SelectorDProcessor",
+    "stageVersion" : "1",
+    "configuration" : [ {
+      "name" : "lanePredicates",
+      "value" : [ {
+        "outputLane" : "StreamSelector_01OutputLane1546236512657",
+        "predicate" : "${record:value(\"/Type\") == \"INSERT\"}"
+      }, {
+        "outputLane" : "StreamSelector_01OutputLane1546236484053",
+        "predicate" : "${record:value(\"/Type\") == \"UPDATE\"}"
+      }, {
+        "outputLane" : "StreamSelector_01OutputLane1546236429196",
+        "predicate" : "default"
+      } ]
+    }, {
+      "name" : "stageOnRecordError",
+      "value" : "TO_ERROR"
+    }, {
+      "name" : "stageRequiredFields",
+      "value" : [ ]
+    }, {
+      "name" : "stageRecordPreconditions",
+      "value" : [ ]
+    } ],
+    "uiInfo" : {
+      "description" : "",
+      "label" : "SQL TYPE",
+      "xPos" : 500,
+      "yPos" : 140,
+      "stageType" : "PROCESSOR"
+    },
+    "inputLanes" : [ "FieldRemover_01OutputLane15462370393440" ],
+    "outputLanes" : [ "StreamSelector_01OutputLane1546236512657", "StreamSelector_01OutputLane1546236484053", "StreamSelector_01OutputLane1546236429196" ],
+    "eventLanes" : [ ],
+    "services" : [ ]
+  }, {
+    "instanceName" : "StreamSelector_02",
+    "library" : "streamsets-datacollector-basic-lib",
+    "stageName" : "com_streamsets_pipeline_stage_processor_selector_SelectorDProcessor",
+    "stageVersion" : "1",
+    "configuration" : [ {
+      "name" : "lanePredicates",
+      "value" : [ {
+        "outputLane" : "StreamSelector_02OutputLane1546236595503",
+        "predicate" : "${record:value(\"/Table\") == \"problem_logs\" || record:value(\"/Table\") == \"lesson_logs\"}"
+      }, {
+        "outputLane" : "StreamSelector_02OutputLane1546236435400",
+        "predicate" : "default"
+      } ]
+    }, {
+      "name" : "stageOnRecordError",
+      "value" : "TO_ERROR"
+    }, {
+      "name" : "stageRequiredFields",
+      "value" : [ ]
+    }, {
+      "name" : "stageRecordPreconditions",
+      "value" : [ ]
+    } ],
+    "uiInfo" : {
+      "description" : "",
+      "label" : "TABLE (INSERT)",
+      "xPos" : 720,
+      "yPos" : 40,
+      "stageType" : "PROCESSOR"
+    },
+    "inputLanes" : [ "StreamSelector_01OutputLane1546236512657" ],
+    "outputLanes" : [ "StreamSelector_02OutputLane1546236595503", "StreamSelector_02OutputLane1546236435400" ],
+    "eventLanes" : [ ],
+    "services" : [ ]
+  }, {
+    "instanceName" : "StreamSelector_03",
+    "library" : "streamsets-datacollector-basic-lib",
+    "stageName" : "com_streamsets_pipeline_stage_processor_selector_SelectorDProcessor",
+    "stageVersion" : "1",
+    "configuration" : [ {
+      "name" : "lanePredicates",
+      "value" : [ {
+        "outputLane" : "StreamSelector_03OutputLane1546236765232",
+        "predicate" : "${record:value(\"/Table\") == \"problem_logs\"}"
+      }, {
+        "outputLane" : "StreamSelector_03OutputLane1546236445889",
+        "predicate" : "default"
+      } ]
+    }, {
+      "name" : "stageOnRecordError",
+      "value" : "TO_ERROR"
+    }, {
+      "name" : "stageRequiredFields",
+      "value" : [ ]
+    }, {
+      "name" : "stageRecordPreconditions",
+      "value" : [ ]
+    } ],
+    "uiInfo" : {
+      "description" : "",
+      "label" : "LOG TABLES",
+      "xPos" : 940,
+      "yPos" : 30,
+      "stageType" : "PROCESSOR"
+    },
+    "inputLanes" : [ "StreamSelector_02OutputLane1546236595503" ],
+    "outputLanes" : [ "StreamSelector_03OutputLane1546236765232", "StreamSelector_03OutputLane1546236445889" ],
+    "eventLanes" : [ ],
+    "services" : [ ]
+  }, {
+    "instanceName" : "Trash_01",
+    "library" : "streamsets-datacollector-basic-lib",
+    "stageName" : "com_streamsets_pipeline_stage_destination_devnull_NullDTarget",
+    "stageVersion" : "1",
+    "configuration" : [ ],
+    "uiInfo" : {
+      "description" : "",
+      "label" : "ETC LOGS",
+      "xPos" : 940,
+      "yPos" : 160,
+      "stageType" : "TARGET"
+    },
+    "inputLanes" : [ "StreamSelector_02OutputLane1546236435400" ],
+    "outputLanes" : [ ],
     "eventLanes" : [ ],
     "services" : [ ]
   }, {
@@ -257,12 +411,81 @@
     } ],
     "uiInfo" : {
       "description" : "",
-      "label" : "To Event 1",
-      "xPos" : 325,
-      "yPos" : 73,
+      "label" : "PROBLEM_LOGS",
+      "xPos" : 1160,
+      "yPos" : 20,
       "stageType" : "TARGET"
     },
-    "inputLanes" : [ "MySQLBinaryLog_01OutputLane15462352939090" ],
+    "inputLanes" : [ "StreamSelector_03OutputLane1546236765232" ],
+    "outputLanes" : [ ],
+    "eventLanes" : [ ],
+    "services" : [ ]
+  }, {
+    "instanceName" : "ToEvent_02",
+    "library" : "streamsets-datacollector-dev-lib",
+    "stageName" : "com_streamsets_pipeline_stage_destination_ToEventTarget",
+    "stageVersion" : "1",
+    "configuration" : [ {
+      "name" : "stageOnRecordError",
+      "value" : "TO_ERROR"
+    }, {
+      "name" : "stageRequiredFields",
+      "value" : [ ]
+    }, {
+      "name" : "stageRecordPreconditions",
+      "value" : [ ]
+    } ],
+    "uiInfo" : {
+      "description" : "",
+      "label" : "LESSON_LOGS",
+      "xPos" : 1160,
+      "yPos" : 150,
+      "stageType" : "TARGET"
+    },
+    "inputLanes" : [ "StreamSelector_03OutputLane1546236445889" ],
+    "outputLanes" : [ ],
+    "eventLanes" : [ ],
+    "services" : [ ]
+  }, {
+    "instanceName" : "Trash_03",
+    "library" : "streamsets-datacollector-basic-lib",
+    "stageName" : "com_streamsets_pipeline_stage_destination_devnull_NullDTarget",
+    "stageVersion" : "1",
+    "configuration" : [ ],
+    "uiInfo" : {
+      "description" : "",
+      "label" : "ETC",
+      "xPos" : 720,
+      "yPos" : 300,
+      "stageType" : "TARGET"
+    },
+    "inputLanes" : [ "StreamSelector_01OutputLane1546236429196" ],
+    "outputLanes" : [ ],
+    "eventLanes" : [ ],
+    "services" : [ ]
+  }, {
+    "instanceName" : "ToEvent_03",
+    "library" : "streamsets-datacollector-dev-lib",
+    "stageName" : "com_streamsets_pipeline_stage_destination_ToEventTarget",
+    "stageVersion" : "1",
+    "configuration" : [ {
+      "name" : "stageOnRecordError",
+      "value" : "TO_ERROR"
+    }, {
+      "name" : "stageRequiredFields",
+      "value" : [ ]
+    }, {
+      "name" : "stageRecordPreconditions",
+      "value" : [ ]
+    } ],
+    "uiInfo" : {
+      "description" : "",
+      "label" : "UPDATE",
+      "xPos" : 720,
+      "yPos" : 170,
+      "stageType" : "TARGET"
+    },
+    "inputLanes" : [ "StreamSelector_01OutputLane1546236484053" ],
     "outputLanes" : [ ],
     "eventLanes" : [ ],
     "services" : [ ]
@@ -290,12 +513,12 @@
     "title" : "binlog-",
     "description" : "",
     "created" : 1545964475529,
-    "lastModified" : 1546235998094,
+    "lastModified" : 1546237207630,
     "creator" : "knowre",
     "lastModifier" : "admin",
     "lastRev" : "0",
-    "uuid" : "a1f89e61-598d-482a-8516-c11693c12938",
-    "valid" : false,
+    "uuid" : "c327ad48-8c65-4ab3-93d7-ba06a8cf381d",
+    "valid" : true,
     "metadata" : {
       "labels" : [ ]
     },

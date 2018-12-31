@@ -1,17 +1,38 @@
 {
+  "ToEvent_03" : {
+    "description" : "",
+    "label" : "UPDATE",
+    "xPos" : 720,
+    "yPos" : 170,
+    "stageType" : "TARGET"
+  },
+  "ToEvent_02" : {
+    "description" : "",
+    "label" : "LESSON_LOGS",
+    "xPos" : 1160,
+    "yPos" : 150,
+    "stageType" : "TARGET"
+  },
   "ToEvent_01" : {
     "description" : "",
-    "label" : "To Event 1",
-    "xPos" : 325,
-    "yPos" : 73,
+    "label" : "PROBLEM_LOGS",
+    "xPos" : 1160,
+    "yPos" : 20,
     "stageType" : "TARGET"
   },
   "MySQLBinaryLog_01" : {
     "description" : "",
-    "label" : "MySQL Binary Log 1",
-    "xPos" : 91,
-    "yPos" : 68,
+    "label" : "MySQL Binary Log",
+    "xPos" : 60,
+    "yPos" : 50,
     "stageType" : "SOURCE"
+  },
+  "FieldRemover_01" : {
+    "description" : "",
+    "label" : "Field Remover 1",
+    "xPos" : 280,
+    "yPos" : 50,
+    "stageType" : "PROCESSOR"
   },
   ":pipeline:" : {
     "previewConfig" : {
@@ -24,5 +45,40 @@
       "showFieldType" : true,
       "rememberMe" : false
     }
+  },
+  "StreamSelector_03" : {
+    "description" : "",
+    "label" : "LOG TABLES",
+    "xPos" : 940,
+    "yPos" : 30,
+    "stageType" : "PROCESSOR"
+  },
+  "StreamSelector_02" : {
+    "description" : "",
+    "label" : "TABLE (INSERT)",
+    "xPos" : 720,
+    "yPos" : 40,
+    "stageType" : "PROCESSOR"
+  },
+  "StreamSelector_01" : {
+    "description" : "",
+    "label" : "SQL TYPE",
+    "xPos" : 500,
+    "yPos" : 140,
+    "stageType" : "PROCESSOR"
+  },
+  "Trash_01" : {
+    "description" : "",
+    "label" : "ETC LOGS",
+    "xPos" : 940,
+    "yPos" : 160,
+    "stageType" : "TARGET"
+  },
+  "Trash_03" : {
+    "description" : "",
+    "label" : "ETC",
+    "xPos" : 720,
+    "yPos" : 300,
+    "stageType" : "TARGET"
   }
 }

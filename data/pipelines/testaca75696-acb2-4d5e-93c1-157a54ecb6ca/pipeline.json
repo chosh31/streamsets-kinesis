@@ -2,9 +2,9 @@
   "schemaVersion" : 6,
   "version" : 10,
   "pipelineId" : "testaca75696-acb2-4d5e-93c1-157a54ecb6ca",
-  "title" : "test",
+  "title" : "binlog-",
   "description" : "",
-  "uuid" : "08993e81-a58b-47b5-938b-9494198c54c9",
+  "uuid" : "caeba6b2-5fa5-4a42-a8cb-174650a60b5a",
   "configuration" : [ {
     "name" : "executionMode",
     "value" : "STANDALONE"
@@ -46,7 +46,7 @@
     "value" : [ ]
   }, {
     "name" : "badRecordsHandling",
-    "value" : null
+    "value" : "streamsets-datacollector-basic-lib::com_streamsets_pipeline_stage_destination_devnull_ToErrorNullDTarget::1"
   }, {
     "name" : "errorRecordPolicy",
     "value" : "ORIGINAL_RECORD"
@@ -182,19 +182,19 @@
     "stageVersion" : "2",
     "configuration" : [ {
       "name" : "config.hostname",
-      "value" : "localhost"
+      "value" : "${runtime:conf(\"BinlogHostname\")}"
     }, {
       "name" : "config.port",
-      "value" : "3306"
+      "value" : "${runtime:conf(\"BinlogPort\")}"
     }, {
       "name" : "config.username",
-      "value" : null
+      "value" : "${runtime:conf(\"BinlogUser\")}"
     }, {
       "name" : "config.password",
-      "value" : null
+      "value" : "${runtime:conf(\"BinlogPassword\")}"
     }, {
       "name" : "config.serverId",
-      "value" : "999"
+      "value" : "${runtime:conf(\"BinlogServerID\")}"
     }, {
       "name" : "config.maxBatchSize",
       "value" : 1000
@@ -267,17 +267,34 @@
     "eventLanes" : [ ],
     "services" : [ ]
   } ],
-  "errorStage" : null,
+  "errorStage" : {
+    "instanceName" : "Discard_ErrorStage",
+    "library" : "streamsets-datacollector-basic-lib",
+    "stageName" : "com_streamsets_pipeline_stage_destination_devnull_ToErrorNullDTarget",
+    "stageVersion" : "1",
+    "configuration" : [ ],
+    "uiInfo" : {
+      "description" : "",
+      "label" : "Error Records - Discard",
+      "xPos" : 500,
+      "yPos" : 50,
+      "stageType" : "TARGET"
+    },
+    "inputLanes" : [ ],
+    "outputLanes" : [ ],
+    "eventLanes" : [ ],
+    "services" : [ ]
+  },
   "info" : {
     "pipelineId" : "testaca75696-acb2-4d5e-93c1-157a54ecb6ca",
-    "title" : "test",
+    "title" : "binlog-",
     "description" : "",
     "created" : 1545964475529,
-    "lastModified" : 1545964487510,
+    "lastModified" : 1546231452065,
     "creator" : "knowre",
-    "lastModifier" : "knowre",
+    "lastModifier" : "admin",
     "lastRev" : "0",
-    "uuid" : "70ceb429-19ac-4bc5-b72a-9222a323e5ca",
+    "uuid" : "83abe6c1-b257-48ac-b88d-299e62ac9547",
     "valid" : false,
     "metadata" : {
       "labels" : [ ]
@@ -580,38 +597,29 @@
   },
   "valid" : false,
   "issues" : {
-    "pipelineIssues" : [ {
-      "count" : 1,
-      "level" : "PIPELINE_CONFIG",
-      "instanceName" : null,
-      "configGroup" : "BAD_RECORDS",
-      "serviceName" : null,
-      "configName" : "badRecordsHandling",
-      "additionalInfo" : null,
-      "message" : "CREATION_009 - Pipeline error handling is not configured"
-    } ],
+    "issueCount" : 2,
     "stageIssues" : {
       "MySQLBinaryLog_01" : [ {
         "count" : 1,
         "level" : "STAGE_CONFIG",
         "instanceName" : "MySQLBinaryLog_01",
-        "configGroup" : "CREDENTIALS",
-        "serviceName" : null,
-        "configName" : "config.username",
         "additionalInfo" : null,
-        "message" : "VALIDATION_0007 - Configuration value is required"
+        "configGroup" : "MYSQL",
+        "serviceName" : null,
+        "configName" : "config.port",
+        "message" : "CREATION_005 - Could not resolve implicit EL expression '${runtime:conf(\"BinlogPort\")}': com.streamsets.pipeline.api.el.ELEvalException: CTRCMN_0100 - Error evaluating expression ${runtime:conf(\"BinlogPort\")}: java.lang.IllegalArgumentException: Could not resolve property 'BinlogPort'"
       }, {
         "count" : 1,
         "level" : "STAGE_CONFIG",
         "instanceName" : "MySQLBinaryLog_01",
-        "configGroup" : "CREDENTIALS",
-        "serviceName" : null,
-        "configName" : "config.password",
         "additionalInfo" : null,
-        "message" : "VALIDATION_0007 - Configuration value is required"
+        "configGroup" : "MYSQL",
+        "serviceName" : null,
+        "configName" : "config.serverId",
+        "message" : "CREATION_005 - Could not resolve implicit EL expression '${runtime:conf(\"BinlogServerID\")}': com.streamsets.pipeline.api.el.ELEvalException: CTRCMN_0100 - Error evaluating expression ${runtime:conf(\"BinlogServerID\")}: java.lang.IllegalArgumentException: Could not resolve property 'BinlogServerID'"
       } ]
     },
-    "issueCount" : 3
+    "pipelineIssues" : [ ]
   },
   "previewable" : false
 }

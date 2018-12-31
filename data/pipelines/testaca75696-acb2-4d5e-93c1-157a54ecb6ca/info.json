@@ -1,13 +1,13 @@
 {
   "pipelineId" : "testaca75696-acb2-4d5e-93c1-157a54ecb6ca",
-  "title" : "test",
+  "title" : "binlog-",
   "description" : "",
   "created" : 1545964475529,
-  "lastModified" : 1545964489767,
+  "lastModified" : 1546231453684,
   "creator" : "knowre",
-  "lastModifier" : "knowre",
+  "lastModifier" : "admin",
   "lastRev" : "0",
-  "uuid" : "08993e81-a58b-47b5-938b-9494198c54c9",
+  "uuid" : "caeba6b2-5fa5-4a42-a8cb-174650a60b5a",
   "valid" : false,
   "metadata" : {
     "labels" : [ ]

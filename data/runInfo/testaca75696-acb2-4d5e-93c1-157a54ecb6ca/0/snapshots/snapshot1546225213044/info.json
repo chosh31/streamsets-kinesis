@@ -1,0 +1,11 @@
+{
+  "user" : "admin",
+  "id" : "snapshot1546225213044",
+  "label" : "Snapshot2",
+  "name" : "testaca75696-acb2-4d5e-93c1-157a54ecb6ca",
+  "rev" : "0",
+  "timeStamp" : 1546225214561,
+  "inProgress" : false,
+  "batchNumber" : 14,
+  "failureSnapshot" : false
+}

@@ -1,12 +1,14 @@
 {
   "pipelineId" : "testaca75696-acb2-4d5e-93c1-157a54ecb6ca",
   "rev" : "0",
-  "user" : "knowre",
+  "user" : "admin",
   "status" : "EDITED",
   "message" : "Pipeline edited",
-  "timeStamp" : 1545964475590,
+  "timeStamp" : 1546231431986,
   "attributes" : {
-    "IS_REMOTE_PIPELINE" : false
+    "IS_REMOTE_PIPELINE" : false,
+    "RUNTIME_PARAMETERS" : null,
+    "INTERCEPTOR_CONFIGS" : [ ]
   },
   "executionMode" : "STANDALONE",
   "metrics" : null,

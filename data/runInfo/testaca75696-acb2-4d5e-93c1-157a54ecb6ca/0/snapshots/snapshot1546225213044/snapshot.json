@@ -1,0 +1,4305 @@
+{
+  "snapshotBatches" : [ [ {
+    "instanceName" : "MySQLBinaryLog_01",
+    "output" : {
+      "MySQLBinaryLog_01OutputLane15459644806950" : [ {
+        "header" : {
+          "stageCreator" : "MySQLBinaryLog_01",
+          "sourceId" : "mysql-bin-changelog.001415:175892",
+          "stagesPath" : "MySQLBinaryLog_01",
+          "trackingId" : "mysql-bin-changelog.001415:175892::MySQLBinaryLog_01",
+          "previousTrackingId" : null,
+          "raw" : null,
+          "rawMimeType" : null,
+          "errorDataCollectorId" : null,
+          "errorPipelineName" : null,
+          "errorStage" : null,
+          "errorStageLabel" : null,
+          "errorCode" : null,
+          "errorMessage" : null,
+          "errorTimestamp" : 0,
+          "errorStackTrace" : null,
+          "errorJobId" : null,
+          "values" : {
+            "sdc.operation.type" : "3"
+          }
+        },
+        "value" : {
+          "type" : "MAP",
+          "value" : {
+            "BinLogFilename" : {
+              "type" : "STRING",
+              "value" : "mysql-bin-changelog.001415",
+              "sqpath" : "/BinLogFilename",
+              "dqpath" : "/BinLogFilename"
+            },
+            "Type" : {
+              "type" : "STRING",
+              "value" : "UPDATE",
+              "sqpath" : "/Type",
+              "dqpath" : "/Type"
+            },
+            "Table" : {
+              "type" : "STRING",
+              "value" : "problem_logs",
+              "sqpath" : "/Table",
+              "dqpath" : "/Table"
+            },
+            "ServerId" : {
+              "type" : "LONG",
+              "value" : "1221695242",
+              "sqpath" : "/ServerId",
+              "dqpath" : "/ServerId"
+            },
+            "BinLogPosition" : {
+              "type" : "LONG",
+              "value" : "175892",
+              "sqpath" : "/BinLogPosition",
+              "dqpath" : "/BinLogPosition"
+            },
+            "Database" : {
+              "type" : "STRING",
+              "value" : "knowre2",
+              "sqpath" : "/Database",
+              "dqpath" : "/Database"
+            },
+            "OldData" : {
+              "type" : "MAP",
+              "value" : {
+                "trial_id" : {
+                  "type" : "STRING",
+                  "value" : "157327I3T10086152264",
+                  "sqpath" : "/OldData/trial_id",
+                  "dqpath" : "/OldData/trial_id"
+                },
+                "created_at" : {
+                  "type" : "DATETIME",
+                  "value" : 1546225204000,
+                  "sqpath" : "/OldData/created_at",
+                  "dqpath" : "/OldData/created_at"
+                },
+                "type" : {
+                  "type" : "INTEGER",
+                  "value" : "5",
+                  "sqpath" : "/OldData/type",
+                  "dqpath" : "/OldData/type"
+                },
+                "api_version" : {
+                  "type" : "STRING",
+                  "value" : "v2",
+                  "sqpath" : "/OldData/api_version",
+                  "dqpath" : "/OldData/api_version"
+                },
+                "lesson_id" : {
+                  "type" : "INTEGER",
+                  "value" : "13442",
+                  "sqpath" : "/OldData/lesson_id",
+                  "dqpath" : "/OldData/lesson_id"
+                },
+                "result" : {
+                  "type" : "INTEGER",
+                  "value" : null,
+                  "sqpath" : "/OldData/result",
+                  "dqpath" : "/OldData/result"
+                },
+                "removed_at" : {
+                  "type" : "DATETIME",
+                  "value" : null,
+                  "sqpath" : "/OldData/removed_at",
+                  "dqpath" : "/OldData/removed_at"
+                },
+                "answer" : {
+                  "type" : "STRING",
+                  "value" : null,
+                  "sqpath" : "/OldData/answer",
+                  "dqpath" : "/OldData/answer"
+                },
+                "user_id" : {
+                  "type" : "INTEGER",
+                  "value" : "157327",
+                  "sqpath" : "/OldData/user_id",
+                  "dqpath" : "/OldData/user_id"
+                },
+                "problem_id" : {
+                  "type" : "INTEGER",
+                  "value" : "288476",
+                  "sqpath" : "/OldData/problem_id",
+                  "dqpath" : "/OldData/problem_id"
+                },
+                "parent_id" : {
+                  "type" : "INTEGER",
+                  "value" : null,
+                  "sqpath" : "/OldData/parent_id",
+                  "dqpath" : "/OldData/parent_id"
+                },
+                "extra" : {
+                  "type" : "STRING",
+                  "value" : null,
+                  "sqpath" : "/OldData/extra",
+                  "dqpath" : "/OldData/extra"
+                },
+                "started_at" : {
+                  "type" : "DATETIME",
+                  "value" : 1546225204000,
+                  "sqpath" : "/OldData/started_at",
+                  "dqpath" : "/OldData/started_at"
+                },
+                "id" : {
+                  "type" : "INTEGER",
+                  "value" : "67196839",
+                  "sqpath" : "/OldData/id",
+                  "dqpath" : "/OldData/id"
+                },
+                "modified_at" : {
+                  "type" : "DATETIME",
+                  "value" : 1546225204000,
+                  "sqpath" : "/OldData/modified_at",
+                  "dqpath" : "/OldData/modified_at"
+                },
+                "unit_id" : {
+                  "type" : "INTEGER",
+                  "value" : "4733",
+                  "sqpath" : "/OldData/unit_id",
+                  "dqpath" : "/OldData/unit_id"
+                },
+                "is_step" : {
+                  "type" : "INTEGER",
+                  "value" : "0",
+                  "sqpath" : "/OldData/is_step",
+                  "dqpath" : "/OldData/is_step"
+                }
+              },
+              "sqpath" : "/OldData",
+              "dqpath" : "/OldData"
+            },
+            "Data" : {
+              "type" : "MAP",
+              "value" : {
+                "trial_id" : {
+                  "type" : "STRING",
+                  "value" : "157327I3T10086152264",
+                  "sqpath" : "/Data/trial_id",
+                  "dqpath" : "/Data/trial_id"
+                },
+                "created_at" : {
+                  "type" : "DATETIME",
+                  "value" : 1546225204000,
+                  "sqpath" : "/Data/created_at",
+                  "dqpath" : "/Data/created_at"
+                },
+                "type" : {
+                  "type" : "INTEGER",
+                  "value" : "5",
+                  "sqpath" : "/Data/type",
+                  "dqpath" : "/Data/type"
+                },
+                "api_version" : {
+                  "type" : "STRING",
+                  "value" : "v2",
+                  "sqpath" : "/Data/api_version",
+                  "dqpath" : "/Data/api_version"
+                },
+                "lesson_id" : {
+                  "type" : "INTEGER",
+                  "value" : "13442",
+                  "sqpath" : "/Data/lesson_id",
+                  "dqpath" : "/Data/lesson_id"
+                },
+                "result" : {
+                  "type" : "INTEGER",
+                  "value" : "1",
+                  "sqpath" : "/Data/result",
+                  "dqpath" : "/Data/result"
+                },
+                "removed_at" : {
+                  "type" : "DATETIME",
+                  "value" : null,
+                  "sqpath" : "/Data/removed_at",
+                  "dqpath" : "/Data/removed_at"
+                },
+                "answer" : {
+                  "type" : "STRING",
+                  "value" : "[{\"type\":\"Block\",\"value\":[]},{\"type\":\"Block\",\"value\":[]},{\"type\":\"Block\",\"value\":[{\"type\":\"Static\"},{\"type\":\"Static\"},{\"type\":\"Static\"},{\"type\":\"Static\"},{\"type\":\"Block\",\"value\":[]},{\"type\":\"Block\",\"value\":[{\"type\":\"Input\",\"mode\":\"math\",\"value\":\"23\",\"order\":1},{\"type\":\"Static\"},{\"type\":\"Input\",\"mode\":\"math\",\"value\":\"29\",\"order\":1}]}]}]",
+                  "sqpath" : "/Data/answer",
+                  "dqpath" : "/Data/answer"
+                },
+                "user_id" : {
+                  "type" : "INTEGER",
+                  "value" : "157327",
+                  "sqpath" : "/Data/user_id",
+                  "dqpath" : "/Data/user_id"
+                },
+                "problem_id" : {
+                  "type" : "INTEGER",
+                  "value" : "288476",
+                  "sqpath" : "/Data/problem_id",
+                  "dqpath" : "/Data/problem_id"
+                },
+                "parent_id" : {
+                  "type" : "INTEGER",
+                  "value" : "-1",
+                  "sqpath" : "/Data/parent_id",
+                  "dqpath" : "/Data/parent_id"
+                },
+                "extra" : {
+                  "type" : "STRING",
+                  "value" : null,
+                  "sqpath" : "/Data/extra",
+                  "dqpath" : "/Data/extra"
+                },
+                "started_at" : {
+                  "type" : "DATETIME",
+                  "value" : 1546225204000,
+                  "sqpath" : "/Data/started_at",
+                  "dqpath" : "/Data/started_at"
+                },
+                "id" : {
+                  "type" : "INTEGER",
+                  "value" : "67196839",
+                  "sqpath" : "/Data/id",
+                  "dqpath" : "/Data/id"
+                },
+                "modified_at" : {
+                  "type" : "DATETIME",
+                  "value" : 1546225213000,
+                  "sqpath" : "/Data/modified_at",
+                  "dqpath" : "/Data/modified_at"
+                },
+                "unit_id" : {
+                  "type" : "INTEGER",
+                  "value" : "4733",
+                  "sqpath" : "/Data/unit_id",
+                  "dqpath" : "/Data/unit_id"
+                },
+                "is_step" : {
+                  "type" : "INTEGER",
+                  "value" : "0",
+                  "sqpath" : "/Data/is_step",
+                  "dqpath" : "/Data/is_step"
+                }
+              },
+              "sqpath" : "/Data",
+              "dqpath" : "/Data"
+            },
+            "Timestamp" : {
+              "type" : "LONG",
+              "value" : "1546225213000",
+              "sqpath" : "/Timestamp",
+              "dqpath" : "/Timestamp"
+            },
+            "Offset" : {
+              "type" : "STRING",
+              "value" : "mysql-bin-changelog.001415:175892",
+              "sqpath" : "/Offset",
+              "dqpath" : "/Offset"
+            }
+          },
+          "sqpath" : "",
+          "dqpath" : ""
+        }
+      }, {
+        "header" : {
+          "stageCreator" : "MySQLBinaryLog_01",
+          "sourceId" : "mysql-bin-changelog.001415:176120",
+          "stagesPath" : "MySQLBinaryLog_01",
+          "trackingId" : "mysql-bin-changelog.001415:176120::MySQLBinaryLog_01",
+          "previousTrackingId" : null,
+          "raw" : null,
+          "rawMimeType" : null,
+          "errorDataCollectorId" : null,
+          "errorPipelineName" : null,
+          "errorStage" : null,
+          "errorStageLabel" : null,
+          "errorCode" : null,
+          "errorMessage" : null,
+          "errorTimestamp" : 0,
+          "errorStackTrace" : null,
+          "errorJobId" : null,
+          "values" : {
+            "sdc.operation.type" : "3"
+          }
+        },
+        "value" : {
+          "type" : "MAP",
+          "value" : {
+            "BinLogFilename" : {
+              "type" : "STRING",
+              "value" : "mysql-bin-changelog.001415",
+              "sqpath" : "/BinLogFilename",
+              "dqpath" : "/BinLogFilename"
+            },
+            "Type" : {
+              "type" : "STRING",
+              "value" : "UPDATE",
+              "sqpath" : "/Type",
+              "dqpath" : "/Type"
+            },
+            "Table" : {
+              "type" : "STRING",
+              "value" : "unit_achs",
+              "sqpath" : "/Table",
+              "dqpath" : "/Table"
+            },
+            "ServerId" : {
+              "type" : "LONG",
+              "value" : "1221695242",
+              "sqpath" : "/ServerId",
+              "dqpath" : "/ServerId"
+            },
+            "BinLogPosition" : {
+              "type" : "LONG",
+              "value" : "176120",
+              "sqpath" : "/BinLogPosition",
+              "dqpath" : "/BinLogPosition"
+            },
+            "Database" : {
+              "type" : "STRING",
+              "value" : "knowre2",
+              "sqpath" : "/Database",
+              "dqpath" : "/Database"
+            },
+            "OldData" : {
+              "type" : "MAP",
+              "value" : {
+                "score" : {
+                  "type" : "INTEGER",
+                  "value" : "2",
+                  "sqpath" : "/OldData/score",
+                  "dqpath" : "/OldData/score"
+                },
+                "removed_at" : {
+                  "type" : "DATETIME",
+                  "value" : null,
+                  "sqpath" : "/OldData/removed_at",
+                  "dqpath" : "/OldData/removed_at"
+                },
+                "user_id" : {
+                  "type" : "INTEGER",
+                  "value" : "157327",
+                  "sqpath" : "/OldData/user_id",
+                  "dqpath" : "/OldData/user_id"
+                },
+                "created_at" : {
+                  "type" : "DATETIME",
+                  "value" : 1544606165000,
+                  "sqpath" : "/OldData/created_at",
+                  "dqpath" : "/OldData/created_at"
+                },
+                "id" : {
+                  "type" : "INTEGER",
+                  "value" : "40417065",
+                  "sqpath" : "/OldData/id",
+                  "dqpath" : "/OldData/id"
+                },
+                "modified_at" : {
+                  "type" : "DATETIME",
+                  "value" : 1545904500000,
+                  "sqpath" : "/OldData/modified_at",
+                  "dqpath" : "/OldData/modified_at"
+                },
+                "unit_id" : {
+                  "type" : "INTEGER",
+                  "value" : "4733",
+                  "sqpath" : "/OldData/unit_id",
+                  "dqpath" : "/OldData/unit_id"
+                }
+              },
+              "sqpath" : "/OldData",
+              "dqpath" : "/OldData"
+            },
+            "Data" : {
+              "type" : "MAP",
+              "value" : {
+                "score" : {
+                  "type" : "INTEGER",
+                  "value" : "2",
+                  "sqpath" : "/Data/score",
+                  "dqpath" : "/Data/score"
+                },
+                "removed_at" : {
+                  "type" : "DATETIME",
+                  "value" : null,
+                  "sqpath" : "/Data/removed_at",
+                  "dqpath" : "/Data/removed_at"
+                },
+                "user_id" : {
+                  "type" : "INTEGER",
+                  "value" : "157327",
+                  "sqpath" : "/Data/user_id",
+                  "dqpath" : "/Data/user_id"
+                },
+                "created_at" : {
+                  "type" : "DATETIME",
+                  "value" : 1544606165000,
+                  "sqpath" : "/Data/created_at",
+                  "dqpath" : "/Data/created_at"
+                },
+                "id" : {
+                  "type" : "INTEGER",
+                  "value" : "40417065",
+                  "sqpath" : "/Data/id",
+                  "dqpath" : "/Data/id"
+                },
+                "modified_at" : {
+                  "type" : "DATETIME",
+                  "value" : 1546225213000,
+                  "sqpath" : "/Data/modified_at",
+                  "dqpath" : "/Data/modified_at"
+                },
+                "unit_id" : {
+                  "type" : "INTEGER",
+                  "value" : "4733",
+                  "sqpath" : "/Data/unit_id",
+                  "dqpath" : "/Data/unit_id"
+                }
+              },
+              "sqpath" : "/Data",
+              "dqpath" : "/Data"
+            },
+            "Timestamp" : {
+              "type" : "LONG",
+              "value" : "1546225213000",
+              "sqpath" : "/Timestamp",
+              "dqpath" : "/Timestamp"
+            },
+            "Offset" : {
+              "type" : "STRING",
+              "value" : "mysql-bin-changelog.001415:176120",
+              "sqpath" : "/Offset",
+              "dqpath" : "/Offset"
+            }
+          },
+          "sqpath" : "",
+          "dqpath" : ""
+        }
+      }, {
+        "header" : {
+          "stageCreator" : "MySQLBinaryLog_01",
+          "sourceId" : "mysql-bin-changelog.001415:183411",
+          "stagesPath" : "MySQLBinaryLog_01",
+          "trackingId" : "mysql-bin-changelog.001415:183411::MySQLBinaryLog_01",
+          "previousTrackingId" : null,
+          "raw" : null,
+          "rawMimeType" : null,
+          "errorDataCollectorId" : null,
+          "errorPipelineName" : null,
+          "errorStage" : null,
+          "errorStageLabel" : null,
+          "errorCode" : null,
+          "errorMessage" : null,
+          "errorTimestamp" : 0,
+          "errorStackTrace" : null,
+          "errorJobId" : null,
+          "values" : {
+            "sdc.operation.type" : "3"
+          }
+        },
+        "value" : {
+          "type" : "MAP",
+          "value" : {
+            "BinLogFilename" : {
+              "type" : "STRING",
+              "value" : "mysql-bin-changelog.001415",
+              "sqpath" : "/BinLogFilename",
+              "dqpath" : "/BinLogFilename"
+            },
+            "Type" : {
+              "type" : "STRING",
+              "value" : "UPDATE",
+              "sqpath" : "/Type",
+              "dqpath" : "/Type"
+            },
+            "Table" : {
+              "type" : "STRING",
+              "value" : "lesson_logs",
+              "sqpath" : "/Table",
+              "dqpath" : "/Table"
+            },
+            "ServerId" : {
+              "type" : "LONG",
+              "value" : "1221695242",
+              "sqpath" : "/ServerId",
+              "dqpath" : "/ServerId"
+            },
+            "BinLogPosition" : {
+              "type" : "LONG",
+              "value" : "183411",
+              "sqpath" : "/BinLogPosition",
+              "dqpath" : "/BinLogPosition"
+            },
+            "Database" : {
+              "type" : "STRING",
+              "value" : "knowre2",
+              "sqpath" : "/Database",
+              "dqpath" : "/Database"
+            },
+            "OldData" : {
+              "type" : "MAP",
+              "value" : {
+                "created_at" : {
+                  "type" : "DATETIME",
+                  "value" : 1546225168000,
+                  "sqpath" : "/OldData/created_at",
+                  "dqpath" : "/OldData/created_at"
+                },
+                "type" : {
+                  "type" : "INTEGER",
+                  "value" : "5",
+                  "sqpath" : "/OldData/type",
+                  "dqpath" : "/OldData/type"
+                },
+                "lesson_id" : {
+                  "type" : "INTEGER",
+                  "value" : "13442",
+                  "sqpath" : "/OldData/lesson_id",
+                  "dqpath" : "/OldData/lesson_id"
+                },
+                "difficulty" : {
+                  "type" : "INTEGER",
+                  "value" : "25",
+                  "sqpath" : "/OldData/difficulty",
+                  "dqpath" : "/OldData/difficulty"
+                },
+                "score" : {
+                  "type" : "INTEGER",
+                  "value" : "-1",
+                  "sqpath" : "/OldData/score",
+                  "dqpath" : "/OldData/score"
+                },
+                "time_left" : {
+                  "type" : "INTEGER",
+                  "value" : "-1",
+                  "sqpath" : "/OldData/time_left",
+                  "dqpath" : "/OldData/time_left"
+                },
+                "removed_at" : {
+                  "type" : "DATETIME",
+                  "value" : null,
+                  "sqpath" : "/OldData/removed_at",
+                  "dqpath" : "/OldData/removed_at"
+                },
+                "user_id" : {
+                  "type" : "INTEGER",
+                  "value" : "157327",
+                  "sqpath" : "/OldData/user_id",
+                  "dqpath" : "/OldData/user_id"
+                },
+                "payment_id" : {
+                  "type" : "INTEGER",
+                  "value" : null,
+                  "sqpath" : "/OldData/payment_id",
+                  "dqpath" : "/OldData/payment_id"
+                },
+                "extra" : {
+                  "type" : "STRING",
+                  "value" : null,
+                  "sqpath" : "/OldData/extra",
+                  "dqpath" : "/OldData/extra"
+                },
+                "progress" : {
+                  "type" : "INTEGER",
+                  "value" : "0",
+                  "sqpath" : "/OldData/progress",
+                  "dqpath" : "/OldData/progress"
+                },
+                "started_at" : {
+                  "type" : "DATETIME",
+                  "value" : 1546225175000,
+                  "sqpath" : "/OldData/started_at",
+                  "dqpath" : "/OldData/started_at"
+                },
+                "id" : {
+                  "type" : "INTEGER",
+                  "value" : "3926711",
+                  "sqpath" : "/OldData/id",
+                  "dqpath" : "/OldData/id"
+                },
+                "modified_at" : {
+                  "type" : "DATETIME",
+                  "value" : 1546225204000,
+                  "sqpath" : "/OldData/modified_at",
+                  "dqpath" : "/OldData/modified_at"
+                },
+                "problems" : {
+                  "type" : "STRING",
+                  "value" : "[{\"ptrn\":0,\"unit\":4800,\"prob\":288372,\"trialID\":\"157327I0T10086152264\",\"status\":\"R\",\"publishType\":\"D\",\"publishCount\":1,\"timeStart\":\"2018-12-31T02:59:36.223Z\",\"stepExist\":false,\"tryCount\":1,\"apiVersion\":\"v2\",\"result\":true,\"score\":100,\"timeEnd\":\"2018-12-31T02:59:43.318Z\"},{\"ptrn\":0,\"unit\":4802,\"prob\":288412,\"trialID\":\"157327I1T10086152264\",\"status\":\"R\",\"publishType\":\"D\",\"publishCount\":1,\"timeStart\":\"2018-12-31T02:59:43.692Z\",\"stepExist\":false,\"tryCount\":1,\"apiVersion\":\"v2\",\"result\":true,\"score\":100,\"timeEnd\":\"2018-12-31T02:59:50.140Z\"},{\"ptrn\":0,\"unit\":4804,\"prob\":288451,\"trialID\":\"157327I2T10086152264\",\"status\":\"R\",\"publishType\":\"D\",\"publishCount\":1,\"timeStart\":\"2018-12-31T02:59:50.642Z\",\"stepExist\":false,\"tryCount\":1,\"apiVersion\":\"v2\",\"result\":true,\"score\":100,\"timeEnd\":\"2018-12-31T03:00:03.995Z\"},{\"ptrn\":0,\"unit\":4733,\"prob\":288476,\"trialID\":\"157327I3T10086152264\",\"status\":\"\",\"publishType\":\"D\",\"publishCount\":1,\"timeStart\":\"2018-12-31T03:00:04.439Z\",\"stepExist\":false,\"tryCount\":0,\"apiVersion\":\"v2\"},{\"ptrn\":0,\"unit\":4807,\"prob\":288612,\"trialID\":\"157327I4T10086152264\",\"status\":\"\",\"publishType\":\"D\",\"publishCount\":1},{\"ptrn\":0,\"unit\":4808,\"prob\":288664,\"trialID\":\"157327I5T10086152264\",\"status\":\"\",\"publishType\":\"D\",\"publishCount\":1},{\"ptrn\":0,\"unit\":6906,\"prob\":288827,\"trialID\":\"157327I6T10086152264\",\"status\":\"\",\"publishType\":\"D\",\"publishCount\":1},{\"ptrn\":0,\"unit\":4812,\"prob\":288952,\"trialID\":\"157327I7T10086152264\",\"status\":\"\",\"publishType\":\"D\",\"publishCount\":1},{\"ptrn\":0,\"unit\":4827,\"prob\":289013,\"trialID\":\"157327I8T10086152264\",\"status\":\"\",\"publishType\":\"D\",\"publishCount\":1},{\"ptrn\":0,\"unit\":4829,\"prob\":289098,\"trialID\":\"157327I9T10086152264\",\"status\":\"\",\"publishType\":\"D\",\"publishCount\":1},{\"ptrn\":0,\"unit\":4816,\"prob\":289167,\"trialID\":\"157327I10T1008615226\",\"status\":\"\",\"publishType\":\"D\",\"publishCount\":1},{\"ptrn\":0,\"unit\":4819,\"prob\":289227,\"trialID\":\"157327I11T1008615226\",\"status\":\"\",\"publishType\":\"D\",\"publishCount\":1},{\"ptrn\":0,\"unit\":4761,\"prob\":289356,\"trialID\":\"157327I12T1008615226\",\"status\":\"\",\"publishType\":\"D\",\"publishCount\":1},{\"ptrn\":0,\"unit\":4872,\"prob\":289372,\"trialID\":\"157327I13T1008615226\",\"status\":\"\",\"publishType\":\"D\",\"publishCount\":1},{\"ptrn\":0,\"unit\":4835,\"prob\":289694,\"trialID\":\"157327I14T1008615226\",\"status\":\"\",\"publishType\":\"D\",\"publishCount\":1},{\"ptrn\":0,\"unit\":4837,\"prob\":289882,\"trialID\":\"157327I15T1008615226\",\"status\":\"\",\"publishType\":\"D\",\"publishCount\":1},{\"ptrn\":0,\"unit\":4758,\"prob\":290213,\"trialID\":\"157327I16T1008615226\",\"status\":\"\",\"publishType\":\"D\",\"publishCount\":1},{\"ptrn\":0,\"unit\":6731,\"prob\":290237,\"trialID\":\"157327I17T1008615226\",\"status\":\"\",\"publishType\":\"D\",\"publishCount\":1},{\"ptrn\":0,\"unit\":4773,\"prob\":290293,\"trialID\":\"157327I18T1008615226\",\"status\":\"\",\"publishType\":\"D\",\"publishCount\":1},{\"ptrn\":0,\"unit\":7625,\"prob\":290361,\"trialID\":\"157327I19T1008615226\",\"status\":\"\",\"publishType\":\"D\",\"publishCount\":1},{\"ptrn\":0,\"unit\":4848,\"prob\":290580,\"trialID\":\"157327I20T1008615226\",\"status\":\"\",\"publishType\":\"D\",\"publishCount\":1},{\"ptrn\":0,\"unit\":4849,\"prob\":290625,\"trialID\":\"157327I21T1008615226\",\"status\":\"\",\"publishType\":\"D\",\"publishCount\":1},{\"ptrn\":0,\"unit\":4850,\"prob\":290668,\"trialID\":\"157327I22T1008615226\",\"status\":\"\",\"publishType\":\"D\",\"publishCount\":1},{\"ptrn\":0,\"unit\":4861,\"prob\":291089,\"trialID\":\"157327I23T1008615226\",\"status\":\"\",\"publishType\":\"D\",\"publishCount\":1},{\"ptrn\":0,\"unit\":4859,\"prob\":291219,\"trialID\":\"157327I24T1008615226\",\"status\":\"\",\"publishType\":\"D\",\"publishCount\":1}]",
+                  "sqpath" : "/OldData/problems",
+                  "dqpath" : "/OldData/problems"
+                }
+              },
+              "sqpath" : "/OldData",
+              "dqpath" : "/OldData"
+            },
+            "Data" : {
+              "type" : "MAP",
+              "value" : {
+                "created_at" : {
+                  "type" : "DATETIME",
+                  "value" : 1546225168000,
+                  "sqpath" : "/Data/created_at",
+                  "dqpath" : "/Data/created_at"
+                },
+                "type" : {
+                  "type" : "INTEGER",
+                  "value" : "5",
+                  "sqpath" : "/Data/type",
+                  "dqpath" : "/Data/type"
+                },
+                "lesson_id" : {
+                  "type" : "INTEGER",
+                  "value" : "13442",
+                  "sqpath" : "/Data/lesson_id",
+                  "dqpath" : "/Data/lesson_id"
+                },
+                "difficulty" : {
+                  "type" : "INTEGER",
+                  "value" : "25",
+                  "sqpath" : "/Data/difficulty",
+                  "dqpath" : "/Data/difficulty"
+                },
+                "score" : {
+                  "type" : "INTEGER",
+                  "value" : "-1",
+                  "sqpath" : "/Data/score",
+                  "dqpath" : "/Data/score"
+                },
+                "time_left" : {
+                  "type" : "INTEGER",
+                  "value" : "-1",
+                  "sqpath" : "/Data/time_left",
+                  "dqpath" : "/Data/time_left"
+                },
+                "removed_at" : {
+                  "type" : "DATETIME",
+                  "value" : null,
+                  "sqpath" : "/Data/removed_at",
+                  "dqpath" : "/Data/removed_at"
+                },
+                "user_id" : {
+                  "type" : "INTEGER",
+                  "value" : "157327",
+                  "sqpath" : "/Data/user_id",
+                  "dqpath" : "/Data/user_id"
+                },
+                "payment_id" : {
+                  "type" : "INTEGER",
+                  "value" : null,
+                  "sqpath" : "/Data/payment_id",
+                  "dqpath" : "/Data/payment_id"
+                },
+                "extra" : {
+                  "type" : "STRING",
+                  "value" : null,
+                  "sqpath" : "/Data/extra",
+                  "dqpath" : "/Data/extra"
+                },
+                "progress" : {
+                  "type" : "INTEGER",
+                  "value" : "0",
+                  "sqpath" : "/Data/progress",
+                  "dqpath" : "/Data/progress"
+                },
+                "started_at" : {
+                  "type" : "DATETIME",
+                  "value" : 1546225175000,
+                  "sqpath" : "/Data/started_at",
+                  "dqpath" : "/Data/started_at"
+                },
+                "id" : {
+                  "type" : "INTEGER",
+                  "value" : "3926711",
+                  "sqpath" : "/Data/id",
+                  "dqpath" : "/Data/id"
+                },
+                "modified_at" : {
+                  "type" : "DATETIME",
+                  "value" : 1546225213000,
+                  "sqpath" : "/Data/modified_at",
+                  "dqpath" : "/Data/modified_at"
+                },
+                "problems" : {
+                  "type" : "STRING",
+                  "value" : "[{\"ptrn\":0,\"unit\":4800,\"prob\":288372,\"trialID\":\"157327I0T10086152264\",\"status\":\"R\",\"publishType\":\"D\",\"publishCount\":1,\"timeStart\":\"2018-12-31T02:59:36.223Z\",\"stepExist\":false,\"tryCount\":1,\"apiVersion\":\"v2\",\"result\":true,\"score\":100,\"timeEnd\":\"2018-12-31T02:59:43.318Z\"},{\"ptrn\":0,\"unit\":4802,\"prob\":288412,\"trialID\":\"157327I1T10086152264\",\"status\":\"R\",\"publishType\":\"D\",\"publishCount\":1,\"timeStart\":\"2018-12-31T02:59:43.692Z\",\"stepExist\":false,\"tryCount\":1,\"apiVersion\":\"v2\",\"result\":true,\"score\":100,\"timeEnd\":\"2018-12-31T02:59:50.140Z\"},{\"ptrn\":0,\"unit\":4804,\"prob\":288451,\"trialID\":\"157327I2T10086152264\",\"status\":\"R\",\"publishType\":\"D\",\"publishCount\":1,\"timeStart\":\"2018-12-31T02:59:50.642Z\",\"stepExist\":false,\"tryCount\":1,\"apiVersion\":\"v2\",\"result\":true,\"score\":100,\"timeEnd\":\"2018-12-31T03:00:03.995Z\"},{\"ptrn\":0,\"unit\":4733,\"prob\":288476,\"trialID\":\"157327I3T10086152264\",\"status\":\"R\",\"publishType\":\"D\",\"publishCount\":1,\"timeStart\":\"2018-12-31T03:00:04.439Z\",\"stepExist\":false,\"tryCount\":1,\"apiVersion\":\"v2\",\"result\":true,\"score\":100,\"timeEnd\":\"2018-12-31T03:00:13.625Z\"},{\"ptrn\":0,\"unit\":4807,\"prob\":288612,\"trialID\":\"157327I4T10086152264\",\"status\":\"\",\"publishType\":\"D\",\"publishCount\":1},{\"ptrn\":0,\"unit\":4808,\"prob\":288664,\"trialID\":\"157327I5T10086152264\",\"status\":\"\",\"publishType\":\"D\",\"publishCount\":1},{\"ptrn\":0,\"unit\":6906,\"prob\":288827,\"trialID\":\"157327I6T10086152264\",\"status\":\"\",\"publishType\":\"D\",\"publishCount\":1},{\"ptrn\":0,\"unit\":4812,\"prob\":288952,\"trialID\":\"157327I7T10086152264\",\"status\":\"\",\"publishType\":\"D\",\"publishCount\":1},{\"ptrn\":0,\"unit\":4827,\"prob\":289013,\"trialID\":\"157327I8T10086152264\",\"status\":\"\",\"publishType\":\"D\",\"publishCount\":1},{\"ptrn\":0,\"unit\":4829,\"prob\":289098,\"trialID\":\"157327I9T10086152264\",\"status\":\"\",\"publishType\":\"D\",\"publishCount\":1},{\"ptrn\":0,\"unit\":4816,\"prob\":289167,\"trialID\":\"157327I10T1008615226\",\"status\":\"\",\"publishType\":\"D\",\"publishCount\":1},{\"ptrn\":0,\"unit\":4819,\"prob\":289227,\"trialID\":\"157327I11T1008615226\",\"status\":\"\",\"publishType\":\"D\",\"publishCount\":1},{\"ptrn\":0,\"unit\":4761,\"prob\":289356,\"trialID\":\"157327I12T1008615226\",\"status\":\"\",\"publishType\":\"D\",\"publishCount\":1},{\"ptrn\":0,\"unit\":4872,\"prob\":289372,\"trialID\":\"157327I13T1008615226\",\"status\":\"\",\"publishType\":\"D\",\"publishCount\":1},{\"ptrn\":0,\"unit\":4835,\"prob\":289694,\"trialID\":\"157327I14T1008615226\",\"status\":\"\",\"publishType\":\"D\",\"publishCount\":1},{\"ptrn\":0,\"unit\":4837,\"prob\":289882,\"trialID\":\"157327I15T1008615226\",\"status\":\"\",\"publishType\":\"D\",\"publishCount\":1},{\"ptrn\":0,\"unit\":4758,\"prob\":290213,\"trialID\":\"157327I16T1008615226\",\"status\":\"\",\"publishType\":\"D\",\"publishCount\":1},{\"ptrn\":0,\"unit\":6731,\"prob\":290237,\"trialID\":\"157327I17T1008615226\",\"status\":\"\",\"publishType\":\"D\",\"publishCount\":1},{\"ptrn\":0,\"unit\":4773,\"prob\":290293,\"trialID\":\"157327I18T1008615226\",\"status\":\"\",\"publishType\":\"D\",\"publishCount\":1},{\"ptrn\":0,\"unit\":7625,\"prob\":290361,\"trialID\":\"157327I19T1008615226\",\"status\":\"\",\"publishType\":\"D\",\"publishCount\":1},{\"ptrn\":0,\"unit\":4848,\"prob\":290580,\"trialID\":\"157327I20T1008615226\",\"status\":\"\",\"publishType\":\"D\",\"publishCount\":1},{\"ptrn\":0,\"unit\":4849,\"prob\":290625,\"trialID\":\"157327I21T1008615226\",\"status\":\"\",\"publishType\":\"D\",\"publishCount\":1},{\"ptrn\":0,\"unit\":4850,\"prob\":290668,\"trialID\":\"157327I22T1008615226\",\"status\":\"\",\"publishType\":\"D\",\"publishCount\":1},{\"ptrn\":0,\"unit\":4861,\"prob\":291089,\"trialID\":\"157327I23T1008615226\",\"status\":\"\",\"publishType\":\"D\",\"publishCount\":1},{\"ptrn\":0,\"unit\":4859,\"prob\":291219,\"trialID\":\"157327I24T1008615226\",\"status\":\"\",\"publishType\":\"D\",\"publishCount\":1}]",
+                  "sqpath" : "/Data/problems",
+                  "dqpath" : "/Data/problems"
+                }
+              },
+              "sqpath" : "/Data",
+              "dqpath" : "/Data"
+            },
+            "Timestamp" : {
+              "type" : "LONG",
+              "value" : "1546225213000",
+              "sqpath" : "/Timestamp",
+              "dqpath" : "/Timestamp"
+            },
+            "Offset" : {
+              "type" : "STRING",
+              "value" : "mysql-bin-changelog.001415:183411",
+              "sqpath" : "/Offset",
+              "dqpath" : "/Offset"
+            }
+          },
+          "sqpath" : "",
+          "dqpath" : ""
+        }
+      }, {
+        "header" : {
+          "stageCreator" : "MySQLBinaryLog_01",
+          "sourceId" : "mysql-bin-changelog.001415:184725",
+          "stagesPath" : "MySQLBinaryLog_01",
+          "trackingId" : "mysql-bin-changelog.001415:184725::MySQLBinaryLog_01",
+          "previousTrackingId" : null,
+          "raw" : null,
+          "rawMimeType" : null,
+          "errorDataCollectorId" : null,
+          "errorPipelineName" : null,
+          "errorStage" : null,
+          "errorStageLabel" : null,
+          "errorCode" : null,
+          "errorMessage" : null,
+          "errorTimestamp" : 0,
+          "errorStackTrace" : null,
+          "errorJobId" : null,
+          "values" : {
+            "sdc.operation.type" : "1"
+          }
+        },
+        "value" : {
+          "type" : "MAP",
+          "value" : {
+            "BinLogFilename" : {
+              "type" : "STRING",
+              "value" : "mysql-bin-changelog.001415",
+              "sqpath" : "/BinLogFilename",
+              "dqpath" : "/BinLogFilename"
+            },
+            "Type" : {
+              "type" : "STRING",
+              "value" : "INSERT",
+              "sqpath" : "/Type",
+              "dqpath" : "/Type"
+            },
+            "Table" : {
+              "type" : "STRING",
+              "value" : "server_logs2",
+              "sqpath" : "/Table",
+              "dqpath" : "/Table"
+            },
+            "ServerId" : {
+              "type" : "LONG",
+              "value" : "1221695242",
+              "sqpath" : "/ServerId",
+              "dqpath" : "/ServerId"
+            },
+            "BinLogPosition" : {
+              "type" : "LONG",
+              "value" : "184725",
+              "sqpath" : "/BinLogPosition",
+              "dqpath" : "/BinLogPosition"
+            },
+            "Database" : {
+              "type" : "STRING",
+              "value" : "knowre2",
+              "sqpath" : "/Database",
+              "dqpath" : "/Database"
+            },
+            "Data" : {
+              "type" : "MAP",
+              "value" : {
+                "os_alias" : {
+                  "type" : "STRING",
+                  "value" : null,
+                  "sqpath" : "/Data/os_alias",
+                  "dqpath" : "/Data/os_alias"
+                },
+                "method" : {
+                  "type" : "INTEGER",
+                  "value" : "1",
+                  "sqpath" : "/Data/method",
+                  "dqpath" : "/Data/method"
+                },
+                "os" : {
+                  "type" : "STRING",
+                  "value" : "Java/1.6.0_24",
+                  "sqpath" : "/Data/os",
+                  "dqpath" : "/Data/os"
+                },
+                "cookie" : {
+                  "type" : "STRING",
+                  "value" : "{\"cookie\":{}}",
+                  "sqpath" : "/Data/cookie",
+                  "dqpath" : "/Data/cookie"
+                },
+                "session" : {
+                  "type" : "STRING",
+                  "value" : "{\"_domain\":{\"domain\":\"daekyo-stable.knowreapp.com\"},\"_secret\":\"knowre_prod\",\"_cookieKey\":\"connect.sid\",\"tick\":1}",
+                  "sqpath" : "/Data/session",
+                  "dqpath" : "/Data/session"
+                },
+                "ip" : {
+                  "type" : "STRING",
+                  "value" : "211.234.44.221, 10.20.158.60",
+                  "sqpath" : "/Data/ip",
+                  "dqpath" : "/Data/ip"
+                },
+                "session_id" : {
+                  "type" : "STRING",
+                  "value" : null,
+                  "sqpath" : "/Data/session_id",
+                  "dqpath" : "/Data/session_id"
+                },
+                "created_at" : {
+                  "type" : "DATETIME",
+                  "value" : 1546225213000,
+                  "sqpath" : "/Data/created_at",
+                  "dqpath" : "/Data/created_at"
+                },
+                "browser_alias" : {
+                  "type" : "STRING",
+                  "value" : null,
+                  "sqpath" : "/Data/browser_alias",
+                  "dqpath" : "/Data/browser_alias"
+                },
+                "url" : {
+                  "type" : "STRING",
+                  "value" : "/external/v1.0/oneTimeCode?keyPair={\"account\":\"rhdn0442t9\",\"key\":\"sha1$2d7d2e4b$1$72924279522cc6d20174c38777c20e2343ea8549\"}",
+                  "sqpath" : "/Data/url",
+                  "dqpath" : "/Data/url"
+                },
+                "result" : {
+                  "type" : "INTEGER",
+                  "value" : "1",
+                  "sqpath" : "/Data/result",
+                  "dqpath" : "/Data/result"
+                },
+                "router" : {
+                  "type" : "STRING",
+                  "value" : "daekyo-stable.knowreapp.com:31",
+                  "sqpath" : "/Data/router",
+                  "dqpath" : "/Data/router"
+                },
+                "trace" : {
+                  "type" : "STRING",
+                  "value" : "{\"msg\":\"trace\",\"elapsedTime\":null,\"req\":{\"ip\":\"211.234.44.221, 10.20.158.60\",\"protocol\":\"http\",\"host\":\"daekyo-stable.knowreapp.com\",\"url\":\"/external/v1.0/oneTimeCode?keyPair={\\\"account\\\":\\\"rhdn0442t9\\\",\\\"key\\\":\\\"sha1$2d7d2e4b$1$72924279522cc6d20174c38777c20e2343ea8549\\\"}\",\"userAgent\":\"Java/1.6.0_24\",\"parameter\":{\"query\":{\"keyPair\":\"{\\\"account\\\":\\\"rhdn0442t9\\\",\\\"key\\\":\\\"sha1$2d7d2e4b$1$72924279522cc6d20174c38777c20e2343ea8549\\\"}\"}},\"sid\":\"\",\"timestamp\":\"2018-12-31T03:00:13.643Z\",\"elapsed\":1848739,\"method\":\"GET\",\"aws_instance_id\":\"i-0e2d6dac97ae251e5\",\"performance\":1.848739},\"error\":null}",
+                  "sqpath" : "/Data/trace",
+                  "dqpath" : "/Data/trace"
+                },
+                "removed_at" : {
+                  "type" : "DATETIME",
+                  "value" : null,
+                  "sqpath" : "/Data/removed_at",
+                  "dqpath" : "/Data/removed_at"
+                },
+                "user_id" : {
+                  "type" : "INTEGER",
+                  "value" : null,
+                  "sqpath" : "/Data/user_id",
+                  "dqpath" : "/Data/user_id"
+                },
+                "browser" : {
+                  "type" : "STRING",
+                  "value" : "Java/1.6.0_24",
+                  "sqpath" : "/Data/browser",
+                  "dqpath" : "/Data/browser"
+                },
+                "id" : {
+                  "type" : "INTEGER",
+                  "value" : "352125243",
+                  "sqpath" : "/Data/id",
+                  "dqpath" : "/Data/id"
+                },
+                "modified_at" : {
+                  "type" : "DATETIME",
+                  "value" : 1546225213000,
+                  "sqpath" : "/Data/modified_at",
+                  "dqpath" : "/Data/modified_at"
+                },
+                "parameters" : {
+                  "type" : "STRING",
+                  "value" : "{\"query\":{\"keyPair\":\"{\\\"account\\\":\\\"rhdn0442t9\\\",\\\"key\\\":\\\"sha1$2d7d2e4b$1$72924279522cc6d20174c38777c20e2343ea8549\\\"}\"},\"body\":{}}",
+                  "sqpath" : "/Data/parameters",
+                  "dqpath" : "/Data/parameters"
+                },
+                "req" : {
+                  "type" : "STRING",
+                  "value" : null,
+                  "sqpath" : "/Data/req",
+                  "dqpath" : "/Data/req"
+                }
+              },
+              "sqpath" : "/Data",
+              "dqpath" : "/Data"
+            },
+            "Timestamp" : {
+              "type" : "LONG",
+              "value" : "1546225213000",
+              "sqpath" : "/Timestamp",
+              "dqpath" : "/Timestamp"
+            },
+            "Offset" : {
+              "type" : "STRING",
+              "value" : "mysql-bin-changelog.001415:184725",
+              "sqpath" : "/Offset",
+              "dqpath" : "/Offset"
+            }
+          },
+          "sqpath" : "",
+          "dqpath" : ""
+        }
+      }, {
+        "header" : {
+          "stageCreator" : "MySQLBinaryLog_01",
+          "sourceId" : "mysql-bin-changelog.001415:185051",
+          "stagesPath" : "MySQLBinaryLog_01",
+          "trackingId" : "mysql-bin-changelog.001415:185051::MySQLBinaryLog_01",
+          "previousTrackingId" : null,
+          "raw" : null,
+          "rawMimeType" : null,
+          "errorDataCollectorId" : null,
+          "errorPipelineName" : null,
+          "errorStage" : null,
+          "errorStageLabel" : null,
+          "errorCode" : null,
+          "errorMessage" : null,
+          "errorTimestamp" : 0,
+          "errorStackTrace" : null,
+          "errorJobId" : null,
+          "values" : {
+            "sdc.operation.type" : "1"
+          }
+        },
+        "value" : {
+          "type" : "MAP",
+          "value" : {
+            "BinLogFilename" : {
+              "type" : "STRING",
+              "value" : "mysql-bin-changelog.001415",
+              "sqpath" : "/BinLogFilename",
+              "dqpath" : "/BinLogFilename"
+            },
+            "Type" : {
+              "type" : "STRING",
+              "value" : "INSERT",
+              "sqpath" : "/Type",
+              "dqpath" : "/Type"
+            },
+            "Table" : {
+              "type" : "STRING",
+              "value" : "activity_logs",
+              "sqpath" : "/Table",
+              "dqpath" : "/Table"
+            },
+            "ServerId" : {
+              "type" : "LONG",
+              "value" : "1221695242",
+              "sqpath" : "/ServerId",
+              "dqpath" : "/ServerId"
+            },
+            "BinLogPosition" : {
+              "type" : "LONG",
+              "value" : "185051",
+              "sqpath" : "/BinLogPosition",
+              "dqpath" : "/BinLogPosition"
+            },
+            "Database" : {
+              "type" : "STRING",
+              "value" : "knowre2",
+              "sqpath" : "/Database",
+              "dqpath" : "/Database"
+            },
+            "Data" : {
+              "type" : "MAP",
+              "value" : {
+                "metadata" : {
+                  "type" : "STRING",
+                  "value" : "{\"unitID\":4733,\"problemID\":288476,\"mainProbID\":-1,\"trialID\":\"157327I3T10086152264\",\"score\":100,\"type\":\"MAIN\"}",
+                  "sqpath" : "/Data/metadata",
+                  "dqpath" : "/Data/metadata"
+                },
+                "removed_at" : {
+                  "type" : "DATETIME",
+                  "value" : null,
+                  "sqpath" : "/Data/removed_at",
+                  "dqpath" : "/Data/removed_at"
+                },
+                "user_id" : {
+                  "type" : "INTEGER",
+                  "value" : "157327",
+                  "sqpath" : "/Data/user_id",
+                  "dqpath" : "/Data/user_id"
+                },
+                "owner_id" : {
+                  "type" : "INTEGER",
+                  "value" : "13442",
+                  "sqpath" : "/Data/owner_id",
+                  "dqpath" : "/Data/owner_id"
+                },
+                "extra" : {
+                  "type" : "STRING",
+                  "value" : null,
+                  "sqpath" : "/Data/extra",
+                  "dqpath" : "/Data/extra"
+                },
+                "start" : {
+                  "type" : "INTEGER",
+                  "value" : "1",
+                  "sqpath" : "/Data/start",
+                  "dqpath" : "/Data/start"
+                },
+                "created_at" : {
+                  "type" : "DATETIME",
+                  "value" : 1546225213000,
+                  "sqpath" : "/Data/created_at",
+                  "dqpath" : "/Data/created_at"
+                },
+                "id" : {
+                  "type" : "INTEGER",
+                  "value" : "167392815",
+                  "sqpath" : "/Data/id",
+                  "dqpath" : "/Data/id"
+                },
+                "type" : {
+                  "type" : "INTEGER",
+                  "value" : "7",
+                  "sqpath" : "/Data/type",
+                  "dqpath" : "/Data/type"
+                },
+                "modified_at" : {
+                  "type" : "DATETIME",
+                  "value" : 1546225213000,
+                  "sqpath" : "/Data/modified_at",
+                  "dqpath" : "/Data/modified_at"
+                }
+              },
+              "sqpath" : "/Data",
+              "dqpath" : "/Data"
+            },
+            "Timestamp" : {
+              "type" : "LONG",
+              "value" : "1546225213000",
+              "sqpath" : "/Timestamp",
+              "dqpath" : "/Timestamp"
+            },
+            "Offset" : {
+              "type" : "STRING",
+              "value" : "mysql-bin-changelog.001415:185051",
+              "sqpath" : "/Offset",
+              "dqpath" : "/Offset"
+            }
+          },
+          "sqpath" : "",
+          "dqpath" : ""
+        }
+      }, {
+        "header" : {
+          "stageCreator" : "MySQLBinaryLog_01",
+          "sourceId" : "mysql-bin-changelog.001415:185626",
+          "stagesPath" : "MySQLBinaryLog_01",
+          "trackingId" : "mysql-bin-changelog.001415:185626::MySQLBinaryLog_01",
+          "previousTrackingId" : null,
+          "raw" : null,
+          "rawMimeType" : null,
+          "errorDataCollectorId" : null,
+          "errorPipelineName" : null,
+          "errorStage" : null,
+          "errorStageLabel" : null,
+          "errorCode" : null,
+          "errorMessage" : null,
+          "errorTimestamp" : 0,
+          "errorStackTrace" : null,
+          "errorJobId" : null,
+          "values" : {
+            "sdc.operation.type" : "1"
+          }
+        },
+        "value" : {
+          "type" : "MAP",
+          "value" : {
+            "BinLogFilename" : {
+              "type" : "STRING",
+              "value" : "mysql-bin-changelog.001415",
+              "sqpath" : "/BinLogFilename",
+              "dqpath" : "/BinLogFilename"
+            },
+            "Type" : {
+              "type" : "STRING",
+              "value" : "INSERT",
+              "sqpath" : "/Type",
+              "dqpath" : "/Type"
+            },
+            "Table" : {
+              "type" : "STRING",
+              "value" : "send_data_logs",
+              "sqpath" : "/Table",
+              "dqpath" : "/Table"
+            },
+            "ServerId" : {
+              "type" : "LONG",
+              "value" : "1221695242",
+              "sqpath" : "/ServerId",
+              "dqpath" : "/ServerId"
+            },
+            "BinLogPosition" : {
+              "type" : "LONG",
+              "value" : "185626",
+              "sqpath" : "/BinLogPosition",
+              "dqpath" : "/BinLogPosition"
+            },
+            "Database" : {
+              "type" : "STRING",
+              "value" : "knowre2",
+              "sqpath" : "/Database",
+              "dqpath" : "/Database"
+            },
+            "Data" : {
+              "type" : "MAP",
+              "value" : {
+                "result" : {
+                  "type" : "INTEGER",
+                  "value" : "200",
+                  "sqpath" : "/Data/result",
+                  "dqpath" : "/Data/result"
+                },
+                "removed_at" : {
+                  "type" : "DATETIME",
+                  "value" : null,
+                  "sqpath" : "/Data/removed_at",
+                  "dqpath" : "/Data/removed_at"
+                },
+                "user_id" : {
+                  "type" : "INTEGER",
+                  "value" : "157327",
+                  "sqpath" : "/Data/user_id",
+                  "dqpath" : "/Data/user_id"
+                },
+                "created_at" : {
+                  "type" : "DATETIME",
+                  "value" : 1546225213000,
+                  "sqpath" : "/Data/created_at",
+                  "dqpath" : "/Data/created_at"
+                },
+                "id" : {
+                  "type" : "INTEGER",
+                  "value" : "174871320",
+                  "sqpath" : "/Data/id",
+                  "dqpath" : "/Data/id"
+                },
+                "type" : {
+                  "type" : "STRING",
+                  "value" : "answer",
+                  "sqpath" : "/Data/type",
+                  "dqpath" : "/Data/type"
+                },
+                "modified_at" : {
+                  "type" : "DATETIME",
+                  "value" : 1546225213000,
+                  "sqpath" : "/Data/modified_at",
+                  "dqpath" : "/Data/modified_at"
+                },
+                "url" : {
+                  "type" : "STRING",
+                  "value" : "https://scapi.daekyo.com/scapi/common/v0.1/putUserCurriculum",
+                  "sqpath" : "/Data/url",
+                  "dqpath" : "/Data/url"
+                },
+                "content" : {
+                  "type" : "STRING",
+                  "value" : "{\"request\":{\"lesson_id\":13442,\"user_id\":157327,\"type\":\"CTEST\",\"problem_id\":288476,\"unit_id\":4733,\"trial_id\":\"157327I3T10086152264\",\"parent_id\":-1,\"is_step\":false,\"result\":true,\"id\":\"KNRCTES11006\"},\"response\":{\"auth\":true,\"success\":true,\"resultCode\":\"200\",\"error\":\"\",\"data\":{\"result\":true}}}",
+                  "sqpath" : "/Data/content",
+                  "dqpath" : "/Data/content"
+                }
+              },
+              "sqpath" : "/Data",
+              "dqpath" : "/Data"
+            },
+            "Timestamp" : {
+              "type" : "LONG",
+              "value" : "1546225213000",
+              "sqpath" : "/Timestamp",
+              "dqpath" : "/Timestamp"
+            },
+            "Offset" : {
+              "type" : "STRING",
+              "value" : "mysql-bin-changelog.001415:185626",
+              "sqpath" : "/Offset",
+              "dqpath" : "/Offset"
+            }
+          },
+          "sqpath" : "",
+          "dqpath" : ""
+        }
+      }, {
+        "header" : {
+          "stageCreator" : "MySQLBinaryLog_01",
+          "sourceId" : "mysql-bin-changelog.001415:189200",
+          "stagesPath" : "MySQLBinaryLog_01",
+          "trackingId" : "mysql-bin-changelog.001415:189200::MySQLBinaryLog_01",
+          "previousTrackingId" : null,
+          "raw" : null,
+          "rawMimeType" : null,
+          "errorDataCollectorId" : null,
+          "errorPipelineName" : null,
+          "errorStage" : null,
+          "errorStageLabel" : null,
+          "errorCode" : null,
+          "errorMessage" : null,
+          "errorTimestamp" : 0,
+          "errorStackTrace" : null,
+          "errorJobId" : null,
+          "values" : {
+            "sdc.operation.type" : "1"
+          }
+        },
+        "value" : {
+          "type" : "MAP",
+          "value" : {
+            "BinLogFilename" : {
+              "type" : "STRING",
+              "value" : "mysql-bin-changelog.001415",
+              "sqpath" : "/BinLogFilename",
+              "dqpath" : "/BinLogFilename"
+            },
+            "Type" : {
+              "type" : "STRING",
+              "value" : "INSERT",
+              "sqpath" : "/Type",
+              "dqpath" : "/Type"
+            },
+            "Table" : {
+              "type" : "STRING",
+              "value" : "server_logs2",
+              "sqpath" : "/Table",
+              "dqpath" : "/Table"
+            },
+            "ServerId" : {
+              "type" : "LONG",
+              "value" : "1221695242",
+              "sqpath" : "/ServerId",
+              "dqpath" : "/ServerId"
+            },
+            "BinLogPosition" : {
+              "type" : "LONG",
+              "value" : "189200",
+              "sqpath" : "/BinLogPosition",
+              "dqpath" : "/BinLogPosition"
+            },
+            "Database" : {
+              "type" : "STRING",
+              "value" : "knowre2",
+              "sqpath" : "/Database",
+              "dqpath" : "/Database"
+            },
+            "Data" : {
+              "type" : "MAP",
+              "value" : {
+                "os_alias" : {
+                  "type" : "STRING",
+                  "value" : null,
+                  "sqpath" : "/Data/os_alias",
+                  "dqpath" : "/Data/os_alias"
+                },
+                "method" : {
+                  "type" : "INTEGER",
+                  "value" : "2",
+                  "sqpath" : "/Data/method",
+                  "dqpath" : "/Data/method"
+                },
+                "os" : {
+                  "type" : "STRING",
+                  "value" : "okhttp/3.10.0",
+                  "sqpath" : "/Data/os",
+                  "dqpath" : "/Data/os"
+                },
+                "cookie" : {
+                  "type" : "STRING",
+                  "value" : "{\"cookie\":{\"connect.sid\":\"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjb25uZWN0ZWRBdCI6IjIwMTgtMTItMzFUMDI6NTk6MjIuNDAyWiIsInVzZXJJRCI6MTU3MzI3LCJ1c2VyTmFtZSI6IiIsImN1cnJpY3VsdW1faWQiOjEzLCJjdXJyaWN1bHVtX3R5cGUiOiJTRU1FU1RFUiIsImRpZmZpY3VsdHkiOjI1LCJwcm9kdWN0VHlwZSI6Ik1JRCIsImV4dGVybmFsQWNjb3VudCI6IjAwMFMtMDA1NDQ4NjA3MSIsInRva2VuX2FjY291bnQiOiIwMDBTLTAwNTQ0ODYwNzEiLCJzdGFtcCI6InNoYTEkZTA2MmZjMWMkMSRlYTQwYzA0M2M4ZGMwYzE5ZmIwZDlkZDg4MThkMWE0MWQ3NzViZGM0IiwiY2xpZW50VmVyc2lvbiI6NzE2MDc5OSwidXNlckRQSSI6MjQwLCJhcGlfdmVyc2lvbiI6InYyIiwidGljayI6MTAsImxlc3NvbkluZm8iOnsibGVzc29uVHlwZSI6IkNURVNUIiwiY2hhcHRlcklkIjoxMzQ0MiwiY3VycmljdWx1bUlkIjoxMywiY3VycmljdWx1bVR5cGUiOiJTRU1FU1RFUiIsImNvbXBvc2l0ZUlkIjoiS05SQ1RFUzExMDA2In0sImxlc3NvbkV4dGVybmFsS2V5IjoiS05SQ1RFUzExMDA2IiwiYWN0aXZpdHkiOnsidHJpYWxJRCI6IjE1NzMyN0kzVDEwMDg2MTUyMjY0IiwidW5pdElEIjo0NzMzLCJpc1N0ZXAiOmZhbHNlfSwidHJ5Q291bnQiOjAsInJldHJ5IjpudWxsLCJpYXQiOjE1NDYyMjUyMDQsImV4cCI6MTU0NjIzMDYwNH0.OsVuuBrE022T0vsNWVtN1Z1I2XTtOhF5ZTPV2uWHqs4\"}}",
+                  "sqpath" : "/Data/cookie",
+                  "dqpath" : "/Data/cookie"
+                },
+                "session" : {
+                  "type" : "STRING",
+                  "value" : "{\"_domain\":{\"domain\":\"daekyo-stable.knowreapp.com\"},\"_secret\":\"knowre_prod\",\"_cookieKey\":\"connect.sid\",\"connectedAt\":\"2018-12-31T02:59:22.402Z\",\"userID\":157327,\"userName\":\"\",\"curriculum_id\":13,\"curriculum_type\":\"SEMESTER\",\"difficulty\":25,\"productType\":\"MID\",\"externalAccount\":\"000S-0054486071\",\"token_account\":\"000S-0054486071\",\"stamp\":\"sha1$e062fc1c$1$ea40c043c8dc0c19fb0d9dd8818d1a41d775bdc4\",\"clientVersion\":7160799,\"userDPI\":240,\"api_version\":\"v2\",\"tick\":11,\"lessonInfo\":{\"lessonType\":\"CTEST\",\"chapterId\":13442,\"curriculumId\":13,\"curriculumType\":\"SEMESTER\",\"compositeId\":\"KNRCTES11006\"},\"lessonExternalKey\":\"KNRCTES11006\",\"activity\":{\"trialID\":\"157327I3T10086152264\",\"unitID\":4733,\"isStep\":false},\"tryCount\":1,\"retry\":null,\"iat\":1546225204,\"exp\":1546230604,\"_tokenHash\":\"c4af3dd235d9efb3231ab5dec2ad2810\"}",
+                  "sqpath" : "/Data/session",
+                  "dqpath" : "/Data/session"
+                },
+                "ip" : {
+                  "type" : "STRING",
+                  "value" : "106.240.116.148, 10.20.158.60",
+                  "sqpath" : "/Data/ip",
+                  "dqpath" : "/Data/ip"
+                },
+                "session_id" : {
+                  "type" : "STRING",
+                  "value" : "157327T6225162427Dbd4650",
+                  "sqpath" : "/Data/session_id",
+                  "dqpath" : "/Data/session_id"
+                },
+                "created_at" : {
+                  "type" : "DATETIME",
+                  "value" : 1546225213000,
+                  "sqpath" : "/Data/created_at",
+                  "dqpath" : "/Data/created_at"
+                },
+                "browser_alias" : {
+                  "type" : "STRING",
+                  "value" : null,
+                  "sqpath" : "/Data/browser_alias",
+                  "dqpath" : "/Data/browser_alias"
+                },
+                "url" : {
+                  "type" : "STRING",
+                  "value" : "/api/v2/problem/check-answer?errorCode=true&timestamp=1546225212064",
+                  "sqpath" : "/Data/url",
+                  "dqpath" : "/Data/url"
+                },
+                "result" : {
+                  "type" : "INTEGER",
+                  "value" : "1",
+                  "sqpath" : "/Data/result",
+                  "dqpath" : "/Data/result"
+                },
+                "router" : {
+                  "type" : "STRING",
+                  "value" : "daekyo-stable.knowreapp.com:26",
+                  "sqpath" : "/Data/router",
+                  "dqpath" : "/Data/router"
+                },
+                "trace" : {
+                  "type" : "STRING",
+                  "value" : "{\"msg\":\"trace\",\"elapsedTime\":null,\"req\":{\"ip\":\"106.240.116.148, 10.20.158.60\",\"protocol\":\"http\",\"host\":\"daekyo-stable.knowreapp.com\",\"url\":\"/api/v2/problem/check-answer?errorCode=true&timestamp=1546225212064\",\"userAgent\":\"okhttp/3.10.0\",\"parameter\":{\"query\":{\"errorCode\":\"true\",\"timestamp\":\"1546225212064\"}},\"sid\":\"\",\"timestamp\":\"2018-12-31T03:00:13.446Z\",\"elapsed\":243007442,\"method\":\"POST\",\"aws_instance_id\":\"i-07c318ce66c33be13\",\"performance\":243.007442},\"error\":null}",
+                  "sqpath" : "/Data/trace",
+                  "dqpath" : "/Data/trace"
+                },
+                "removed_at" : {
+                  "type" : "DATETIME",
+                  "value" : null,
+                  "sqpath" : "/Data/removed_at",
+                  "dqpath" : "/Data/removed_at"
+                },
+                "user_id" : {
+                  "type" : "INTEGER",
+                  "value" : "157327",
+                  "sqpath" : "/Data/user_id",
+                  "dqpath" : "/Data/user_id"
+                },
+                "browser" : {
+                  "type" : "STRING",
+                  "value" : "okhttp/3.10.0",
+                  "sqpath" : "/Data/browser",
+                  "dqpath" : "/Data/browser"
+                },
+                "id" : {
+                  "type" : "INTEGER",
+                  "value" : "352125244",
+                  "sqpath" : "/Data/id",
+                  "dqpath" : "/Data/id"
+                },
+                "modified_at" : {
+                  "type" : "DATETIME",
+                  "value" : 1546225213000,
+                  "sqpath" : "/Data/modified_at",
+                  "dqpath" : "/Data/modified_at"
+                },
+                "parameters" : {
+                  "type" : "STRING",
+                  "value" : "{\"query\":{\"errorCode\":\"true\",\"timestamp\":\"1546225212064\"},\"body\":{\"input\":\"{\\\"answer\\\":\\\"[{\\\\\\\"type\\\\\\\":\\\\\\\"Block\\\\\\\",\\\\\\\"value\\\\\\\":[]},{\\\\\\\"type\\\\\\\":\\\\\\\"Block\\\\\\\",\\\\\\\"value\\\\\\\":[]},{\\\\\\\"type\\\\\\\":\\\\\\\"Block\\\\\\\",\\\\\\\"value\\\\\\\":[{\\\\\\\"type\\\\\\\":\\\\\\\"Static\\\\\\\"},{\\\\\\\"type\\\\\\\":\\\\\\\"Static\\\\\\\"},{\\\\\\\"type\\\\\\\":\\\\\\\"Static\\\\\\\"},{\\\\\\\"type\\\\\\\":\\\\\\\"Static\\\\\\\"},{\\\\\\\"type\\\\\\\":\\\\\\\"Block\\\\\\\",\\\\\\\"value\\\\\\\":[]},{\\\\\\\"type\\\\\\\":\\\\\\\"Block\\\\\\\",\\\\\\\"value\\\\\\\":[{\\\\\\\"type\\\\\\\":\\\\\\\"Input\\\\\\\",\\\\\\\"mode\\\\\\\":\\\\\\\"math\\\\\\\",\\\\\\\"value\\\\\\\":\\\\\\\"23\\\\\\\",\\\\\\\"order\\\\\\\":1},{\\\\\\\"type\\\\\\\":\\\\\\\"Static\\\\\\\"},{\\\\\\\"type\\\\\\\":\\\\\\\"Input\\\\\\\",\\\\\\\"mode\\\\\\\":\\\\\\\"math\\\\\\\",\\\\\\\"value\\\\\\\":\\\\\\\"29\\\\\\\",\\\\\\\"order\\\\\\\":1}]}]}]\\\",\\\"lessonInfo\\\":{\\\"curriculumId\\\":13,\\\"curriculumType\\\":\\\"SEMESTER\\\",\\\"compositeId\\\":\\\"KNRCTES11006\\\",\\\"lessonType\\\":\\\"CTEST\\\",\\\"chapterId\\\":13442},\\\"parentId\\\":-1,\\\"problemId\\\":288476,\\\"time_left\\\":-1}\"}}",
+                  "sqpath" : "/Data/parameters",
+                  "dqpath" : "/Data/parameters"
+                },
+                "req" : {
+                  "type" : "STRING",
+                  "value" : null,
+                  "sqpath" : "/Data/req",
+                  "dqpath" : "/Data/req"
+                }
+              },
+              "sqpath" : "/Data",
+              "dqpath" : "/Data"
+            },
+            "Timestamp" : {
+              "type" : "LONG",
+              "value" : "1546225213000",
+              "sqpath" : "/Timestamp",
+              "dqpath" : "/Timestamp"
+            },
+            "Offset" : {
+              "type" : "STRING",
+              "value" : "mysql-bin-changelog.001415:189200",
+              "sqpath" : "/Offset",
+              "dqpath" : "/Offset"
+            }
+          },
+          "sqpath" : "",
+          "dqpath" : ""
+        }
+      }, {
+        "header" : {
+          "stageCreator" : "MySQLBinaryLog_01",
+          "sourceId" : "mysql-bin-changelog.001415:190514",
+          "stagesPath" : "MySQLBinaryLog_01",
+          "trackingId" : "mysql-bin-changelog.001415:190514::MySQLBinaryLog_01",
+          "previousTrackingId" : null,
+          "raw" : null,
+          "rawMimeType" : null,
+          "errorDataCollectorId" : null,
+          "errorPipelineName" : null,
+          "errorStage" : null,
+          "errorStageLabel" : null,
+          "errorCode" : null,
+          "errorMessage" : null,
+          "errorTimestamp" : 0,
+          "errorStackTrace" : null,
+          "errorJobId" : null,
+          "values" : {
+            "sdc.operation.type" : "1"
+          }
+        },
+        "value" : {
+          "type" : "MAP",
+          "value" : {
+            "BinLogFilename" : {
+              "type" : "STRING",
+              "value" : "mysql-bin-changelog.001415",
+              "sqpath" : "/BinLogFilename",
+              "dqpath" : "/BinLogFilename"
+            },
+            "Type" : {
+              "type" : "STRING",
+              "value" : "INSERT",
+              "sqpath" : "/Type",
+              "dqpath" : "/Type"
+            },
+            "Table" : {
+              "type" : "STRING",
+              "value" : "server_logs2",
+              "sqpath" : "/Table",
+              "dqpath" : "/Table"
+            },
+            "ServerId" : {
+              "type" : "LONG",
+              "value" : "1221695242",
+              "sqpath" : "/ServerId",
+              "dqpath" : "/ServerId"
+            },
+            "BinLogPosition" : {
+              "type" : "LONG",
+              "value" : "190514",
+              "sqpath" : "/BinLogPosition",
+              "dqpath" : "/BinLogPosition"
+            },
+            "Database" : {
+              "type" : "STRING",
+              "value" : "knowre2",
+              "sqpath" : "/Database",
+              "dqpath" : "/Database"
+            },
+            "Data" : {
+              "type" : "MAP",
+              "value" : {
+                "os_alias" : {
+                  "type" : "STRING",
+                  "value" : null,
+                  "sqpath" : "/Data/os_alias",
+                  "dqpath" : "/Data/os_alias"
+                },
+                "method" : {
+                  "type" : "INTEGER",
+                  "value" : "1",
+                  "sqpath" : "/Data/method",
+                  "dqpath" : "/Data/method"
+                },
+                "os" : {
+                  "type" : "STRING",
+                  "value" : "Java/1.6.0_24",
+                  "sqpath" : "/Data/os",
+                  "dqpath" : "/Data/os"
+                },
+                "cookie" : {
+                  "type" : "STRING",
+                  "value" : "{\"cookie\":{}}",
+                  "sqpath" : "/Data/cookie",
+                  "dqpath" : "/Data/cookie"
+                },
+                "session" : {
+                  "type" : "STRING",
+                  "value" : "{\"_domain\":{\"domain\":\"daekyo-stable.knowreapp.com\"},\"_secret\":\"knowre_prod\",\"_cookieKey\":\"connect.sid\",\"tick\":1}",
+                  "sqpath" : "/Data/session",
+                  "dqpath" : "/Data/session"
+                },
+                "ip" : {
+                  "type" : "STRING",
+                  "value" : "211.234.44.221, 10.20.158.60",
+                  "sqpath" : "/Data/ip",
+                  "dqpath" : "/Data/ip"
+                },
+                "session_id" : {
+                  "type" : "STRING",
+                  "value" : null,
+                  "sqpath" : "/Data/session_id",
+                  "dqpath" : "/Data/session_id"
+                },
+                "created_at" : {
+                  "type" : "DATETIME",
+                  "value" : 1546225213000,
+                  "sqpath" : "/Data/created_at",
+                  "dqpath" : "/Data/created_at"
+                },
+                "browser_alias" : {
+                  "type" : "STRING",
+                  "value" : null,
+                  "sqpath" : "/Data/browser_alias",
+                  "dqpath" : "/Data/browser_alias"
+                },
+                "url" : {
+                  "type" : "STRING",
+                  "value" : "/external/v1.0/oneTimeCode?keyPair={\"account\":\"rhdn0442t9\",\"key\":\"sha1$2d7d2e4b$1$72924279522cc6d20174c38777c20e2343ea8549\"}",
+                  "sqpath" : "/Data/url",
+                  "dqpath" : "/Data/url"
+                },
+                "result" : {
+                  "type" : "INTEGER",
+                  "value" : "1",
+                  "sqpath" : "/Data/result",
+                  "dqpath" : "/Data/result"
+                },
+                "router" : {
+                  "type" : "STRING",
+                  "value" : "daekyo-stable.knowreapp.com:26",
+                  "sqpath" : "/Data/router",
+                  "dqpath" : "/Data/router"
+                },
+                "trace" : {
+                  "type" : "STRING",
+                  "value" : "{\"msg\":\"trace\",\"elapsedTime\":null,\"req\":{\"ip\":\"211.234.44.221, 10.20.158.60\",\"protocol\":\"http\",\"host\":\"daekyo-stable.knowreapp.com\",\"url\":\"/external/v1.0/oneTimeCode?keyPair={\\\"account\\\":\\\"rhdn0442t9\\\",\\\"key\\\":\\\"sha1$2d7d2e4b$1$72924279522cc6d20174c38777c20e2343ea8549\\\"}\",\"userAgent\":\"Java/1.6.0_24\",\"parameter\":{\"query\":{\"keyPair\":\"{\\\"account\\\":\\\"rhdn0442t9\\\",\\\"key\\\":\\\"sha1$2d7d2e4b$1$72924279522cc6d20174c38777c20e2343ea8549\\\"}\"}},\"sid\":\"\",\"timestamp\":\"2018-12-31T03:00:13.807Z\",\"elapsed\":1001222,\"method\":\"GET\",\"aws_instance_id\":\"i-07c318ce66c33be13\",\"performance\":1.001222},\"error\":null}",
+                  "sqpath" : "/Data/trace",
+                  "dqpath" : "/Data/trace"
+                },
+                "removed_at" : {
+                  "type" : "DATETIME",
+                  "value" : null,
+                  "sqpath" : "/Data/removed_at",
+                  "dqpath" : "/Data/removed_at"
+                },
+                "user_id" : {
+                  "type" : "INTEGER",
+                  "value" : null,
+                  "sqpath" : "/Data/user_id",
+                  "dqpath" : "/Data/user_id"
+                },
+                "browser" : {
+                  "type" : "STRING",
+                  "value" : "Java/1.6.0_24",
+                  "sqpath" : "/Data/browser",
+                  "dqpath" : "/Data/browser"
+                },
+                "id" : {
+                  "type" : "INTEGER",
+                  "value" : "352125245",
+                  "sqpath" : "/Data/id",
+                  "dqpath" : "/Data/id"
+                },
+                "modified_at" : {
+                  "type" : "DATETIME",
+                  "value" : 1546225213000,
+                  "sqpath" : "/Data/modified_at",
+                  "dqpath" : "/Data/modified_at"
+                },
+                "parameters" : {
+                  "type" : "STRING",
+                  "value" : "{\"query\":{\"keyPair\":\"{\\\"account\\\":\\\"rhdn0442t9\\\",\\\"key\\\":\\\"sha1$2d7d2e4b$1$72924279522cc6d20174c38777c20e2343ea8549\\\"}\"},\"body\":{}}",
+                  "sqpath" : "/Data/parameters",
+                  "dqpath" : "/Data/parameters"
+                },
+                "req" : {
+                  "type" : "STRING",
+                  "value" : null,
+                  "sqpath" : "/Data/req",
+                  "dqpath" : "/Data/req"
+                }
+              },
+              "sqpath" : "/Data",
+              "dqpath" : "/Data"
+            },
+            "Timestamp" : {
+              "type" : "LONG",
+              "value" : "1546225213000",
+              "sqpath" : "/Timestamp",
+              "dqpath" : "/Timestamp"
+            },
+            "Offset" : {
+              "type" : "STRING",
+              "value" : "mysql-bin-changelog.001415:190514",
+              "sqpath" : "/Offset",
+              "dqpath" : "/Offset"
+            }
+          },
+          "sqpath" : "",
+          "dqpath" : ""
+        }
+      }, {
+        "header" : {
+          "stageCreator" : "MySQLBinaryLog_01",
+          "sourceId" : "mysql-bin-changelog.001415:193457",
+          "stagesPath" : "MySQLBinaryLog_01",
+          "trackingId" : "mysql-bin-changelog.001415:193457::MySQLBinaryLog_01",
+          "previousTrackingId" : null,
+          "raw" : null,
+          "rawMimeType" : null,
+          "errorDataCollectorId" : null,
+          "errorPipelineName" : null,
+          "errorStage" : null,
+          "errorStageLabel" : null,
+          "errorCode" : null,
+          "errorMessage" : null,
+          "errorTimestamp" : 0,
+          "errorStackTrace" : null,
+          "errorJobId" : null,
+          "values" : {
+            "sdc.operation.type" : "1"
+          }
+        },
+        "value" : {
+          "type" : "MAP",
+          "value" : {
+            "BinLogFilename" : {
+              "type" : "STRING",
+              "value" : "mysql-bin-changelog.001415",
+              "sqpath" : "/BinLogFilename",
+              "dqpath" : "/BinLogFilename"
+            },
+            "Type" : {
+              "type" : "STRING",
+              "value" : "INSERT",
+              "sqpath" : "/Type",
+              "dqpath" : "/Type"
+            },
+            "Table" : {
+              "type" : "STRING",
+              "value" : "server_logs2",
+              "sqpath" : "/Table",
+              "dqpath" : "/Table"
+            },
+            "ServerId" : {
+              "type" : "LONG",
+              "value" : "1221695242",
+              "sqpath" : "/ServerId",
+              "dqpath" : "/ServerId"
+            },
+            "BinLogPosition" : {
+              "type" : "LONG",
+              "value" : "193457",
+              "sqpath" : "/BinLogPosition",
+              "dqpath" : "/BinLogPosition"
+            },
+            "Database" : {
+              "type" : "STRING",
+              "value" : "knowre2",
+              "sqpath" : "/Database",
+              "dqpath" : "/Database"
+            },
+            "Data" : {
+              "type" : "MAP",
+              "value" : {
+                "os_alias" : {
+                  "type" : "STRING",
+                  "value" : null,
+                  "sqpath" : "/Data/os_alias",
+                  "dqpath" : "/Data/os_alias"
+                },
+                "method" : {
+                  "type" : "INTEGER",
+                  "value" : "2",
+                  "sqpath" : "/Data/method",
+                  "dqpath" : "/Data/method"
+                },
+                "os" : {
+                  "type" : "STRING",
+                  "value" : "okhttp/3.10.0",
+                  "sqpath" : "/Data/os",
+                  "dqpath" : "/Data/os"
+                },
+                "cookie" : {
+                  "type" : "STRING",
+                  "value" : "{\"cookie\":{\"connect.sid\":\"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjb25uZWN0ZWRBdCI6IjIwMTgtMTItMzFUMDI6NTk6MjIuNDAyWiIsInVzZXJJRCI6MTU3MzI3LCJ1c2VyTmFtZSI6IiIsImN1cnJpY3VsdW1faWQiOjEzLCJjdXJyaWN1bHVtX3R5cGUiOiJTRU1FU1RFUiIsImRpZmZpY3VsdHkiOjI1LCJwcm9kdWN0VHlwZSI6Ik1JRCIsImV4dGVybmFsQWNjb3VudCI6IjAwMFMtMDA1NDQ4NjA3MSIsInRva2VuX2FjY291bnQiOiIwMDBTLTAwNTQ0ODYwNzEiLCJzdGFtcCI6InNoYTEkZTA2MmZjMWMkMSRlYTQwYzA0M2M4ZGMwYzE5ZmIwZDlkZDg4MThkMWE0MWQ3NzViZGM0IiwiY2xpZW50VmVyc2lvbiI6NzE2MDc5OSwidXNlckRQSSI6MjQwLCJhcGlfdmVyc2lvbiI6InYyIiwidGljayI6MTEsImxlc3NvbkluZm8iOnsibGVzc29uVHlwZSI6IkNURVNUIiwiY2hhcHRlcklkIjoxMzQ0MiwiY3VycmljdWx1bUlkIjoxMywiY3VycmljdWx1bVR5cGUiOiJTRU1FU1RFUiIsImNvbXBvc2l0ZUlkIjoiS05SQ1RFUzExMDA2In0sImxlc3NvbkV4dGVybmFsS2V5IjoiS05SQ1RFUzExMDA2IiwiYWN0aXZpdHkiOnsidHJpYWxJRCI6IjE1NzMyN0kzVDEwMDg2MTUyMjY0IiwidW5pdElEIjo0NzMzLCJpc1N0ZXAiOmZhbHNlfSwidHJ5Q291bnQiOjEsInJldHJ5IjpudWxsLCJpYXQiOjE1NDYyMjUyMTMsImV4cCI6MTU0NjIzMDYxM30.z-IwakzgmDZbimBa0cZEETV633mhyn4yrSUWZ3Ko7d8\"}}",
+                  "sqpath" : "/Data/cookie",
+                  "dqpath" : "/Data/cookie"
+                },
+                "session" : {
+                  "type" : "STRING",
+                  "value" : "{\"_domain\":{\"domain\":\"daekyo-stable.knowreapp.com\"},\"_secret\":\"knowre_prod\",\"_cookieKey\":\"connect.sid\",\"connectedAt\":\"2018-12-31T02:59:22.402Z\",\"userID\":157327,\"userName\":\"\",\"curriculum_id\":13,\"curriculum_type\":\"SEMESTER\",\"difficulty\":25,\"productType\":\"MID\",\"externalAccount\":\"000S-0054486071\",\"token_account\":\"000S-0054486071\",\"stamp\":\"sha1$e062fc1c$1$ea40c043c8dc0c19fb0d9dd8818d1a41d775bdc4\",\"clientVersion\":7160799,\"userDPI\":240,\"api_version\":\"v2\",\"tick\":11,\"lessonInfo\":{\"lessonType\":\"CTEST\",\"chapterId\":13442,\"curriculumId\":13,\"curriculumType\":\"SEMESTER\",\"compositeId\":\"KNRCTES11006\"},\"lessonExternalKey\":\"KNRCTES11006\",\"activity\":{\"trialID\":\"157327I3T10086152264\",\"unitID\":4733,\"isStep\":false},\"tryCount\":1,\"retry\":null,\"iat\":1546225213,\"exp\":1546230613,\"_tokenHash\":\"00795430f1c3e033fe739a7728e44a74\"}",
+                  "sqpath" : "/Data/session",
+                  "dqpath" : "/Data/session"
+                },
+                "ip" : {
+                  "type" : "STRING",
+                  "value" : "106.240.116.148, 10.20.158.60",
+                  "sqpath" : "/Data/ip",
+                  "dqpath" : "/Data/ip"
+                },
+                "session_id" : {
+                  "type" : "STRING",
+                  "value" : "157327T6225162427Dbd4650",
+                  "sqpath" : "/Data/session_id",
+                  "dqpath" : "/Data/session_id"
+                },
+                "created_at" : {
+                  "type" : "DATETIME",
+                  "value" : 1546225213000,
+                  "sqpath" : "/Data/created_at",
+                  "dqpath" : "/Data/created_at"
+                },
+                "browser_alias" : {
+                  "type" : "STRING",
+                  "value" : null,
+                  "sqpath" : "/Data/browser_alias",
+                  "dqpath" : "/Data/browser_alias"
+                },
+                "url" : {
+                  "type" : "STRING",
+                  "value" : "/api/v2/problem/solution?errorCode=true&timestamp=1546225212462",
+                  "sqpath" : "/Data/url",
+                  "dqpath" : "/Data/url"
+                },
+                "result" : {
+                  "type" : "INTEGER",
+                  "value" : "1",
+                  "sqpath" : "/Data/result",
+                  "dqpath" : "/Data/result"
+                },
+                "router" : {
+                  "type" : "STRING",
+                  "value" : "daekyo-stable.knowreapp.com:31",
+                  "sqpath" : "/Data/router",
+                  "dqpath" : "/Data/router"
+                },
+                "trace" : {
+                  "type" : "STRING",
+                  "value" : "{\"msg\":\"trace\",\"elapsedTime\":null,\"req\":{\"ip\":\"106.240.116.148, 10.20.158.60\",\"protocol\":\"http\",\"host\":\"daekyo-stable.knowreapp.com\",\"url\":\"/api/v2/problem/solution?errorCode=true&timestamp=1546225212462\",\"userAgent\":\"okhttp/3.10.0\",\"parameter\":{\"query\":{\"errorCode\":\"true\",\"timestamp\":\"1546225212462\"}},\"sid\":\"\",\"timestamp\":\"2018-12-31T03:00:13.779Z\",\"elapsed\":78786720,\"method\":\"POST\",\"aws_instance_id\":\"i-0e2d6dac97ae251e5\",\"performance\":78.78672},\"error\":null}",
+                  "sqpath" : "/Data/trace",
+                  "dqpath" : "/Data/trace"
+                },
+                "removed_at" : {
+                  "type" : "DATETIME",
+                  "value" : null,
+                  "sqpath" : "/Data/removed_at",
+                  "dqpath" : "/Data/removed_at"
+                },
+                "user_id" : {
+                  "type" : "INTEGER",
+                  "value" : "157327",
+                  "sqpath" : "/Data/user_id",
+                  "dqpath" : "/Data/user_id"
+                },
+                "browser" : {
+                  "type" : "STRING",
+                  "value" : "okhttp/3.10.0",
+                  "sqpath" : "/Data/browser",
+                  "dqpath" : "/Data/browser"
+                },
+                "id" : {
+                  "type" : "INTEGER",
+                  "value" : "352125246",
+                  "sqpath" : "/Data/id",
+                  "dqpath" : "/Data/id"
+                },
+                "modified_at" : {
+                  "type" : "DATETIME",
+                  "value" : 1546225213000,
+                  "sqpath" : "/Data/modified_at",
+                  "dqpath" : "/Data/modified_at"
+                },
+                "parameters" : {
+                  "type" : "STRING",
+                  "value" : "{\"query\":{\"errorCode\":\"true\",\"timestamp\":\"1546225212462\"},\"body\":{\"input\":\"{\\\"lessonInfo\\\":{\\\"curriculumId\\\":13,\\\"curriculumType\\\":\\\"SEMESTER\\\",\\\"compositeId\\\":\\\"KNRCTES11006\\\",\\\"lessonType\\\":\\\"CTEST\\\",\\\"chapterId\\\":13442},\\\"problemId\\\":288476}\"}}",
+                  "sqpath" : "/Data/parameters",
+                  "dqpath" : "/Data/parameters"
+                },
+                "req" : {
+                  "type" : "STRING",
+                  "value" : null,
+                  "sqpath" : "/Data/req",
+                  "dqpath" : "/Data/req"
+                }
+              },
+              "sqpath" : "/Data",
+              "dqpath" : "/Data"
+            },
+            "Timestamp" : {
+              "type" : "LONG",
+              "value" : "1546225213000",
+              "sqpath" : "/Timestamp",
+              "dqpath" : "/Timestamp"
+            },
+            "Offset" : {
+              "type" : "STRING",
+              "value" : "mysql-bin-changelog.001415:193457",
+              "sqpath" : "/Offset",
+              "dqpath" : "/Offset"
+            }
+          },
+          "sqpath" : "",
+          "dqpath" : ""
+        }
+      }, {
+        "header" : {
+          "stageCreator" : "MySQLBinaryLog_01",
+          "sourceId" : "mysql-bin-changelog.001415:194326",
+          "stagesPath" : "MySQLBinaryLog_01",
+          "trackingId" : "mysql-bin-changelog.001415:194326::MySQLBinaryLog_01",
+          "previousTrackingId" : null,
+          "raw" : null,
+          "rawMimeType" : null,
+          "errorDataCollectorId" : null,
+          "errorPipelineName" : null,
+          "errorStage" : null,
+          "errorStageLabel" : null,
+          "errorCode" : null,
+          "errorMessage" : null,
+          "errorTimestamp" : 0,
+          "errorStackTrace" : null,
+          "errorJobId" : null,
+          "values" : {
+            "sdc.operation.type" : "3"
+          }
+        },
+        "value" : {
+          "type" : "MAP",
+          "value" : {
+            "BinLogFilename" : {
+              "type" : "STRING",
+              "value" : "mysql-bin-changelog.001415",
+              "sqpath" : "/BinLogFilename",
+              "dqpath" : "/BinLogFilename"
+            },
+            "Type" : {
+              "type" : "STRING",
+              "value" : "UPDATE",
+              "sqpath" : "/Type",
+              "dqpath" : "/Type"
+            },
+            "Table" : {
+              "type" : "STRING",
+              "value" : "problem_logs",
+              "sqpath" : "/Table",
+              "dqpath" : "/Table"
+            },
+            "ServerId" : {
+              "type" : "LONG",
+              "value" : "1221695242",
+              "sqpath" : "/ServerId",
+              "dqpath" : "/ServerId"
+            },
+            "BinLogPosition" : {
+              "type" : "LONG",
+              "value" : "194326",
+              "sqpath" : "/BinLogPosition",
+              "dqpath" : "/BinLogPosition"
+            },
+            "Database" : {
+              "type" : "STRING",
+              "value" : "knowre2",
+              "sqpath" : "/Database",
+              "dqpath" : "/Database"
+            },
+            "OldData" : {
+              "type" : "MAP",
+              "value" : {
+                "trial_id" : {
+                  "type" : "STRING",
+                  "value" : "160941I3T13590242264",
+                  "sqpath" : "/OldData/trial_id",
+                  "dqpath" : "/OldData/trial_id"
+                },
+                "created_at" : {
+                  "type" : "DATETIME",
+                  "value" : 1546225197000,
+                  "sqpath" : "/OldData/created_at",
+                  "dqpath" : "/OldData/created_at"
+                },
+                "type" : {
+                  "type" : "INTEGER",
+                  "value" : "4",
+                  "sqpath" : "/OldData/type",
+                  "dqpath" : "/OldData/type"
+                },
+                "api_version" : {
+                  "type" : "STRING",
+                  "value" : "v2",
+                  "sqpath" : "/OldData/api_version",
+                  "dqpath" : "/OldData/api_version"
+                },
+                "lesson_id" : {
+                  "type" : "INTEGER",
+                  "value" : "72779",
+                  "sqpath" : "/OldData/lesson_id",
+                  "dqpath" : "/OldData/lesson_id"
+                },
+                "result" : {
+                  "type" : "INTEGER",
+                  "value" : null,
+                  "sqpath" : "/OldData/result",
+                  "dqpath" : "/OldData/result"
+                },
+                "removed_at" : {
+                  "type" : "DATETIME",
+                  "value" : null,
+                  "sqpath" : "/OldData/removed_at",
+                  "dqpath" : "/OldData/removed_at"
+                },
+                "answer" : {
+                  "type" : "STRING",
+                  "value" : null,
+                  "sqpath" : "/OldData/answer",
+                  "dqpath" : "/OldData/answer"
+                },
+                "user_id" : {
+                  "type" : "INTEGER",
+                  "value" : "160941",
+                  "sqpath" : "/OldData/user_id",
+                  "dqpath" : "/OldData/user_id"
+                },
+                "problem_id" : {
+                  "type" : "INTEGER",
+                  "value" : "465245",
+                  "sqpath" : "/OldData/problem_id",
+                  "dqpath" : "/OldData/problem_id"
+                },
+                "parent_id" : {
+                  "type" : "INTEGER",
+                  "value" : null,
+                  "sqpath" : "/OldData/parent_id",
+                  "dqpath" : "/OldData/parent_id"
+                },
+                "extra" : {
+                  "type" : "STRING",
+                  "value" : null,
+                  "sqpath" : "/OldData/extra",
+                  "dqpath" : "/OldData/extra"
+                },
+                "started_at" : {
+                  "type" : "DATETIME",
+                  "value" : 1546225197000,
+                  "sqpath" : "/OldData/started_at",
+                  "dqpath" : "/OldData/started_at"
+                },
+                "id" : {
+                  "type" : "INTEGER",
+                  "value" : "67196836",
+                  "sqpath" : "/OldData/id",
+                  "dqpath" : "/OldData/id"
+                },
+                "modified_at" : {
+                  "type" : "DATETIME",
+                  "value" : 1546225197000,
+                  "sqpath" : "/OldData/modified_at",
+                  "dqpath" : "/OldData/modified_at"
+                },
+                "unit_id" : {
+                  "type" : "INTEGER",
+                  "value" : "26921",
+                  "sqpath" : "/OldData/unit_id",
+                  "dqpath" : "/OldData/unit_id"
+                },
+                "is_step" : {
+                  "type" : "INTEGER",
+                  "value" : "1",
+                  "sqpath" : "/OldData/is_step",
+                  "dqpath" : "/OldData/is_step"
+                }
+              },
+              "sqpath" : "/OldData",
+              "dqpath" : "/OldData"
+            },
+            "Data" : {
+              "type" : "MAP",
+              "value" : {
+                "trial_id" : {
+                  "type" : "STRING",
+                  "value" : "160941I3T13590242264",
+                  "sqpath" : "/Data/trial_id",
+                  "dqpath" : "/Data/trial_id"
+                },
+                "created_at" : {
+                  "type" : "DATETIME",
+                  "value" : 1546225197000,
+                  "sqpath" : "/Data/created_at",
+                  "dqpath" : "/Data/created_at"
+                },
+                "type" : {
+                  "type" : "INTEGER",
+                  "value" : "4",
+                  "sqpath" : "/Data/type",
+                  "dqpath" : "/Data/type"
+                },
+                "api_version" : {
+                  "type" : "STRING",
+                  "value" : "v2",
+                  "sqpath" : "/Data/api_version",
+                  "dqpath" : "/Data/api_version"
+                },
+                "lesson_id" : {
+                  "type" : "INTEGER",
+                  "value" : "72779",
+                  "sqpath" : "/Data/lesson_id",
+                  "dqpath" : "/Data/lesson_id"
+                },
+                "result" : {
+                  "type" : "INTEGER",
+                  "value" : "0",
+                  "sqpath" : "/Data/result",
+                  "dqpath" : "/Data/result"
+                },
+                "removed_at" : {
+                  "type" : "DATETIME",
+                  "value" : null,
+                  "sqpath" : "/Data/removed_at",
+                  "dqpath" : "/Data/removed_at"
+                },
+                "answer" : {
+                  "type" : "STRING",
+                  "value" : "[{\"type\":\"Block\",\"value\":[]},{\"type\":\"Block\",\"value\":[]},{\"type\":\"Block\",\"value\":[{\"type\":\"Static\"},{\"type\":\"Static\"},{\"type\":\"Static\"},{\"type\":\"Static\"},{\"type\":\"Static\"},{\"type\":\"Static\"},{\"type\":\"Static\"},{\"type\":\"Static\"},{\"type\":\"Static\"},{\"type\":\"Static\"},{\"type\":\"Static\"},{\"type\":\"Block\",\"value\":[]},{\"type\":\"Block\",\"value\":[{\"type\":\"Partial\",\"object\":[{\"type\":\"Input\",\"mode\":\"math\",\"value\":\"3\",\"order\":\"1\"},{\"type\":\"Input\",\"mode\":\"math\",\"value\":\"8\",\"order\":\"1\"},{\"type\":\"Input\",\"mode\":\"math\",\"value\":\"2\",\"order\":\"2\"}]}]}]}]",
+                  "sqpath" : "/Data/answer",
+                  "dqpath" : "/Data/answer"
+                },
+                "user_id" : {
+                  "type" : "INTEGER",
+                  "value" : "160941",
+                  "sqpath" : "/Data/user_id",
+                  "dqpath" : "/Data/user_id"
+                },
+                "problem_id" : {
+                  "type" : "INTEGER",
+                  "value" : "465245",
+                  "sqpath" : "/Data/problem_id",
+                  "dqpath" : "/Data/problem_id"
+                },
+                "parent_id" : {
+                  "type" : "INTEGER",
+                  "value" : "465240",
+                  "sqpath" : "/Data/parent_id",
+                  "dqpath" : "/Data/parent_id"
+                },
+                "extra" : {
+                  "type" : "STRING",
+                  "value" : null,
+                  "sqpath" : "/Data/extra",
+                  "dqpath" : "/Data/extra"
+                },
+                "started_at" : {
+                  "type" : "DATETIME",
+                  "value" : 1546225197000,
+                  "sqpath" : "/Data/started_at",
+                  "dqpath" : "/Data/started_at"
+                },
+                "id" : {
+                  "type" : "INTEGER",
+                  "value" : "67196836",
+                  "sqpath" : "/Data/id",
+                  "dqpath" : "/Data/id"
+                },
+                "modified_at" : {
+                  "type" : "DATETIME",
+                  "value" : 1546225213000,
+                  "sqpath" : "/Data/modified_at",
+                  "dqpath" : "/Data/modified_at"
+                },
+                "unit_id" : {
+                  "type" : "INTEGER",
+                  "value" : "26921",
+                  "sqpath" : "/Data/unit_id",
+                  "dqpath" : "/Data/unit_id"
+                },
+                "is_step" : {
+                  "type" : "INTEGER",
+                  "value" : "1",
+                  "sqpath" : "/Data/is_step",
+                  "dqpath" : "/Data/is_step"
+                }
+              },
+              "sqpath" : "/Data",
+              "dqpath" : "/Data"
+            },
+            "Timestamp" : {
+              "type" : "LONG",
+              "value" : "1546225213000",
+              "sqpath" : "/Timestamp",
+              "dqpath" : "/Timestamp"
+            },
+            "Offset" : {
+              "type" : "STRING",
+              "value" : "mysql-bin-changelog.001415:194326",
+              "sqpath" : "/Offset",
+              "dqpath" : "/Offset"
+            }
+          },
+          "sqpath" : "",
+          "dqpath" : ""
+        }
+      } ]
+    },
+    "errorRecords" : [ ],
+    "stageErrors" : null,
+    "eventRecords" : [ ]
+  }, {
+    "instanceName" : "ToEvent_01",
+    "output" : { },
+    "errorRecords" : [ ],
+    "stageErrors" : null,
+    "eventRecords" : [ {
+      "header" : {
+        "stageCreator" : "ToEvent_01",
+        "sourceId" : "event:event-target:1:1",
+        "stagesPath" : "ToEvent_01",
+        "trackingId" : "event:event-target:1:1::ToEvent_01",
+        "previousTrackingId" : null,
+        "raw" : null,
+        "rawMimeType" : null,
+        "errorDataCollectorId" : null,
+        "errorPipelineName" : null,
+        "errorStage" : null,
+        "errorStageLabel" : null,
+        "errorCode" : null,
+        "errorMessage" : null,
+        "errorTimestamp" : 0,
+        "errorStackTrace" : null,
+        "errorJobId" : null,
+        "values" : {
+          "sdc.event.version" : "1",
+          "sdc.event.creation_timestamp" : "1546225214485",
+          "sdc.event.type" : "event-target"
+        }
+      },
+      "value" : {
+        "type" : "MAP",
+        "value" : {
+          "BinLogFilename" : {
+            "type" : "STRING",
+            "value" : "mysql-bin-changelog.001415",
+            "sqpath" : "/BinLogFilename",
+            "dqpath" : "/BinLogFilename"
+          },
+          "Type" : {
+            "type" : "STRING",
+            "value" : "UPDATE",
+            "sqpath" : "/Type",
+            "dqpath" : "/Type"
+          },
+          "Table" : {
+            "type" : "STRING",
+            "value" : "problem_logs",
+            "sqpath" : "/Table",
+            "dqpath" : "/Table"
+          },
+          "ServerId" : {
+            "type" : "LONG",
+            "value" : "1221695242",
+            "sqpath" : "/ServerId",
+            "dqpath" : "/ServerId"
+          },
+          "BinLogPosition" : {
+            "type" : "LONG",
+            "value" : "175892",
+            "sqpath" : "/BinLogPosition",
+            "dqpath" : "/BinLogPosition"
+          },
+          "Database" : {
+            "type" : "STRING",
+            "value" : "knowre2",
+            "sqpath" : "/Database",
+            "dqpath" : "/Database"
+          },
+          "OldData" : {
+            "type" : "MAP",
+            "value" : {
+              "trial_id" : {
+                "type" : "STRING",
+                "value" : "157327I3T10086152264",
+                "sqpath" : "/OldData/trial_id",
+                "dqpath" : "/OldData/trial_id"
+              },
+              "created_at" : {
+                "type" : "DATETIME",
+                "value" : 1546225204000,
+                "sqpath" : "/OldData/created_at",
+                "dqpath" : "/OldData/created_at"
+              },
+              "type" : {
+                "type" : "INTEGER",
+                "value" : "5",
+                "sqpath" : "/OldData/type",
+                "dqpath" : "/OldData/type"
+              },
+              "api_version" : {
+                "type" : "STRING",
+                "value" : "v2",
+                "sqpath" : "/OldData/api_version",
+                "dqpath" : "/OldData/api_version"
+              },
+              "lesson_id" : {
+                "type" : "INTEGER",
+                "value" : "13442",
+                "sqpath" : "/OldData/lesson_id",
+                "dqpath" : "/OldData/lesson_id"
+              },
+              "result" : {
+                "type" : "INTEGER",
+                "value" : null,
+                "sqpath" : "/OldData/result",
+                "dqpath" : "/OldData/result"
+              },
+              "removed_at" : {
+                "type" : "DATETIME",
+                "value" : null,
+                "sqpath" : "/OldData/removed_at",
+                "dqpath" : "/OldData/removed_at"
+              },
+              "answer" : {
+                "type" : "STRING",
+                "value" : null,
+                "sqpath" : "/OldData/answer",
+                "dqpath" : "/OldData/answer"
+              },
+              "user_id" : {
+                "type" : "INTEGER",
+                "value" : "157327",
+                "sqpath" : "/OldData/user_id",
+                "dqpath" : "/OldData/user_id"
+              },
+              "problem_id" : {
+                "type" : "INTEGER",
+                "value" : "288476",
+                "sqpath" : "/OldData/problem_id",
+                "dqpath" : "/OldData/problem_id"
+              },
+              "parent_id" : {
+                "type" : "INTEGER",
+                "value" : null,
+                "sqpath" : "/OldData/parent_id",
+                "dqpath" : "/OldData/parent_id"
+              },
+              "extra" : {
+                "type" : "STRING",
+                "value" : null,
+                "sqpath" : "/OldData/extra",
+                "dqpath" : "/OldData/extra"
+              },
+              "started_at" : {
+                "type" : "DATETIME",
+                "value" : 1546225204000,
+                "sqpath" : "/OldData/started_at",
+                "dqpath" : "/OldData/started_at"
+              },
+              "id" : {
+                "type" : "INTEGER",
+                "value" : "67196839",
+                "sqpath" : "/OldData/id",
+                "dqpath" : "/OldData/id"
+              },
+              "modified_at" : {
+                "type" : "DATETIME",
+                "value" : 1546225204000,
+                "sqpath" : "/OldData/modified_at",
+                "dqpath" : "/OldData/modified_at"
+              },
+              "unit_id" : {
+                "type" : "INTEGER",
+                "value" : "4733",
+                "sqpath" : "/OldData/unit_id",
+                "dqpath" : "/OldData/unit_id"
+              },
+              "is_step" : {
+                "type" : "INTEGER",
+                "value" : "0",
+                "sqpath" : "/OldData/is_step",
+                "dqpath" : "/OldData/is_step"
+              }
+            },
+            "sqpath" : "/OldData",
+            "dqpath" : "/OldData"
+          },
+          "Data" : {
+            "type" : "MAP",
+            "value" : {
+              "trial_id" : {
+                "type" : "STRING",
+                "value" : "157327I3T10086152264",
+                "sqpath" : "/Data/trial_id",
+                "dqpath" : "/Data/trial_id"
+              },
+              "created_at" : {
+                "type" : "DATETIME",
+                "value" : 1546225204000,
+                "sqpath" : "/Data/created_at",
+                "dqpath" : "/Data/created_at"
+              },
+              "type" : {
+                "type" : "INTEGER",
+                "value" : "5",
+                "sqpath" : "/Data/type",
+                "dqpath" : "/Data/type"
+              },
+              "api_version" : {
+                "type" : "STRING",
+                "value" : "v2",
+                "sqpath" : "/Data/api_version",
+                "dqpath" : "/Data/api_version"
+              },
+              "lesson_id" : {
+                "type" : "INTEGER",
+                "value" : "13442",
+                "sqpath" : "/Data/lesson_id",
+                "dqpath" : "/Data/lesson_id"
+              },
+              "result" : {
+                "type" : "INTEGER",
+                "value" : "1",
+                "sqpath" : "/Data/result",
+                "dqpath" : "/Data/result"
+              },
+              "removed_at" : {
+                "type" : "DATETIME",
+                "value" : null,
+                "sqpath" : "/Data/removed_at",
+                "dqpath" : "/Data/removed_at"
+              },
+              "answer" : {
+                "type" : "STRING",
+                "value" : "[{\"type\":\"Block\",\"value\":[]},{\"type\":\"Block\",\"value\":[]},{\"type\":\"Block\",\"value\":[{\"type\":\"Static\"},{\"type\":\"Static\"},{\"type\":\"Static\"},{\"type\":\"Static\"},{\"type\":\"Block\",\"value\":[]},{\"type\":\"Block\",\"value\":[{\"type\":\"Input\",\"mode\":\"math\",\"value\":\"23\",\"order\":1},{\"type\":\"Static\"},{\"type\":\"Input\",\"mode\":\"math\",\"value\":\"29\",\"order\":1}]}]}]",
+                "sqpath" : "/Data/answer",
+                "dqpath" : "/Data/answer"
+              },
+              "user_id" : {
+                "type" : "INTEGER",
+                "value" : "157327",
+                "sqpath" : "/Data/user_id",
+                "dqpath" : "/Data/user_id"
+              },
+              "problem_id" : {
+                "type" : "INTEGER",
+                "value" : "288476",
+                "sqpath" : "/Data/problem_id",
+                "dqpath" : "/Data/problem_id"
+              },
+              "parent_id" : {
+                "type" : "INTEGER",
+                "value" : "-1",
+                "sqpath" : "/Data/parent_id",
+                "dqpath" : "/Data/parent_id"
+              },
+              "extra" : {
+                "type" : "STRING",
+                "value" : null,
+                "sqpath" : "/Data/extra",
+                "dqpath" : "/Data/extra"
+              },
+              "started_at" : {
+                "type" : "DATETIME",
+                "value" : 1546225204000,
+                "sqpath" : "/Data/started_at",
+                "dqpath" : "/Data/started_at"
+              },
+              "id" : {
+                "type" : "INTEGER",
+                "value" : "67196839",
+                "sqpath" : "/Data/id",
+                "dqpath" : "/Data/id"
+              },
+              "modified_at" : {
+                "type" : "DATETIME",
+                "value" : 1546225213000,
+                "sqpath" : "/Data/modified_at",
+                "dqpath" : "/Data/modified_at"
+              },
+              "unit_id" : {
+                "type" : "INTEGER",
+                "value" : "4733",
+                "sqpath" : "/Data/unit_id",
+                "dqpath" : "/Data/unit_id"
+              },
+              "is_step" : {
+                "type" : "INTEGER",
+                "value" : "0",
+                "sqpath" : "/Data/is_step",
+                "dqpath" : "/Data/is_step"
+              }
+            },
+            "sqpath" : "/Data",
+            "dqpath" : "/Data"
+          },
+          "Timestamp" : {
+            "type" : "LONG",
+            "value" : "1546225213000",
+            "sqpath" : "/Timestamp",
+            "dqpath" : "/Timestamp"
+          },
+          "Offset" : {
+            "type" : "STRING",
+            "value" : "mysql-bin-changelog.001415:175892",
+            "sqpath" : "/Offset",
+            "dqpath" : "/Offset"
+          }
+        },
+        "sqpath" : "",
+        "dqpath" : ""
+      }
+    }, {
+      "header" : {
+        "stageCreator" : "ToEvent_01",
+        "sourceId" : "event:event-target:1:2",
+        "stagesPath" : "ToEvent_01",
+        "trackingId" : "event:event-target:1:2::ToEvent_01",
+        "previousTrackingId" : null,
+        "raw" : null,
+        "rawMimeType" : null,
+        "errorDataCollectorId" : null,
+        "errorPipelineName" : null,
+        "errorStage" : null,
+        "errorStageLabel" : null,
+        "errorCode" : null,
+        "errorMessage" : null,
+        "errorTimestamp" : 0,
+        "errorStackTrace" : null,
+        "errorJobId" : null,
+        "values" : {
+          "sdc.event.version" : "1",
+          "sdc.event.creation_timestamp" : "1546225214485",
+          "sdc.event.type" : "event-target"
+        }
+      },
+      "value" : {
+        "type" : "MAP",
+        "value" : {
+          "BinLogFilename" : {
+            "type" : "STRING",
+            "value" : "mysql-bin-changelog.001415",
+            "sqpath" : "/BinLogFilename",
+            "dqpath" : "/BinLogFilename"
+          },
+          "Type" : {
+            "type" : "STRING",
+            "value" : "UPDATE",
+            "sqpath" : "/Type",
+            "dqpath" : "/Type"
+          },
+          "Table" : {
+            "type" : "STRING",
+            "value" : "unit_achs",
+            "sqpath" : "/Table",
+            "dqpath" : "/Table"
+          },
+          "ServerId" : {
+            "type" : "LONG",
+            "value" : "1221695242",
+            "sqpath" : "/ServerId",
+            "dqpath" : "/ServerId"
+          },
+          "BinLogPosition" : {
+            "type" : "LONG",
+            "value" : "176120",
+            "sqpath" : "/BinLogPosition",
+            "dqpath" : "/BinLogPosition"
+          },
+          "Database" : {
+            "type" : "STRING",
+            "value" : "knowre2",
+            "sqpath" : "/Database",
+            "dqpath" : "/Database"
+          },
+          "OldData" : {
+            "type" : "MAP",
+            "value" : {
+              "score" : {
+                "type" : "INTEGER",
+                "value" : "2",
+                "sqpath" : "/OldData/score",
+                "dqpath" : "/OldData/score"
+              },
+              "removed_at" : {
+                "type" : "DATETIME",
+                "value" : null,
+                "sqpath" : "/OldData/removed_at",
+                "dqpath" : "/OldData/removed_at"
+              },
+              "user_id" : {
+                "type" : "INTEGER",
+                "value" : "157327",
+                "sqpath" : "/OldData/user_id",
+                "dqpath" : "/OldData/user_id"
+              },
+              "created_at" : {
+                "type" : "DATETIME",
+                "value" : 1544606165000,
+                "sqpath" : "/OldData/created_at",
+                "dqpath" : "/OldData/created_at"
+              },
+              "id" : {
+                "type" : "INTEGER",
+                "value" : "40417065",
+                "sqpath" : "/OldData/id",
+                "dqpath" : "/OldData/id"
+              },
+              "modified_at" : {
+                "type" : "DATETIME",
+                "value" : 1545904500000,
+                "sqpath" : "/OldData/modified_at",
+                "dqpath" : "/OldData/modified_at"
+              },
+              "unit_id" : {
+                "type" : "INTEGER",
+                "value" : "4733",
+                "sqpath" : "/OldData/unit_id",
+                "dqpath" : "/OldData/unit_id"
+              }
+            },
+            "sqpath" : "/OldData",
+            "dqpath" : "/OldData"
+          },
+          "Data" : {
+            "type" : "MAP",
+            "value" : {
+              "score" : {
+                "type" : "INTEGER",
+                "value" : "2",
+                "sqpath" : "/Data/score",
+                "dqpath" : "/Data/score"
+              },
+              "removed_at" : {
+                "type" : "DATETIME",
+                "value" : null,
+                "sqpath" : "/Data/removed_at",
+                "dqpath" : "/Data/removed_at"
+              },
+              "user_id" : {
+                "type" : "INTEGER",
+                "value" : "157327",
+                "sqpath" : "/Data/user_id",
+                "dqpath" : "/Data/user_id"
+              },
+              "created_at" : {
+                "type" : "DATETIME",
+                "value" : 1544606165000,
+                "sqpath" : "/Data/created_at",
+                "dqpath" : "/Data/created_at"
+              },
+              "id" : {
+                "type" : "INTEGER",
+                "value" : "40417065",
+                "sqpath" : "/Data/id",
+                "dqpath" : "/Data/id"
+              },
+              "modified_at" : {
+                "type" : "DATETIME",
+                "value" : 1546225213000,
+                "sqpath" : "/Data/modified_at",
+                "dqpath" : "/Data/modified_at"
+              },
+              "unit_id" : {
+                "type" : "INTEGER",
+                "value" : "4733",
+                "sqpath" : "/Data/unit_id",
+                "dqpath" : "/Data/unit_id"
+              }
+            },
+            "sqpath" : "/Data",
+            "dqpath" : "/Data"
+          },
+          "Timestamp" : {
+            "type" : "LONG",
+            "value" : "1546225213000",
+            "sqpath" : "/Timestamp",
+            "dqpath" : "/Timestamp"
+          },
+          "Offset" : {
+            "type" : "STRING",
+            "value" : "mysql-bin-changelog.001415:176120",
+            "sqpath" : "/Offset",
+            "dqpath" : "/Offset"
+          }
+        },
+        "sqpath" : "",
+        "dqpath" : ""
+      }
+    }, {
+      "header" : {
+        "stageCreator" : "ToEvent_01",
+        "sourceId" : "event:event-target:1:3",
+        "stagesPath" : "ToEvent_01",
+        "trackingId" : "event:event-target:1:3::ToEvent_01",
+        "previousTrackingId" : null,
+        "raw" : null,
+        "rawMimeType" : null,
+        "errorDataCollectorId" : null,
+        "errorPipelineName" : null,
+        "errorStage" : null,
+        "errorStageLabel" : null,
+        "errorCode" : null,
+        "errorMessage" : null,
+        "errorTimestamp" : 0,
+        "errorStackTrace" : null,
+        "errorJobId" : null,
+        "values" : {
+          "sdc.event.version" : "1",
+          "sdc.event.creation_timestamp" : "1546225214485",
+          "sdc.event.type" : "event-target"
+        }
+      },
+      "value" : {
+        "type" : "MAP",
+        "value" : {
+          "BinLogFilename" : {
+            "type" : "STRING",
+            "value" : "mysql-bin-changelog.001415",
+            "sqpath" : "/BinLogFilename",
+            "dqpath" : "/BinLogFilename"
+          },
+          "Type" : {
+            "type" : "STRING",
+            "value" : "UPDATE",
+            "sqpath" : "/Type",
+            "dqpath" : "/Type"
+          },
+          "Table" : {
+            "type" : "STRING",
+            "value" : "lesson_logs",
+            "sqpath" : "/Table",
+            "dqpath" : "/Table"
+          },
+          "ServerId" : {
+            "type" : "LONG",
+            "value" : "1221695242",
+            "sqpath" : "/ServerId",
+            "dqpath" : "/ServerId"
+          },
+          "BinLogPosition" : {
+            "type" : "LONG",
+            "value" : "183411",
+            "sqpath" : "/BinLogPosition",
+            "dqpath" : "/BinLogPosition"
+          },
+          "Database" : {
+            "type" : "STRING",
+            "value" : "knowre2",
+            "sqpath" : "/Database",
+            "dqpath" : "/Database"
+          },
+          "OldData" : {
+            "type" : "MAP",
+            "value" : {
+              "created_at" : {
+                "type" : "DATETIME",
+                "value" : 1546225168000,
+                "sqpath" : "/OldData/created_at",
+                "dqpath" : "/OldData/created_at"
+              },
+              "type" : {
+                "type" : "INTEGER",
+                "value" : "5",
+                "sqpath" : "/OldData/type",
+                "dqpath" : "/OldData/type"
+              },
+              "lesson_id" : {
+                "type" : "INTEGER",
+                "value" : "13442",
+                "sqpath" : "/OldData/lesson_id",
+                "dqpath" : "/OldData/lesson_id"
+              },
+              "difficulty" : {
+                "type" : "INTEGER",
+                "value" : "25",
+                "sqpath" : "/OldData/difficulty",
+                "dqpath" : "/OldData/difficulty"
+              },
+              "score" : {
+                "type" : "INTEGER",
+                "value" : "-1",
+                "sqpath" : "/OldData/score",
+                "dqpath" : "/OldData/score"
+              },
+              "time_left" : {
+                "type" : "INTEGER",
+                "value" : "-1",
+                "sqpath" : "/OldData/time_left",
+                "dqpath" : "/OldData/time_left"
+              },
+              "removed_at" : {
+                "type" : "DATETIME",
+                "value" : null,
+                "sqpath" : "/OldData/removed_at",
+                "dqpath" : "/OldData/removed_at"
+              },
+              "user_id" : {
+                "type" : "INTEGER",
+                "value" : "157327",
+                "sqpath" : "/OldData/user_id",
+                "dqpath" : "/OldData/user_id"
+              },
+              "payment_id" : {
+                "type" : "INTEGER",
+                "value" : null,
+                "sqpath" : "/OldData/payment_id",
+                "dqpath" : "/OldData/payment_id"
+              },
+              "extra" : {
+                "type" : "STRING",
+                "value" : null,
+                "sqpath" : "/OldData/extra",
+                "dqpath" : "/OldData/extra"
+              },
+              "progress" : {
+                "type" : "INTEGER",
+                "value" : "0",
+                "sqpath" : "/OldData/progress",
+                "dqpath" : "/OldData/progress"
+              },
+              "started_at" : {
+                "type" : "DATETIME",
+                "value" : 1546225175000,
+                "sqpath" : "/OldData/started_at",
+                "dqpath" : "/OldData/started_at"
+              },
+              "id" : {
+                "type" : "INTEGER",
+                "value" : "3926711",
+                "sqpath" : "/OldData/id",
+                "dqpath" : "/OldData/id"
+              },
+              "modified_at" : {
+                "type" : "DATETIME",
+                "value" : 1546225204000,
+                "sqpath" : "/OldData/modified_at",
+                "dqpath" : "/OldData/modified_at"
+              },
+              "problems" : {
+                "type" : "STRING",
+                "value" : "[{\"ptrn\":0,\"unit\":4800,\"prob\":288372,\"trialID\":\"157327I0T10086152264\",\"status\":\"R\",\"publishType\":\"D\",\"publishCount\":1,\"timeStart\":\"2018-12-31T02:59:36.223Z\",\"stepExist\":false,\"tryCount\":1,\"apiVersion\":\"v2\",\"result\":true,\"score\":100,\"timeEnd\":\"2018-12-31T02:59:43.318Z\"},{\"ptrn\":0,\"unit\":4802,\"prob\":288412,\"trialID\":\"157327I1T10086152264\",\"status\":\"R\",\"publishType\":\"D\",\"publishCount\":1,\"timeStart\":\"2018-12-31T02:59:43.692Z\",\"stepExist\":false,\"tryCount\":1,\"apiVersion\":\"v2\",\"result\":true,\"score\":100,\"timeEnd\":\"2018-12-31T02:59:50.140Z\"},{\"ptrn\":0,\"unit\":4804,\"prob\":288451,\"trialID\":\"157327I2T10086152264\",\"status\":\"R\",\"publishType\":\"D\",\"publishCount\":1,\"timeStart\":\"2018-12-31T02:59:50.642Z\",\"stepExist\":false,\"tryCount\":1,\"apiVersion\":\"v2\",\"result\":true,\"score\":100,\"timeEnd\":\"2018-12-31T03:00:03.995Z\"},{\"ptrn\":0,\"unit\":4733,\"prob\":288476,\"trialID\":\"157327I3T10086152264\",\"status\":\"\",\"publishType\":\"D\",\"publishCount\":1,\"timeStart\":\"2018-12-31T03:00:04.439Z\",\"stepExist\":false,\"tryCount\":0,\"apiVersion\":\"v2\"},{\"ptrn\":0,\"unit\":4807,\"prob\":288612,\"trialID\":\"157327I4T10086152264\",\"status\":\"\",\"publishType\":\"D\",\"publishCount\":1},{\"ptrn\":0,\"unit\":4808,\"prob\":288664,\"trialID\":\"157327I5T10086152264\",\"status\":\"\",\"publishType\":\"D\",\"publishCount\":1},{\"ptrn\":0,\"unit\":6906,\"prob\":288827,\"trialID\":\"157327I6T10086152264\",\"status\":\"\",\"publishType\":\"D\",\"publishCount\":1},{\"ptrn\":0,\"unit\":4812,\"prob\":288952,\"trialID\":\"157327I7T10086152264\",\"status\":\"\",\"publishType\":\"D\",\"publishCount\":1},{\"ptrn\":0,\"unit\":4827,\"prob\":289013,\"trialID\":\"157327I8T10086152264\",\"status\":\"\",\"publishType\":\"D\",\"publishCount\":1},{\"ptrn\":0,\"unit\":4829,\"prob\":289098,\"trialID\":\"157327I9T10086152264\",\"status\":\"\",\"publishType\":\"D\",\"publishCount\":1},{\"ptrn\":0,\"unit\":4816,\"prob\":289167,\"trialID\":\"157327I10T1008615226\",\"status\":\"\",\"publishType\":\"D\",\"publishCount\":1},{\"ptrn\":0,\"unit\":4819,\"prob\":289227,\"trialID\":\"157327I11T1008615226\",\"status\":\"\",\"publishType\":\"D\",\"publishCount\":1},{\"ptrn\":0,\"unit\":4761,\"prob\":289356,\"trialID\":\"157327I12T1008615226\",\"status\":\"\",\"publishType\":\"D\",\"publishCount\":1},{\"ptrn\":0,\"unit\":4872,\"prob\":289372,\"trialID\":\"157327I13T1008615226\",\"status\":\"\",\"publishType\":\"D\",\"publishCount\":1},{\"ptrn\":0,\"unit\":4835,\"prob\":289694,\"trialID\":\"157327I14T1008615226\",\"status\":\"\",\"publishType\":\"D\",\"publishCount\":1},{\"ptrn\":0,\"unit\":4837,\"prob\":289882,\"trialID\":\"157327I15T1008615226\",\"status\":\"\",\"publishType\":\"D\",\"publishCount\":1},{\"ptrn\":0,\"unit\":4758,\"prob\":290213,\"trialID\":\"157327I16T1008615226\",\"status\":\"\",\"publishType\":\"D\",\"publishCount\":1},{\"ptrn\":0,\"unit\":6731,\"prob\":290237,\"trialID\":\"157327I17T1008615226\",\"status\":\"\",\"publishType\":\"D\",\"publishCount\":1},{\"ptrn\":0,\"unit\":4773,\"prob\":290293,\"trialID\":\"157327I18T1008615226\",\"status\":\"\",\"publishType\":\"D\",\"publishCount\":1},{\"ptrn\":0,\"unit\":7625,\"prob\":290361,\"trialID\":\"157327I19T1008615226\",\"status\":\"\",\"publishType\":\"D\",\"publishCount\":1},{\"ptrn\":0,\"unit\":4848,\"prob\":290580,\"trialID\":\"157327I20T1008615226\",\"status\":\"\",\"publishType\":\"D\",\"publishCount\":1},{\"ptrn\":0,\"unit\":4849,\"prob\":290625,\"trialID\":\"157327I21T1008615226\",\"status\":\"\",\"publishType\":\"D\",\"publishCount\":1},{\"ptrn\":0,\"unit\":4850,\"prob\":290668,\"trialID\":\"157327I22T1008615226\",\"status\":\"\",\"publishType\":\"D\",\"publishCount\":1},{\"ptrn\":0,\"unit\":4861,\"prob\":291089,\"trialID\":\"157327I23T1008615226\",\"status\":\"\",\"publishType\":\"D\",\"publishCount\":1},{\"ptrn\":0,\"unit\":4859,\"prob\":291219,\"trialID\":\"157327I24T1008615226\",\"status\":\"\",\"publishType\":\"D\",\"publishCount\":1}]",
+                "sqpath" : "/OldData/problems",
+                "dqpath" : "/OldData/problems"
+              }
+            },
+            "sqpath" : "/OldData",
+            "dqpath" : "/OldData"
+          },
+          "Data" : {
+            "type" : "MAP",
+            "value" : {
+              "created_at" : {
+                "type" : "DATETIME",
+                "value" : 1546225168000,
+                "sqpath" : "/Data/created_at",
+                "dqpath" : "/Data/created_at"
+              },
+              "type" : {
+                "type" : "INTEGER",
+                "value" : "5",
+                "sqpath" : "/Data/type",
+                "dqpath" : "/Data/type"
+              },
+              "lesson_id" : {
+                "type" : "INTEGER",
+                "value" : "13442",
+                "sqpath" : "/Data/lesson_id",
+                "dqpath" : "/Data/lesson_id"
+              },
+              "difficulty" : {
+                "type" : "INTEGER",
+                "value" : "25",
+                "sqpath" : "/Data/difficulty",
+                "dqpath" : "/Data/difficulty"
+              },
+              "score" : {
+                "type" : "INTEGER",
+                "value" : "-1",
+                "sqpath" : "/Data/score",
+                "dqpath" : "/Data/score"
+              },
+              "time_left" : {
+                "type" : "INTEGER",
+                "value" : "-1",
+                "sqpath" : "/Data/time_left",
+                "dqpath" : "/Data/time_left"
+              },
+              "removed_at" : {
+                "type" : "DATETIME",
+                "value" : null,
+                "sqpath" : "/Data/removed_at",
+                "dqpath" : "/Data/removed_at"
+              },
+              "user_id" : {
+                "type" : "INTEGER",
+                "value" : "157327",
+                "sqpath" : "/Data/user_id",
+                "dqpath" : "/Data/user_id"
+              },
+              "payment_id" : {
+                "type" : "INTEGER",
+                "value" : null,
+                "sqpath" : "/Data/payment_id",
+                "dqpath" : "/Data/payment_id"
+              },
+              "extra" : {
+                "type" : "STRING",
+                "value" : null,
+                "sqpath" : "/Data/extra",
+                "dqpath" : "/Data/extra"
+              },
+              "progress" : {
+                "type" : "INTEGER",
+                "value" : "0",
+                "sqpath" : "/Data/progress",
+                "dqpath" : "/Data/progress"
+              },
+              "started_at" : {
+                "type" : "DATETIME",
+                "value" : 1546225175000,
+                "sqpath" : "/Data/started_at",
+                "dqpath" : "/Data/started_at"
+              },
+              "id" : {
+                "type" : "INTEGER",
+                "value" : "3926711",
+                "sqpath" : "/Data/id",
+                "dqpath" : "/Data/id"
+              },
+              "modified_at" : {
+                "type" : "DATETIME",
+                "value" : 1546225213000,
+                "sqpath" : "/Data/modified_at",
+                "dqpath" : "/Data/modified_at"
+              },
+              "problems" : {
+                "type" : "STRING",
+                "value" : "[{\"ptrn\":0,\"unit\":4800,\"prob\":288372,\"trialID\":\"157327I0T10086152264\",\"status\":\"R\",\"publishType\":\"D\",\"publishCount\":1,\"timeStart\":\"2018-12-31T02:59:36.223Z\",\"stepExist\":false,\"tryCount\":1,\"apiVersion\":\"v2\",\"result\":true,\"score\":100,\"timeEnd\":\"2018-12-31T02:59:43.318Z\"},{\"ptrn\":0,\"unit\":4802,\"prob\":288412,\"trialID\":\"157327I1T10086152264\",\"status\":\"R\",\"publishType\":\"D\",\"publishCount\":1,\"timeStart\":\"2018-12-31T02:59:43.692Z\",\"stepExist\":false,\"tryCount\":1,\"apiVersion\":\"v2\",\"result\":true,\"score\":100,\"timeEnd\":\"2018-12-31T02:59:50.140Z\"},{\"ptrn\":0,\"unit\":4804,\"prob\":288451,\"trialID\":\"157327I2T10086152264\",\"status\":\"R\",\"publishType\":\"D\",\"publishCount\":1,\"timeStart\":\"2018-12-31T02:59:50.642Z\",\"stepExist\":false,\"tryCount\":1,\"apiVersion\":\"v2\",\"result\":true,\"score\":100,\"timeEnd\":\"2018-12-31T03:00:03.995Z\"},{\"ptrn\":0,\"unit\":4733,\"prob\":288476,\"trialID\":\"157327I3T10086152264\",\"status\":\"R\",\"publishType\":\"D\",\"publishCount\":1,\"timeStart\":\"2018-12-31T03:00:04.439Z\",\"stepExist\":false,\"tryCount\":1,\"apiVersion\":\"v2\",\"result\":true,\"score\":100,\"timeEnd\":\"2018-12-31T03:00:13.625Z\"},{\"ptrn\":0,\"unit\":4807,\"prob\":288612,\"trialID\":\"157327I4T10086152264\",\"status\":\"\",\"publishType\":\"D\",\"publishCount\":1},{\"ptrn\":0,\"unit\":4808,\"prob\":288664,\"trialID\":\"157327I5T10086152264\",\"status\":\"\",\"publishType\":\"D\",\"publishCount\":1},{\"ptrn\":0,\"unit\":6906,\"prob\":288827,\"trialID\":\"157327I6T10086152264\",\"status\":\"\",\"publishType\":\"D\",\"publishCount\":1},{\"ptrn\":0,\"unit\":4812,\"prob\":288952,\"trialID\":\"157327I7T10086152264\",\"status\":\"\",\"publishType\":\"D\",\"publishCount\":1},{\"ptrn\":0,\"unit\":4827,\"prob\":289013,\"trialID\":\"157327I8T10086152264\",\"status\":\"\",\"publishType\":\"D\",\"publishCount\":1},{\"ptrn\":0,\"unit\":4829,\"prob\":289098,\"trialID\":\"157327I9T10086152264\",\"status\":\"\",\"publishType\":\"D\",\"publishCount\":1},{\"ptrn\":0,\"unit\":4816,\"prob\":289167,\"trialID\":\"157327I10T1008615226\",\"status\":\"\",\"publishType\":\"D\",\"publishCount\":1},{\"ptrn\":0,\"unit\":4819,\"prob\":289227,\"trialID\":\"157327I11T1008615226\",\"status\":\"\",\"publishType\":\"D\",\"publishCount\":1},{\"ptrn\":0,\"unit\":4761,\"prob\":289356,\"trialID\":\"157327I12T1008615226\",\"status\":\"\",\"publishType\":\"D\",\"publishCount\":1},{\"ptrn\":0,\"unit\":4872,\"prob\":289372,\"trialID\":\"157327I13T1008615226\",\"status\":\"\",\"publishType\":\"D\",\"publishCount\":1},{\"ptrn\":0,\"unit\":4835,\"prob\":289694,\"trialID\":\"157327I14T1008615226\",\"status\":\"\",\"publishType\":\"D\",\"publishCount\":1},{\"ptrn\":0,\"unit\":4837,\"prob\":289882,\"trialID\":\"157327I15T1008615226\",\"status\":\"\",\"publishType\":\"D\",\"publishCount\":1},{\"ptrn\":0,\"unit\":4758,\"prob\":290213,\"trialID\":\"157327I16T1008615226\",\"status\":\"\",\"publishType\":\"D\",\"publishCount\":1},{\"ptrn\":0,\"unit\":6731,\"prob\":290237,\"trialID\":\"157327I17T1008615226\",\"status\":\"\",\"publishType\":\"D\",\"publishCount\":1},{\"ptrn\":0,\"unit\":4773,\"prob\":290293,\"trialID\":\"157327I18T1008615226\",\"status\":\"\",\"publishType\":\"D\",\"publishCount\":1},{\"ptrn\":0,\"unit\":7625,\"prob\":290361,\"trialID\":\"157327I19T1008615226\",\"status\":\"\",\"publishType\":\"D\",\"publishCount\":1},{\"ptrn\":0,\"unit\":4848,\"prob\":290580,\"trialID\":\"157327I20T1008615226\",\"status\":\"\",\"publishType\":\"D\",\"publishCount\":1},{\"ptrn\":0,\"unit\":4849,\"prob\":290625,\"trialID\":\"157327I21T1008615226\",\"status\":\"\",\"publishType\":\"D\",\"publishCount\":1},{\"ptrn\":0,\"unit\":4850,\"prob\":290668,\"trialID\":\"157327I22T1008615226\",\"status\":\"\",\"publishType\":\"D\",\"publishCount\":1},{\"ptrn\":0,\"unit\":4861,\"prob\":291089,\"trialID\":\"157327I23T1008615226\",\"status\":\"\",\"publishType\":\"D\",\"publishCount\":1},{\"ptrn\":0,\"unit\":4859,\"prob\":291219,\"trialID\":\"157327I24T1008615226\",\"status\":\"\",\"publishType\":\"D\",\"publishCount\":1}]",
+                "sqpath" : "/Data/problems",
+                "dqpath" : "/Data/problems"
+              }
+            },
+            "sqpath" : "/Data",
+            "dqpath" : "/Data"
+          },
+          "Timestamp" : {
+            "type" : "LONG",
+            "value" : "1546225213000",
+            "sqpath" : "/Timestamp",
+            "dqpath" : "/Timestamp"
+          },
+          "Offset" : {
+            "type" : "STRING",
+            "value" : "mysql-bin-changelog.001415:183411",
+            "sqpath" : "/Offset",
+            "dqpath" : "/Offset"
+          }
+        },
+        "sqpath" : "",
+        "dqpath" : ""
+      }
+    }, {
+      "header" : {
+        "stageCreator" : "ToEvent_01",
+        "sourceId" : "event:event-target:1:4",
+        "stagesPath" : "ToEvent_01",
+        "trackingId" : "event:event-target:1:4::ToEvent_01",
+        "previousTrackingId" : null,
+        "raw" : null,
+        "rawMimeType" : null,
+        "errorDataCollectorId" : null,
+        "errorPipelineName" : null,
+        "errorStage" : null,
+        "errorStageLabel" : null,
+        "errorCode" : null,
+        "errorMessage" : null,
+        "errorTimestamp" : 0,
+        "errorStackTrace" : null,
+        "errorJobId" : null,
+        "values" : {
+          "sdc.event.version" : "1",
+          "sdc.event.creation_timestamp" : "1546225214485",
+          "sdc.event.type" : "event-target"
+        }
+      },
+      "value" : {
+        "type" : "MAP",
+        "value" : {
+          "BinLogFilename" : {
+            "type" : "STRING",
+            "value" : "mysql-bin-changelog.001415",
+            "sqpath" : "/BinLogFilename",
+            "dqpath" : "/BinLogFilename"
+          },
+          "Type" : {
+            "type" : "STRING",
+            "value" : "INSERT",
+            "sqpath" : "/Type",
+            "dqpath" : "/Type"
+          },
+          "Table" : {
+            "type" : "STRING",
+            "value" : "server_logs2",
+            "sqpath" : "/Table",
+            "dqpath" : "/Table"
+          },
+          "ServerId" : {
+            "type" : "LONG",
+            "value" : "1221695242",
+            "sqpath" : "/ServerId",
+            "dqpath" : "/ServerId"
+          },
+          "BinLogPosition" : {
+            "type" : "LONG",
+            "value" : "184725",
+            "sqpath" : "/BinLogPosition",
+            "dqpath" : "/BinLogPosition"
+          },
+          "Database" : {
+            "type" : "STRING",
+            "value" : "knowre2",
+            "sqpath" : "/Database",
+            "dqpath" : "/Database"
+          },
+          "Data" : {
+            "type" : "MAP",
+            "value" : {
+              "os_alias" : {
+                "type" : "STRING",
+                "value" : null,
+                "sqpath" : "/Data/os_alias",
+                "dqpath" : "/Data/os_alias"
+              },
+              "method" : {
+                "type" : "INTEGER",
+                "value" : "1",
+                "sqpath" : "/Data/method",
+                "dqpath" : "/Data/method"
+              },
+              "os" : {
+                "type" : "STRING",
+                "value" : "Java/1.6.0_24",
+                "sqpath" : "/Data/os",
+                "dqpath" : "/Data/os"
+              },
+              "cookie" : {
+                "type" : "STRING",
+                "value" : "{\"cookie\":{}}",
+                "sqpath" : "/Data/cookie",
+                "dqpath" : "/Data/cookie"
+              },
+              "session" : {
+                "type" : "STRING",
+                "value" : "{\"_domain\":{\"domain\":\"daekyo-stable.knowreapp.com\"},\"_secret\":\"knowre_prod\",\"_cookieKey\":\"connect.sid\",\"tick\":1}",
+                "sqpath" : "/Data/session",
+                "dqpath" : "/Data/session"
+              },
+              "ip" : {
+                "type" : "STRING",
+                "value" : "211.234.44.221, 10.20.158.60",
+                "sqpath" : "/Data/ip",
+                "dqpath" : "/Data/ip"
+              },
+              "session_id" : {
+                "type" : "STRING",
+                "value" : null,
+                "sqpath" : "/Data/session_id",
+                "dqpath" : "/Data/session_id"
+              },
+              "created_at" : {
+                "type" : "DATETIME",
+                "value" : 1546225213000,
+                "sqpath" : "/Data/created_at",
+                "dqpath" : "/Data/created_at"
+              },
+              "browser_alias" : {
+                "type" : "STRING",
+                "value" : null,
+                "sqpath" : "/Data/browser_alias",
+                "dqpath" : "/Data/browser_alias"
+              },
+              "url" : {
+                "type" : "STRING",
+                "value" : "/external/v1.0/oneTimeCode?keyPair={\"account\":\"rhdn0442t9\",\"key\":\"sha1$2d7d2e4b$1$72924279522cc6d20174c38777c20e2343ea8549\"}",
+                "sqpath" : "/Data/url",
+                "dqpath" : "/Data/url"
+              },
+              "result" : {
+                "type" : "INTEGER",
+                "value" : "1",
+                "sqpath" : "/Data/result",
+                "dqpath" : "/Data/result"
+              },
+              "router" : {
+                "type" : "STRING",
+                "value" : "daekyo-stable.knowreapp.com:31",
+                "sqpath" : "/Data/router",
+                "dqpath" : "/Data/router"
+              },
+              "trace" : {
+                "type" : "STRING",
+                "value" : "{\"msg\":\"trace\",\"elapsedTime\":null,\"req\":{\"ip\":\"211.234.44.221, 10.20.158.60\",\"protocol\":\"http\",\"host\":\"daekyo-stable.knowreapp.com\",\"url\":\"/external/v1.0/oneTimeCode?keyPair={\\\"account\\\":\\\"rhdn0442t9\\\",\\\"key\\\":\\\"sha1$2d7d2e4b$1$72924279522cc6d20174c38777c20e2343ea8549\\\"}\",\"userAgent\":\"Java/1.6.0_24\",\"parameter\":{\"query\":{\"keyPair\":\"{\\\"account\\\":\\\"rhdn0442t9\\\",\\\"key\\\":\\\"sha1$2d7d2e4b$1$72924279522cc6d20174c38777c20e2343ea8549\\\"}\"}},\"sid\":\"\",\"timestamp\":\"2018-12-31T03:00:13.643Z\",\"elapsed\":1848739,\"method\":\"GET\",\"aws_instance_id\":\"i-0e2d6dac97ae251e5\",\"performance\":1.848739},\"error\":null}",
+                "sqpath" : "/Data/trace",
+                "dqpath" : "/Data/trace"
+              },
+              "removed_at" : {
+                "type" : "DATETIME",
+                "value" : null,
+                "sqpath" : "/Data/removed_at",
+                "dqpath" : "/Data/removed_at"
+              },
+              "user_id" : {
+                "type" : "INTEGER",
+                "value" : null,
+                "sqpath" : "/Data/user_id",
+                "dqpath" : "/Data/user_id"
+              },
+              "browser" : {
+                "type" : "STRING",
+                "value" : "Java/1.6.0_24",
+                "sqpath" : "/Data/browser",
+                "dqpath" : "/Data/browser"
+              },
+              "id" : {
+                "type" : "INTEGER",
+                "value" : "352125243",
+                "sqpath" : "/Data/id",
+                "dqpath" : "/Data/id"
+              },
+              "modified_at" : {
+                "type" : "DATETIME",
+                "value" : 1546225213000,
+                "sqpath" : "/Data/modified_at",
+                "dqpath" : "/Data/modified_at"
+              },
+              "parameters" : {
+                "type" : "STRING",
+                "value" : "{\"query\":{\"keyPair\":\"{\\\"account\\\":\\\"rhdn0442t9\\\",\\\"key\\\":\\\"sha1$2d7d2e4b$1$72924279522cc6d20174c38777c20e2343ea8549\\\"}\"},\"body\":{}}",
+                "sqpath" : "/Data/parameters",
+                "dqpath" : "/Data/parameters"
+              },
+              "req" : {
+                "type" : "STRING",
+                "value" : null,
+                "sqpath" : "/Data/req",
+                "dqpath" : "/Data/req"
+              }
+            },
+            "sqpath" : "/Data",
+            "dqpath" : "/Data"
+          },
+          "Timestamp" : {
+            "type" : "LONG",
+            "value" : "1546225213000",
+            "sqpath" : "/Timestamp",
+            "dqpath" : "/Timestamp"
+          },
+          "Offset" : {
+            "type" : "STRING",
+            "value" : "mysql-bin-changelog.001415:184725",
+            "sqpath" : "/Offset",
+            "dqpath" : "/Offset"
+          }
+        },
+        "sqpath" : "",
+        "dqpath" : ""
+      }
+    }, {
+      "header" : {
+        "stageCreator" : "ToEvent_01",
+        "sourceId" : "event:event-target:1:5",
+        "stagesPath" : "ToEvent_01",
+        "trackingId" : "event:event-target:1:5::ToEvent_01",
+        "previousTrackingId" : null,
+        "raw" : null,
+        "rawMimeType" : null,
+        "errorDataCollectorId" : null,
+        "errorPipelineName" : null,
+        "errorStage" : null,
+        "errorStageLabel" : null,
+        "errorCode" : null,
+        "errorMessage" : null,
+        "errorTimestamp" : 0,
+        "errorStackTrace" : null,
+        "errorJobId" : null,
+        "values" : {
+          "sdc.event.version" : "1",
+          "sdc.event.creation_timestamp" : "1546225214485",
+          "sdc.event.type" : "event-target"
+        }
+      },
+      "value" : {
+        "type" : "MAP",
+        "value" : {
+          "BinLogFilename" : {
+            "type" : "STRING",
+            "value" : "mysql-bin-changelog.001415",
+            "sqpath" : "/BinLogFilename",
+            "dqpath" : "/BinLogFilename"
+          },
+          "Type" : {
+            "type" : "STRING",
+            "value" : "INSERT",
+            "sqpath" : "/Type",
+            "dqpath" : "/Type"
+          },
+          "Table" : {
+            "type" : "STRING",
+            "value" : "activity_logs",
+            "sqpath" : "/Table",
+            "dqpath" : "/Table"
+          },
+          "ServerId" : {
+            "type" : "LONG",
+            "value" : "1221695242",
+            "sqpath" : "/ServerId",
+            "dqpath" : "/ServerId"
+          },
+          "BinLogPosition" : {
+            "type" : "LONG",
+            "value" : "185051",
+            "sqpath" : "/BinLogPosition",
+            "dqpath" : "/BinLogPosition"
+          },
+          "Database" : {
+            "type" : "STRING",
+            "value" : "knowre2",
+            "sqpath" : "/Database",
+            "dqpath" : "/Database"
+          },
+          "Data" : {
+            "type" : "MAP",
+            "value" : {
+              "metadata" : {
+                "type" : "STRING",
+                "value" : "{\"unitID\":4733,\"problemID\":288476,\"mainProbID\":-1,\"trialID\":\"157327I3T10086152264\",\"score\":100,\"type\":\"MAIN\"}",
+                "sqpath" : "/Data/metadata",
+                "dqpath" : "/Data/metadata"
+              },
+              "removed_at" : {
+                "type" : "DATETIME",
+                "value" : null,
+                "sqpath" : "/Data/removed_at",
+                "dqpath" : "/Data/removed_at"
+              },
+              "user_id" : {
+                "type" : "INTEGER",
+                "value" : "157327",
+                "sqpath" : "/Data/user_id",
+                "dqpath" : "/Data/user_id"
+              },
+              "owner_id" : {
+                "type" : "INTEGER",
+                "value" : "13442",
+                "sqpath" : "/Data/owner_id",
+                "dqpath" : "/Data/owner_id"
+              },
+              "extra" : {
+                "type" : "STRING",
+                "value" : null,
+                "sqpath" : "/Data/extra",
+                "dqpath" : "/Data/extra"
+              },
+              "start" : {
+                "type" : "INTEGER",
+                "value" : "1",
+                "sqpath" : "/Data/start",
+                "dqpath" : "/Data/start"
+              },
+              "created_at" : {
+                "type" : "DATETIME",
+                "value" : 1546225213000,
+                "sqpath" : "/Data/created_at",
+                "dqpath" : "/Data/created_at"
+              },
+              "id" : {
+                "type" : "INTEGER",
+                "value" : "167392815",
+                "sqpath" : "/Data/id",
+                "dqpath" : "/Data/id"
+              },
+              "type" : {
+                "type" : "INTEGER",
+                "value" : "7",
+                "sqpath" : "/Data/type",
+                "dqpath" : "/Data/type"
+              },
+              "modified_at" : {
+                "type" : "DATETIME",
+                "value" : 1546225213000,
+                "sqpath" : "/Data/modified_at",
+                "dqpath" : "/Data/modified_at"
+              }
+            },
+            "sqpath" : "/Data",
+            "dqpath" : "/Data"
+          },
+          "Timestamp" : {
+            "type" : "LONG",
+            "value" : "1546225213000",
+            "sqpath" : "/Timestamp",
+            "dqpath" : "/Timestamp"
+          },
+          "Offset" : {
+            "type" : "STRING",
+            "value" : "mysql-bin-changelog.001415:185051",
+            "sqpath" : "/Offset",
+            "dqpath" : "/Offset"
+          }
+        },
+        "sqpath" : "",
+        "dqpath" : ""
+      }
+    }, {
+      "header" : {
+        "stageCreator" : "ToEvent_01",
+        "sourceId" : "event:event-target:1:6",
+        "stagesPath" : "ToEvent_01",
+        "trackingId" : "event:event-target:1:6::ToEvent_01",
+        "previousTrackingId" : null,
+        "raw" : null,
+        "rawMimeType" : null,
+        "errorDataCollectorId" : null,
+        "errorPipelineName" : null,
+        "errorStage" : null,
+        "errorStageLabel" : null,
+        "errorCode" : null,
+        "errorMessage" : null,
+        "errorTimestamp" : 0,
+        "errorStackTrace" : null,
+        "errorJobId" : null,
+        "values" : {
+          "sdc.event.version" : "1",
+          "sdc.event.creation_timestamp" : "1546225214485",
+          "sdc.event.type" : "event-target"
+        }
+      },
+      "value" : {
+        "type" : "MAP",
+        "value" : {
+          "BinLogFilename" : {
+            "type" : "STRING",
+            "value" : "mysql-bin-changelog.001415",
+            "sqpath" : "/BinLogFilename",
+            "dqpath" : "/BinLogFilename"
+          },
+          "Type" : {
+            "type" : "STRING",
+            "value" : "INSERT",
+            "sqpath" : "/Type",
+            "dqpath" : "/Type"
+          },
+          "Table" : {
+            "type" : "STRING",
+            "value" : "send_data_logs",
+            "sqpath" : "/Table",
+            "dqpath" : "/Table"
+          },
+          "ServerId" : {
+            "type" : "LONG",
+            "value" : "1221695242",
+            "sqpath" : "/ServerId",
+            "dqpath" : "/ServerId"
+          },
+          "BinLogPosition" : {
+            "type" : "LONG",
+            "value" : "185626",
+            "sqpath" : "/BinLogPosition",
+            "dqpath" : "/BinLogPosition"
+          },
+          "Database" : {
+            "type" : "STRING",
+            "value" : "knowre2",
+            "sqpath" : "/Database",
+            "dqpath" : "/Database"
+          },
+          "Data" : {
+            "type" : "MAP",
+            "value" : {
+              "result" : {
+                "type" : "INTEGER",
+                "value" : "200",
+                "sqpath" : "/Data/result",
+                "dqpath" : "/Data/result"
+              },
+              "removed_at" : {
+                "type" : "DATETIME",
+                "value" : null,
+                "sqpath" : "/Data/removed_at",
+                "dqpath" : "/Data/removed_at"
+              },
+              "user_id" : {
+                "type" : "INTEGER",
+                "value" : "157327",
+                "sqpath" : "/Data/user_id",
+                "dqpath" : "/Data/user_id"
+              },
+              "created_at" : {
+                "type" : "DATETIME",
+                "value" : 1546225213000,
+                "sqpath" : "/Data/created_at",
+                "dqpath" : "/Data/created_at"
+              },
+              "id" : {
+                "type" : "INTEGER",
+                "value" : "174871320",
+                "sqpath" : "/Data/id",
+                "dqpath" : "/Data/id"
+              },
+              "type" : {
+                "type" : "STRING",
+                "value" : "answer",
+                "sqpath" : "/Data/type",
+                "dqpath" : "/Data/type"
+              },
+              "modified_at" : {
+                "type" : "DATETIME",
+                "value" : 1546225213000,
+                "sqpath" : "/Data/modified_at",
+                "dqpath" : "/Data/modified_at"
+              },
+              "url" : {
+                "type" : "STRING",
+                "value" : "https://scapi.daekyo.com/scapi/common/v0.1/putUserCurriculum",
+                "sqpath" : "/Data/url",
+                "dqpath" : "/Data/url"
+              },
+              "content" : {
+                "type" : "STRING",
+                "value" : "{\"request\":{\"lesson_id\":13442,\"user_id\":157327,\"type\":\"CTEST\",\"problem_id\":288476,\"unit_id\":4733,\"trial_id\":\"157327I3T10086152264\",\"parent_id\":-1,\"is_step\":false,\"result\":true,\"id\":\"KNRCTES11006\"},\"response\":{\"auth\":true,\"success\":true,\"resultCode\":\"200\",\"error\":\"\",\"data\":{\"result\":true}}}",
+                "sqpath" : "/Data/content",
+                "dqpath" : "/Data/content"
+              }
+            },
+            "sqpath" : "/Data",
+            "dqpath" : "/Data"
+          },
+          "Timestamp" : {
+            "type" : "LONG",
+            "value" : "1546225213000",
+            "sqpath" : "/Timestamp",
+            "dqpath" : "/Timestamp"
+          },
+          "Offset" : {
+            "type" : "STRING",
+            "value" : "mysql-bin-changelog.001415:185626",
+            "sqpath" : "/Offset",
+            "dqpath" : "/Offset"
+          }
+        },
+        "sqpath" : "",
+        "dqpath" : ""
+      }
+    }, {
+      "header" : {
+        "stageCreator" : "ToEvent_01",
+        "sourceId" : "event:event-target:1:7",
+        "stagesPath" : "ToEvent_01",
+        "trackingId" : "event:event-target:1:7::ToEvent_01",
+        "previousTrackingId" : null,
+        "raw" : null,
+        "rawMimeType" : null,
+        "errorDataCollectorId" : null,
+        "errorPipelineName" : null,
+        "errorStage" : null,
+        "errorStageLabel" : null,
+        "errorCode" : null,
+        "errorMessage" : null,
+        "errorTimestamp" : 0,
+        "errorStackTrace" : null,
+        "errorJobId" : null,
+        "values" : {
+          "sdc.event.version" : "1",
+          "sdc.event.creation_timestamp" : "1546225214485",
+          "sdc.event.type" : "event-target"
+        }
+      },
+      "value" : {
+        "type" : "MAP",
+        "value" : {
+          "BinLogFilename" : {
+            "type" : "STRING",
+            "value" : "mysql-bin-changelog.001415",
+            "sqpath" : "/BinLogFilename",
+            "dqpath" : "/BinLogFilename"
+          },
+          "Type" : {
+            "type" : "STRING",
+            "value" : "INSERT",
+            "sqpath" : "/Type",
+            "dqpath" : "/Type"
+          },
+          "Table" : {
+            "type" : "STRING",
+            "value" : "server_logs2",
+            "sqpath" : "/Table",
+            "dqpath" : "/Table"
+          },
+          "ServerId" : {
+            "type" : "LONG",
+            "value" : "1221695242",
+            "sqpath" : "/ServerId",
+            "dqpath" : "/ServerId"
+          },
+          "BinLogPosition" : {
+            "type" : "LONG",
+            "value" : "189200",
+            "sqpath" : "/BinLogPosition",
+            "dqpath" : "/BinLogPosition"
+          },
+          "Database" : {
+            "type" : "STRING",
+            "value" : "knowre2",
+            "sqpath" : "/Database",
+            "dqpath" : "/Database"
+          },
+          "Data" : {
+            "type" : "MAP",
+            "value" : {
+              "os_alias" : {
+                "type" : "STRING",
+                "value" : null,
+                "sqpath" : "/Data/os_alias",
+                "dqpath" : "/Data/os_alias"
+              },
+              "method" : {
+                "type" : "INTEGER",
+                "value" : "2",
+                "sqpath" : "/Data/method",
+                "dqpath" : "/Data/method"
+              },
+              "os" : {
+                "type" : "STRING",
+                "value" : "okhttp/3.10.0",
+                "sqpath" : "/Data/os",
+                "dqpath" : "/Data/os"
+              },
+              "cookie" : {
+                "type" : "STRING",
+                "value" : "{\"cookie\":{\"connect.sid\":\"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjb25uZWN0ZWRBdCI6IjIwMTgtMTItMzFUMDI6NTk6MjIuNDAyWiIsInVzZXJJRCI6MTU3MzI3LCJ1c2VyTmFtZSI6IiIsImN1cnJpY3VsdW1faWQiOjEzLCJjdXJyaWN1bHVtX3R5cGUiOiJTRU1FU1RFUiIsImRpZmZpY3VsdHkiOjI1LCJwcm9kdWN0VHlwZSI6Ik1JRCIsImV4dGVybmFsQWNjb3VudCI6IjAwMFMtMDA1NDQ4NjA3MSIsInRva2VuX2FjY291bnQiOiIwMDBTLTAwNTQ0ODYwNzEiLCJzdGFtcCI6InNoYTEkZTA2MmZjMWMkMSRlYTQwYzA0M2M4ZGMwYzE5ZmIwZDlkZDg4MThkMWE0MWQ3NzViZGM0IiwiY2xpZW50VmVyc2lvbiI6NzE2MDc5OSwidXNlckRQSSI6MjQwLCJhcGlfdmVyc2lvbiI6InYyIiwidGljayI6MTAsImxlc3NvbkluZm8iOnsibGVzc29uVHlwZSI6IkNURVNUIiwiY2hhcHRlcklkIjoxMzQ0MiwiY3VycmljdWx1bUlkIjoxMywiY3VycmljdWx1bVR5cGUiOiJTRU1FU1RFUiIsImNvbXBvc2l0ZUlkIjoiS05SQ1RFUzExMDA2In0sImxlc3NvbkV4dGVybmFsS2V5IjoiS05SQ1RFUzExMDA2IiwiYWN0aXZpdHkiOnsidHJpYWxJRCI6IjE1NzMyN0kzVDEwMDg2MTUyMjY0IiwidW5pdElEIjo0NzMzLCJpc1N0ZXAiOmZhbHNlfSwidHJ5Q291bnQiOjAsInJldHJ5IjpudWxsLCJpYXQiOjE1NDYyMjUyMDQsImV4cCI6MTU0NjIzMDYwNH0.OsVuuBrE022T0vsNWVtN1Z1I2XTtOhF5ZTPV2uWHqs4\"}}",
+                "sqpath" : "/Data/cookie",
+                "dqpath" : "/Data/cookie"
+              },
+              "session" : {
+                "type" : "STRING",
+                "value" : "{\"_domain\":{\"domain\":\"daekyo-stable.knowreapp.com\"},\"_secret\":\"knowre_prod\",\"_cookieKey\":\"connect.sid\",\"connectedAt\":\"2018-12-31T02:59:22.402Z\",\"userID\":157327,\"userName\":\"\",\"curriculum_id\":13,\"curriculum_type\":\"SEMESTER\",\"difficulty\":25,\"productType\":\"MID\",\"externalAccount\":\"000S-0054486071\",\"token_account\":\"000S-0054486071\",\"stamp\":\"sha1$e062fc1c$1$ea40c043c8dc0c19fb0d9dd8818d1a41d775bdc4\",\"clientVersion\":7160799,\"userDPI\":240,\"api_version\":\"v2\",\"tick\":11,\"lessonInfo\":{\"lessonType\":\"CTEST\",\"chapterId\":13442,\"curriculumId\":13,\"curriculumType\":\"SEMESTER\",\"compositeId\":\"KNRCTES11006\"},\"lessonExternalKey\":\"KNRCTES11006\",\"activity\":{\"trialID\":\"157327I3T10086152264\",\"unitID\":4733,\"isStep\":false},\"tryCount\":1,\"retry\":null,\"iat\":1546225204,\"exp\":1546230604,\"_tokenHash\":\"c4af3dd235d9efb3231ab5dec2ad2810\"}",
+                "sqpath" : "/Data/session",
+                "dqpath" : "/Data/session"
+              },
+              "ip" : {
+                "type" : "STRING",
+                "value" : "106.240.116.148, 10.20.158.60",
+                "sqpath" : "/Data/ip",
+                "dqpath" : "/Data/ip"
+              },
+              "session_id" : {
+                "type" : "STRING",
+                "value" : "157327T6225162427Dbd4650",
+                "sqpath" : "/Data/session_id",
+                "dqpath" : "/Data/session_id"
+              },
+              "created_at" : {
+                "type" : "DATETIME",
+                "value" : 1546225213000,
+                "sqpath" : "/Data/created_at",
+                "dqpath" : "/Data/created_at"
+              },
+              "browser_alias" : {
+                "type" : "STRING",
+                "value" : null,
+                "sqpath" : "/Data/browser_alias",
+                "dqpath" : "/Data/browser_alias"
+              },
+              "url" : {
+                "type" : "STRING",
+                "value" : "/api/v2/problem/check-answer?errorCode=true&timestamp=1546225212064",
+                "sqpath" : "/Data/url",
+                "dqpath" : "/Data/url"
+              },
+              "result" : {
+                "type" : "INTEGER",
+                "value" : "1",
+                "sqpath" : "/Data/result",
+                "dqpath" : "/Data/result"
+              },
+              "router" : {
+                "type" : "STRING",
+                "value" : "daekyo-stable.knowreapp.com:26",
+                "sqpath" : "/Data/router",
+                "dqpath" : "/Data/router"
+              },
+              "trace" : {
+                "type" : "STRING",
+                "value" : "{\"msg\":\"trace\",\"elapsedTime\":null,\"req\":{\"ip\":\"106.240.116.148, 10.20.158.60\",\"protocol\":\"http\",\"host\":\"daekyo-stable.knowreapp.com\",\"url\":\"/api/v2/problem/check-answer?errorCode=true&timestamp=1546225212064\",\"userAgent\":\"okhttp/3.10.0\",\"parameter\":{\"query\":{\"errorCode\":\"true\",\"timestamp\":\"1546225212064\"}},\"sid\":\"\",\"timestamp\":\"2018-12-31T03:00:13.446Z\",\"elapsed\":243007442,\"method\":\"POST\",\"aws_instance_id\":\"i-07c318ce66c33be13\",\"performance\":243.007442},\"error\":null}",
+                "sqpath" : "/Data/trace",
+                "dqpath" : "/Data/trace"
+              },
+              "removed_at" : {
+                "type" : "DATETIME",
+                "value" : null,
+                "sqpath" : "/Data/removed_at",
+                "dqpath" : "/Data/removed_at"
+              },
+              "user_id" : {
+                "type" : "INTEGER",
+                "value" : "157327",
+                "sqpath" : "/Data/user_id",
+                "dqpath" : "/Data/user_id"
+              },
+              "browser" : {
+                "type" : "STRING",
+                "value" : "okhttp/3.10.0",
+                "sqpath" : "/Data/browser",
+                "dqpath" : "/Data/browser"
+              },
+              "id" : {
+                "type" : "INTEGER",
+                "value" : "352125244",
+                "sqpath" : "/Data/id",
+                "dqpath" : "/Data/id"
+              },
+              "modified_at" : {
+                "type" : "DATETIME",
+                "value" : 1546225213000,
+                "sqpath" : "/Data/modified_at",
+                "dqpath" : "/Data/modified_at"
+              },
+              "parameters" : {
+                "type" : "STRING",
+                "value" : "{\"query\":{\"errorCode\":\"true\",\"timestamp\":\"1546225212064\"},\"body\":{\"input\":\"{\\\"answer\\\":\\\"[{\\\\\\\"type\\\\\\\":\\\\\\\"Block\\\\\\\",\\\\\\\"value\\\\\\\":[]},{\\\\\\\"type\\\\\\\":\\\\\\\"Block\\\\\\\",\\\\\\\"value\\\\\\\":[]},{\\\\\\\"type\\\\\\\":\\\\\\\"Block\\\\\\\",\\\\\\\"value\\\\\\\":[{\\\\\\\"type\\\\\\\":\\\\\\\"Static\\\\\\\"},{\\\\\\\"type\\\\\\\":\\\\\\\"Static\\\\\\\"},{\\\\\\\"type\\\\\\\":\\\\\\\"Static\\\\\\\"},{\\\\\\\"type\\\\\\\":\\\\\\\"Static\\\\\\\"},{\\\\\\\"type\\\\\\\":\\\\\\\"Block\\\\\\\",\\\\\\\"value\\\\\\\":[]},{\\\\\\\"type\\\\\\\":\\\\\\\"Block\\\\\\\",\\\\\\\"value\\\\\\\":[{\\\\\\\"type\\\\\\\":\\\\\\\"Input\\\\\\\",\\\\\\\"mode\\\\\\\":\\\\\\\"math\\\\\\\",\\\\\\\"value\\\\\\\":\\\\\\\"23\\\\\\\",\\\\\\\"order\\\\\\\":1},{\\\\\\\"type\\\\\\\":\\\\\\\"Static\\\\\\\"},{\\\\\\\"type\\\\\\\":\\\\\\\"Input\\\\\\\",\\\\\\\"mode\\\\\\\":\\\\\\\"math\\\\\\\",\\\\\\\"value\\\\\\\":\\\\\\\"29\\\\\\\",\\\\\\\"order\\\\\\\":1}]}]}]\\\",\\\"lessonInfo\\\":{\\\"curriculumId\\\":13,\\\"curriculumType\\\":\\\"SEMESTER\\\",\\\"compositeId\\\":\\\"KNRCTES11006\\\",\\\"lessonType\\\":\\\"CTEST\\\",\\\"chapterId\\\":13442},\\\"parentId\\\":-1,\\\"problemId\\\":288476,\\\"time_left\\\":-1}\"}}",
+                "sqpath" : "/Data/parameters",
+                "dqpath" : "/Data/parameters"
+              },
+              "req" : {
+                "type" : "STRING",
+                "value" : null,
+                "sqpath" : "/Data/req",
+                "dqpath" : "/Data/req"
+              }
+            },
+            "sqpath" : "/Data",
+            "dqpath" : "/Data"
+          },
+          "Timestamp" : {
+            "type" : "LONG",
+            "value" : "1546225213000",
+            "sqpath" : "/Timestamp",
+            "dqpath" : "/Timestamp"
+          },
+          "Offset" : {
+            "type" : "STRING",
+            "value" : "mysql-bin-changelog.001415:189200",
+            "sqpath" : "/Offset",
+            "dqpath" : "/Offset"
+          }
+        },
+        "sqpath" : "",
+        "dqpath" : ""
+      }
+    }, {
+      "header" : {
+        "stageCreator" : "ToEvent_01",
+        "sourceId" : "event:event-target:1:8",
+        "stagesPath" : "ToEvent_01",
+        "trackingId" : "event:event-target:1:8::ToEvent_01",
+        "previousTrackingId" : null,
+        "raw" : null,
+        "rawMimeType" : null,
+        "errorDataCollectorId" : null,
+        "errorPipelineName" : null,
+        "errorStage" : null,
+        "errorStageLabel" : null,
+        "errorCode" : null,
+        "errorMessage" : null,
+        "errorTimestamp" : 0,
+        "errorStackTrace" : null,
+        "errorJobId" : null,
+        "values" : {
+          "sdc.event.version" : "1",
+          "sdc.event.creation_timestamp" : "1546225214485",
+          "sdc.event.type" : "event-target"
+        }
+      },
+      "value" : {
+        "type" : "MAP",
+        "value" : {
+          "BinLogFilename" : {
+            "type" : "STRING",
+            "value" : "mysql-bin-changelog.001415",
+            "sqpath" : "/BinLogFilename",
+            "dqpath" : "/BinLogFilename"
+          },
+          "Type" : {
+            "type" : "STRING",
+            "value" : "INSERT",
+            "sqpath" : "/Type",
+            "dqpath" : "/Type"
+          },
+          "Table" : {
+            "type" : "STRING",
+            "value" : "server_logs2",
+            "sqpath" : "/Table",
+            "dqpath" : "/Table"
+          },
+          "ServerId" : {
+            "type" : "LONG",
+            "value" : "1221695242",
+            "sqpath" : "/ServerId",
+            "dqpath" : "/ServerId"
+          },
+          "BinLogPosition" : {
+            "type" : "LONG",
+            "value" : "190514",
+            "sqpath" : "/BinLogPosition",
+            "dqpath" : "/BinLogPosition"
+          },
+          "Database" : {
+            "type" : "STRING",
+            "value" : "knowre2",
+            "sqpath" : "/Database",
+            "dqpath" : "/Database"
+          },
+          "Data" : {
+            "type" : "MAP",
+            "value" : {
+              "os_alias" : {
+                "type" : "STRING",
+                "value" : null,
+                "sqpath" : "/Data/os_alias",
+                "dqpath" : "/Data/os_alias"
+              },
+              "method" : {
+                "type" : "INTEGER",
+                "value" : "1",
+                "sqpath" : "/Data/method",
+                "dqpath" : "/Data/method"
+              },
+              "os" : {
+                "type" : "STRING",
+                "value" : "Java/1.6.0_24",
+                "sqpath" : "/Data/os",
+                "dqpath" : "/Data/os"
+              },
+              "cookie" : {
+                "type" : "STRING",
+                "value" : "{\"cookie\":{}}",
+                "sqpath" : "/Data/cookie",
+                "dqpath" : "/Data/cookie"
+              },
+              "session" : {
+                "type" : "STRING",
+                "value" : "{\"_domain\":{\"domain\":\"daekyo-stable.knowreapp.com\"},\"_secret\":\"knowre_prod\",\"_cookieKey\":\"connect.sid\",\"tick\":1}",
+                "sqpath" : "/Data/session",
+                "dqpath" : "/Data/session"
+              },
+              "ip" : {
+                "type" : "STRING",
+                "value" : "211.234.44.221, 10.20.158.60",
+                "sqpath" : "/Data/ip",
+                "dqpath" : "/Data/ip"
+              },
+              "session_id" : {
+                "type" : "STRING",
+                "value" : null,
+                "sqpath" : "/Data/session_id",
+                "dqpath" : "/Data/session_id"
+              },
+              "created_at" : {
+                "type" : "DATETIME",
+                "value" : 1546225213000,
+                "sqpath" : "/Data/created_at",
+                "dqpath" : "/Data/created_at"
+              },
+              "browser_alias" : {
+                "type" : "STRING",
+                "value" : null,
+                "sqpath" : "/Data/browser_alias",
+                "dqpath" : "/Data/browser_alias"
+              },
+              "url" : {
+                "type" : "STRING",
+                "value" : "/external/v1.0/oneTimeCode?keyPair={\"account\":\"rhdn0442t9\",\"key\":\"sha1$2d7d2e4b$1$72924279522cc6d20174c38777c20e2343ea8549\"}",
+                "sqpath" : "/Data/url",
+                "dqpath" : "/Data/url"
+              },
+              "result" : {
+                "type" : "INTEGER",
+                "value" : "1",
+                "sqpath" : "/Data/result",
+                "dqpath" : "/Data/result"
+              },
+              "router" : {
+                "type" : "STRING",
+                "value" : "daekyo-stable.knowreapp.com:26",
+                "sqpath" : "/Data/router",
+                "dqpath" : "/Data/router"
+              },
+              "trace" : {
+                "type" : "STRING",
+                "value" : "{\"msg\":\"trace\",\"elapsedTime\":null,\"req\":{\"ip\":\"211.234.44.221, 10.20.158.60\",\"protocol\":\"http\",\"host\":\"daekyo-stable.knowreapp.com\",\"url\":\"/external/v1.0/oneTimeCode?keyPair={\\\"account\\\":\\\"rhdn0442t9\\\",\\\"key\\\":\\\"sha1$2d7d2e4b$1$72924279522cc6d20174c38777c20e2343ea8549\\\"}\",\"userAgent\":\"Java/1.6.0_24\",\"parameter\":{\"query\":{\"keyPair\":\"{\\\"account\\\":\\\"rhdn0442t9\\\",\\\"key\\\":\\\"sha1$2d7d2e4b$1$72924279522cc6d20174c38777c20e2343ea8549\\\"}\"}},\"sid\":\"\",\"timestamp\":\"2018-12-31T03:00:13.807Z\",\"elapsed\":1001222,\"method\":\"GET\",\"aws_instance_id\":\"i-07c318ce66c33be13\",\"performance\":1.001222},\"error\":null}",
+                "sqpath" : "/Data/trace",
+                "dqpath" : "/Data/trace"
+              },
+              "removed_at" : {
+                "type" : "DATETIME",
+                "value" : null,
+                "sqpath" : "/Data/removed_at",
+                "dqpath" : "/Data/removed_at"
+              },
+              "user_id" : {
+                "type" : "INTEGER",
+                "value" : null,
+                "sqpath" : "/Data/user_id",
+                "dqpath" : "/Data/user_id"
+              },
+              "browser" : {
+                "type" : "STRING",
+                "value" : "Java/1.6.0_24",
+                "sqpath" : "/Data/browser",
+                "dqpath" : "/Data/browser"
+              },
+              "id" : {
+                "type" : "INTEGER",
+                "value" : "352125245",
+                "sqpath" : "/Data/id",
+                "dqpath" : "/Data/id"
+              },
+              "modified_at" : {
+                "type" : "DATETIME",
+                "value" : 1546225213000,
+                "sqpath" : "/Data/modified_at",
+                "dqpath" : "/Data/modified_at"
+              },
+              "parameters" : {
+                "type" : "STRING",
+                "value" : "{\"query\":{\"keyPair\":\"{\\\"account\\\":\\\"rhdn0442t9\\\",\\\"key\\\":\\\"sha1$2d7d2e4b$1$72924279522cc6d20174c38777c20e2343ea8549\\\"}\"},\"body\":{}}",
+                "sqpath" : "/Data/parameters",
+                "dqpath" : "/Data/parameters"
+              },
+              "req" : {
+                "type" : "STRING",
+                "value" : null,
+                "sqpath" : "/Data/req",
+                "dqpath" : "/Data/req"
+              }
+            },
+            "sqpath" : "/Data",
+            "dqpath" : "/Data"
+          },
+          "Timestamp" : {
+            "type" : "LONG",
+            "value" : "1546225213000",
+            "sqpath" : "/Timestamp",
+            "dqpath" : "/Timestamp"
+          },
+          "Offset" : {
+            "type" : "STRING",
+            "value" : "mysql-bin-changelog.001415:190514",
+            "sqpath" : "/Offset",
+            "dqpath" : "/Offset"
+          }
+        },
+        "sqpath" : "",
+        "dqpath" : ""
+      }
+    }, {
+      "header" : {
+        "stageCreator" : "ToEvent_01",
+        "sourceId" : "event:event-target:1:9",
+        "stagesPath" : "ToEvent_01",
+        "trackingId" : "event:event-target:1:9::ToEvent_01",
+        "previousTrackingId" : null,
+        "raw" : null,
+        "rawMimeType" : null,
+        "errorDataCollectorId" : null,
+        "errorPipelineName" : null,
+        "errorStage" : null,
+        "errorStageLabel" : null,
+        "errorCode" : null,
+        "errorMessage" : null,
+        "errorTimestamp" : 0,
+        "errorStackTrace" : null,
+        "errorJobId" : null,
+        "values" : {
+          "sdc.event.version" : "1",
+          "sdc.event.creation_timestamp" : "1546225214485",
+          "sdc.event.type" : "event-target"
+        }
+      },
+      "value" : {
+        "type" : "MAP",
+        "value" : {
+          "BinLogFilename" : {
+            "type" : "STRING",
+            "value" : "mysql-bin-changelog.001415",
+            "sqpath" : "/BinLogFilename",
+            "dqpath" : "/BinLogFilename"
+          },
+          "Type" : {
+            "type" : "STRING",
+            "value" : "INSERT",
+            "sqpath" : "/Type",
+            "dqpath" : "/Type"
+          },
+          "Table" : {
+            "type" : "STRING",
+            "value" : "server_logs2",
+            "sqpath" : "/Table",
+            "dqpath" : "/Table"
+          },
+          "ServerId" : {
+            "type" : "LONG",
+            "value" : "1221695242",
+            "sqpath" : "/ServerId",
+            "dqpath" : "/ServerId"
+          },
+          "BinLogPosition" : {
+            "type" : "LONG",
+            "value" : "193457",
+            "sqpath" : "/BinLogPosition",
+            "dqpath" : "/BinLogPosition"
+          },
+          "Database" : {
+            "type" : "STRING",
+            "value" : "knowre2",
+            "sqpath" : "/Database",
+            "dqpath" : "/Database"
+          },
+          "Data" : {
+            "type" : "MAP",
+            "value" : {
+              "os_alias" : {
+                "type" : "STRING",
+                "value" : null,
+                "sqpath" : "/Data/os_alias",
+                "dqpath" : "/Data/os_alias"
+              },
+              "method" : {
+                "type" : "INTEGER",
+                "value" : "2",
+                "sqpath" : "/Data/method",
+                "dqpath" : "/Data/method"
+              },
+              "os" : {
+                "type" : "STRING",
+                "value" : "okhttp/3.10.0",
+                "sqpath" : "/Data/os",
+                "dqpath" : "/Data/os"
+              },
+              "cookie" : {
+                "type" : "STRING",
+                "value" : "{\"cookie\":{\"connect.sid\":\"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjb25uZWN0ZWRBdCI6IjIwMTgtMTItMzFUMDI6NTk6MjIuNDAyWiIsInVzZXJJRCI6MTU3MzI3LCJ1c2VyTmFtZSI6IiIsImN1cnJpY3VsdW1faWQiOjEzLCJjdXJyaWN1bHVtX3R5cGUiOiJTRU1FU1RFUiIsImRpZmZpY3VsdHkiOjI1LCJwcm9kdWN0VHlwZSI6Ik1JRCIsImV4dGVybmFsQWNjb3VudCI6IjAwMFMtMDA1NDQ4NjA3MSIsInRva2VuX2FjY291bnQiOiIwMDBTLTAwNTQ0ODYwNzEiLCJzdGFtcCI6InNoYTEkZTA2MmZjMWMkMSRlYTQwYzA0M2M4ZGMwYzE5ZmIwZDlkZDg4MThkMWE0MWQ3NzViZGM0IiwiY2xpZW50VmVyc2lvbiI6NzE2MDc5OSwidXNlckRQSSI6MjQwLCJhcGlfdmVyc2lvbiI6InYyIiwidGljayI6MTEsImxlc3NvbkluZm8iOnsibGVzc29uVHlwZSI6IkNURVNUIiwiY2hhcHRlcklkIjoxMzQ0MiwiY3VycmljdWx1bUlkIjoxMywiY3VycmljdWx1bVR5cGUiOiJTRU1FU1RFUiIsImNvbXBvc2l0ZUlkIjoiS05SQ1RFUzExMDA2In0sImxlc3NvbkV4dGVybmFsS2V5IjoiS05SQ1RFUzExMDA2IiwiYWN0aXZpdHkiOnsidHJpYWxJRCI6IjE1NzMyN0kzVDEwMDg2MTUyMjY0IiwidW5pdElEIjo0NzMzLCJpc1N0ZXAiOmZhbHNlfSwidHJ5Q291bnQiOjEsInJldHJ5IjpudWxsLCJpYXQiOjE1NDYyMjUyMTMsImV4cCI6MTU0NjIzMDYxM30.z-IwakzgmDZbimBa0cZEETV633mhyn4yrSUWZ3Ko7d8\"}}",
+                "sqpath" : "/Data/cookie",
+                "dqpath" : "/Data/cookie"
+              },
+              "session" : {
+                "type" : "STRING",
+                "value" : "{\"_domain\":{\"domain\":\"daekyo-stable.knowreapp.com\"},\"_secret\":\"knowre_prod\",\"_cookieKey\":\"connect.sid\",\"connectedAt\":\"2018-12-31T02:59:22.402Z\",\"userID\":157327,\"userName\":\"\",\"curriculum_id\":13,\"curriculum_type\":\"SEMESTER\",\"difficulty\":25,\"productType\":\"MID\",\"externalAccount\":\"000S-0054486071\",\"token_account\":\"000S-0054486071\",\"stamp\":\"sha1$e062fc1c$1$ea40c043c8dc0c19fb0d9dd8818d1a41d775bdc4\",\"clientVersion\":7160799,\"userDPI\":240,\"api_version\":\"v2\",\"tick\":11,\"lessonInfo\":{\"lessonType\":\"CTEST\",\"chapterId\":13442,\"curriculumId\":13,\"curriculumType\":\"SEMESTER\",\"compositeId\":\"KNRCTES11006\"},\"lessonExternalKey\":\"KNRCTES11006\",\"activity\":{\"trialID\":\"157327I3T10086152264\",\"unitID\":4733,\"isStep\":false},\"tryCount\":1,\"retry\":null,\"iat\":1546225213,\"exp\":1546230613,\"_tokenHash\":\"00795430f1c3e033fe739a7728e44a74\"}",
+                "sqpath" : "/Data/session",
+                "dqpath" : "/Data/session"
+              },
+              "ip" : {
+                "type" : "STRING",
+                "value" : "106.240.116.148, 10.20.158.60",
+                "sqpath" : "/Data/ip",
+                "dqpath" : "/Data/ip"
+              },
+              "session_id" : {
+                "type" : "STRING",
+                "value" : "157327T6225162427Dbd4650",
+                "sqpath" : "/Data/session_id",
+                "dqpath" : "/Data/session_id"
+              },
+              "created_at" : {
+                "type" : "DATETIME",
+                "value" : 1546225213000,
+                "sqpath" : "/Data/created_at",
+                "dqpath" : "/Data/created_at"
+              },
+              "browser_alias" : {
+                "type" : "STRING",
+                "value" : null,
+                "sqpath" : "/Data/browser_alias",
+                "dqpath" : "/Data/browser_alias"
+              },
+              "url" : {
+                "type" : "STRING",
+                "value" : "/api/v2/problem/solution?errorCode=true&timestamp=1546225212462",
+                "sqpath" : "/Data/url",
+                "dqpath" : "/Data/url"
+              },
+              "result" : {
+                "type" : "INTEGER",
+                "value" : "1",
+                "sqpath" : "/Data/result",
+                "dqpath" : "/Data/result"
+              },
+              "router" : {
+                "type" : "STRING",
+                "value" : "daekyo-stable.knowreapp.com:31",
+                "sqpath" : "/Data/router",
+                "dqpath" : "/Data/router"
+              },
+              "trace" : {
+                "type" : "STRING",
+                "value" : "{\"msg\":\"trace\",\"elapsedTime\":null,\"req\":{\"ip\":\"106.240.116.148, 10.20.158.60\",\"protocol\":\"http\",\"host\":\"daekyo-stable.knowreapp.com\",\"url\":\"/api/v2/problem/solution?errorCode=true&timestamp=1546225212462\",\"userAgent\":\"okhttp/3.10.0\",\"parameter\":{\"query\":{\"errorCode\":\"true\",\"timestamp\":\"1546225212462\"}},\"sid\":\"\",\"timestamp\":\"2018-12-31T03:00:13.779Z\",\"elapsed\":78786720,\"method\":\"POST\",\"aws_instance_id\":\"i-0e2d6dac97ae251e5\",\"performance\":78.78672},\"error\":null}",
+                "sqpath" : "/Data/trace",
+                "dqpath" : "/Data/trace"
+              },
+              "removed_at" : {
+                "type" : "DATETIME",
+                "value" : null,
+                "sqpath" : "/Data/removed_at",
+                "dqpath" : "/Data/removed_at"
+              },
+              "user_id" : {
+                "type" : "INTEGER",
+                "value" : "157327",
+                "sqpath" : "/Data/user_id",
+                "dqpath" : "/Data/user_id"
+              },
+              "browser" : {
+                "type" : "STRING",
+                "value" : "okhttp/3.10.0",
+                "sqpath" : "/Data/browser",
+                "dqpath" : "/Data/browser"
+              },
+              "id" : {
+                "type" : "INTEGER",
+                "value" : "352125246",
+                "sqpath" : "/Data/id",
+                "dqpath" : "/Data/id"
+              },
+              "modified_at" : {
+                "type" : "DATETIME",
+                "value" : 1546225213000,
+                "sqpath" : "/Data/modified_at",
+                "dqpath" : "/Data/modified_at"
+              },
+              "parameters" : {
+                "type" : "STRING",
+                "value" : "{\"query\":{\"errorCode\":\"true\",\"timestamp\":\"1546225212462\"},\"body\":{\"input\":\"{\\\"lessonInfo\\\":{\\\"curriculumId\\\":13,\\\"curriculumType\\\":\\\"SEMESTER\\\",\\\"compositeId\\\":\\\"KNRCTES11006\\\",\\\"lessonType\\\":\\\"CTEST\\\",\\\"chapterId\\\":13442},\\\"problemId\\\":288476}\"}}",
+                "sqpath" : "/Data/parameters",
+                "dqpath" : "/Data/parameters"
+              },
+              "req" : {
+                "type" : "STRING",
+                "value" : null,
+                "sqpath" : "/Data/req",
+                "dqpath" : "/Data/req"
+              }
+            },
+            "sqpath" : "/Data",
+            "dqpath" : "/Data"
+          },
+          "Timestamp" : {
+            "type" : "LONG",
+            "value" : "1546225213000",
+            "sqpath" : "/Timestamp",
+            "dqpath" : "/Timestamp"
+          },
+          "Offset" : {
+            "type" : "STRING",
+            "value" : "mysql-bin-changelog.001415:193457",
+            "sqpath" : "/Offset",
+            "dqpath" : "/Offset"
+          }
+        },
+        "sqpath" : "",
+        "dqpath" : ""
+      }
+    }, {
+      "header" : {
+        "stageCreator" : "ToEvent_01",
+        "sourceId" : "event:event-target:1:10",
+        "stagesPath" : "ToEvent_01",
+        "trackingId" : "event:event-target:1:10::ToEvent_01",
+        "previousTrackingId" : null,
+        "raw" : null,
+        "rawMimeType" : null,
+        "errorDataCollectorId" : null,
+        "errorPipelineName" : null,
+        "errorStage" : null,
+        "errorStageLabel" : null,
+        "errorCode" : null,
+        "errorMessage" : null,
+        "errorTimestamp" : 0,
+        "errorStackTrace" : null,
+        "errorJobId" : null,
+        "values" : {
+          "sdc.event.version" : "1",
+          "sdc.event.creation_timestamp" : "1546225214485",
+          "sdc.event.type" : "event-target"
+        }
+      },
+      "value" : {
+        "type" : "MAP",
+        "value" : {
+          "BinLogFilename" : {
+            "type" : "STRING",
+            "value" : "mysql-bin-changelog.001415",
+            "sqpath" : "/BinLogFilename",
+            "dqpath" : "/BinLogFilename"
+          },
+          "Type" : {
+            "type" : "STRING",
+            "value" : "UPDATE",
+            "sqpath" : "/Type",
+            "dqpath" : "/Type"
+          },
+          "Table" : {
+            "type" : "STRING",
+            "value" : "problem_logs",
+            "sqpath" : "/Table",
+            "dqpath" : "/Table"
+          },
+          "ServerId" : {
+            "type" : "LONG",
+            "value" : "1221695242",
+            "sqpath" : "/ServerId",
+            "dqpath" : "/ServerId"
+          },
+          "BinLogPosition" : {
+            "type" : "LONG",
+            "value" : "194326",
+            "sqpath" : "/BinLogPosition",
+            "dqpath" : "/BinLogPosition"
+          },
+          "Database" : {
+            "type" : "STRING",
+            "value" : "knowre2",
+            "sqpath" : "/Database",
+            "dqpath" : "/Database"
+          },
+          "OldData" : {
+            "type" : "MAP",
+            "value" : {
+              "trial_id" : {
+                "type" : "STRING",
+                "value" : "160941I3T13590242264",
+                "sqpath" : "/OldData/trial_id",
+                "dqpath" : "/OldData/trial_id"
+              },
+              "created_at" : {
+                "type" : "DATETIME",
+                "value" : 1546225197000,
+                "sqpath" : "/OldData/created_at",
+                "dqpath" : "/OldData/created_at"
+              },
+              "type" : {
+                "type" : "INTEGER",
+                "value" : "4",
+                "sqpath" : "/OldData/type",
+                "dqpath" : "/OldData/type"
+              },
+              "api_version" : {
+                "type" : "STRING",
+                "value" : "v2",
+                "sqpath" : "/OldData/api_version",
+                "dqpath" : "/OldData/api_version"
+              },
+              "lesson_id" : {
+                "type" : "INTEGER",
+                "value" : "72779",
+                "sqpath" : "/OldData/lesson_id",
+                "dqpath" : "/OldData/lesson_id"
+              },
+              "result" : {
+                "type" : "INTEGER",
+                "value" : null,
+                "sqpath" : "/OldData/result",
+                "dqpath" : "/OldData/result"
+              },
+              "removed_at" : {
+                "type" : "DATETIME",
+                "value" : null,
+                "sqpath" : "/OldData/removed_at",
+                "dqpath" : "/OldData/removed_at"
+              },
+              "answer" : {
+                "type" : "STRING",
+                "value" : null,
+                "sqpath" : "/OldData/answer",
+                "dqpath" : "/OldData/answer"
+              },
+              "user_id" : {
+                "type" : "INTEGER",
+                "value" : "160941",
+                "sqpath" : "/OldData/user_id",
+                "dqpath" : "/OldData/user_id"
+              },
+              "problem_id" : {
+                "type" : "INTEGER",
+                "value" : "465245",
+                "sqpath" : "/OldData/problem_id",
+                "dqpath" : "/OldData/problem_id"
+              },
+              "parent_id" : {
+                "type" : "INTEGER",
+                "value" : null,
+                "sqpath" : "/OldData/parent_id",
+                "dqpath" : "/OldData/parent_id"
+              },
+              "extra" : {
+                "type" : "STRING",
+                "value" : null,
+                "sqpath" : "/OldData/extra",
+                "dqpath" : "/OldData/extra"
+              },
+              "started_at" : {
+                "type" : "DATETIME",
+                "value" : 1546225197000,
+                "sqpath" : "/OldData/started_at",
+                "dqpath" : "/OldData/started_at"
+              },
+              "id" : {
+                "type" : "INTEGER",
+                "value" : "67196836",
+                "sqpath" : "/OldData/id",
+                "dqpath" : "/OldData/id"
+              },
+              "modified_at" : {
+                "type" : "DATETIME",
+                "value" : 1546225197000,
+                "sqpath" : "/OldData/modified_at",
+                "dqpath" : "/OldData/modified_at"
+              },
+              "unit_id" : {
+                "type" : "INTEGER",
+                "value" : "26921",
+                "sqpath" : "/OldData/unit_id",
+                "dqpath" : "/OldData/unit_id"
+              },
+              "is_step" : {
+                "type" : "INTEGER",
+                "value" : "1",
+                "sqpath" : "/OldData/is_step",
+                "dqpath" : "/OldData/is_step"
+              }
+            },
+            "sqpath" : "/OldData",
+            "dqpath" : "/OldData"
+          },
+          "Data" : {
+            "type" : "MAP",
+            "value" : {
+              "trial_id" : {
+                "type" : "STRING",
+                "value" : "160941I3T13590242264",
+                "sqpath" : "/Data/trial_id",
+                "dqpath" : "/Data/trial_id"
+              },
+              "created_at" : {
+                "type" : "DATETIME",
+                "value" : 1546225197000,
+                "sqpath" : "/Data/created_at",
+                "dqpath" : "/Data/created_at"
+              },
+              "type" : {
+                "type" : "INTEGER",
+                "value" : "4",
+                "sqpath" : "/Data/type",
+                "dqpath" : "/Data/type"
+              },
+              "api_version" : {
+                "type" : "STRING",
+                "value" : "v2",
+                "sqpath" : "/Data/api_version",
+                "dqpath" : "/Data/api_version"
+              },
+              "lesson_id" : {
+                "type" : "INTEGER",
+                "value" : "72779",
+                "sqpath" : "/Data/lesson_id",
+                "dqpath" : "/Data/lesson_id"
+              },
+              "result" : {
+                "type" : "INTEGER",
+                "value" : "0",
+                "sqpath" : "/Data/result",
+                "dqpath" : "/Data/result"
+              },
+              "removed_at" : {
+                "type" : "DATETIME",
+                "value" : null,
+                "sqpath" : "/Data/removed_at",
+                "dqpath" : "/Data/removed_at"
+              },
+              "answer" : {
+                "type" : "STRING",
+                "value" : "[{\"type\":\"Block\",\"value\":[]},{\"type\":\"Block\",\"value\":[]},{\"type\":\"Block\",\"value\":[{\"type\":\"Static\"},{\"type\":\"Static\"},{\"type\":\"Static\"},{\"type\":\"Static\"},{\"type\":\"Static\"},{\"type\":\"Static\"},{\"type\":\"Static\"},{\"type\":\"Static\"},{\"type\":\"Static\"},{\"type\":\"Static\"},{\"type\":\"Static\"},{\"type\":\"Block\",\"value\":[]},{\"type\":\"Block\",\"value\":[{\"type\":\"Partial\",\"object\":[{\"type\":\"Input\",\"mode\":\"math\",\"value\":\"3\",\"order\":\"1\"},{\"type\":\"Input\",\"mode\":\"math\",\"value\":\"8\",\"order\":\"1\"},{\"type\":\"Input\",\"mode\":\"math\",\"value\":\"2\",\"order\":\"2\"}]}]}]}]",
+                "sqpath" : "/Data/answer",
+                "dqpath" : "/Data/answer"
+              },
+              "user_id" : {
+                "type" : "INTEGER",
+                "value" : "160941",
+                "sqpath" : "/Data/user_id",
+                "dqpath" : "/Data/user_id"
+              },
+              "problem_id" : {
+                "type" : "INTEGER",
+                "value" : "465245",
+                "sqpath" : "/Data/problem_id",
+                "dqpath" : "/Data/problem_id"
+              },
+              "parent_id" : {
+                "type" : "INTEGER",
+                "value" : "465240",
+                "sqpath" : "/Data/parent_id",
+                "dqpath" : "/Data/parent_id"
+              },
+              "extra" : {
+                "type" : "STRING",
+                "value" : null,
+                "sqpath" : "/Data/extra",
+                "dqpath" : "/Data/extra"
+              },
+              "started_at" : {
+                "type" : "DATETIME",
+                "value" : 1546225197000,
+                "sqpath" : "/Data/started_at",
+                "dqpath" : "/Data/started_at"
+              },
+              "id" : {
+                "type" : "INTEGER",
+                "value" : "67196836",
+                "sqpath" : "/Data/id",
+                "dqpath" : "/Data/id"
+              },
+              "modified_at" : {
+                "type" : "DATETIME",
+                "value" : 1546225213000,
+                "sqpath" : "/Data/modified_at",
+                "dqpath" : "/Data/modified_at"
+              },
+              "unit_id" : {
+                "type" : "INTEGER",
+                "value" : "26921",
+                "sqpath" : "/Data/unit_id",
+                "dqpath" : "/Data/unit_id"
+              },
+              "is_step" : {
+                "type" : "INTEGER",
+                "value" : "1",
+                "sqpath" : "/Data/is_step",
+                "dqpath" : "/Data/is_step"
+              }
+            },
+            "sqpath" : "/Data",
+            "dqpath" : "/Data"
+          },
+          "Timestamp" : {
+            "type" : "LONG",
+            "value" : "1546225213000",
+            "sqpath" : "/Timestamp",
+            "dqpath" : "/Timestamp"
+          },
+          "Offset" : {
+            "type" : "STRING",
+            "value" : "mysql-bin-changelog.001415:194326",
+            "sqpath" : "/Offset",
+            "dqpath" : "/Offset"
+          }
+        },
+        "sqpath" : "",
+        "dqpath" : ""
+      }
+    } ]
+  } ] ]
+}

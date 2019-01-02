@@ -7,8 +7,9 @@ COPY config/ ${SDC_CONF}/
 COPY sdc-extras/ ${STREAMSETS_LIBRARIES_EXTRA_DIR}/
 
 RUN chmod 600 ${SDC_CONF}/*-realm.properties
+RUN mkdir fsData
 
-VOLUME [ "/data" ]
+VOLUME [ "/data", "/fsData" ]
 EXPOSE 18630
 
 CMD ["dc", "-exec"]

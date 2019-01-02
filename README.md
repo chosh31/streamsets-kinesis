@@ -10,6 +10,7 @@
 ex)
 export STREAMSETS_HOME=$HOME/works/streamsets-kinesis
 export STREAMSETS_DATA=$STREAMSETS_HOME/data
+export STREAMSETS_FS_DATA=$STREAMSETS_HOME/fsData
 ```
 
 - config/runtime.properties

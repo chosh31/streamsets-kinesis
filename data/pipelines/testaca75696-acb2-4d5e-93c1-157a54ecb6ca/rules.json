@@ -59,7 +59,7 @@
   } ],
   "dataRuleDefinitions" : [ ],
   "driftRuleDefinitions" : [ ],
-  "uuid" : "e4e46048-d9d6-4797-9d7d-c2ff71f5a26a",
+  "uuid" : "67540c8c-2ad9-4103-a4d7-82ad863f5ccf",
   "configuration" : [ {
     "name" : "emailIDs",
     "value" : [ ]
@@ -67,6 +67,6 @@
     "name" : "webhookConfigs",
     "value" : [ ]
   } ],
-  "ruleIssues" : null,
-  "configIssues" : null
+  "ruleIssues" : [ ],
+  "configIssues" : [ ]
 }

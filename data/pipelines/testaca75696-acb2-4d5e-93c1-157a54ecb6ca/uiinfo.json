@@ -1,24 +1,15 @@
 {
-  "ToEvent_03" : {
-    "description" : "",
-    "label" : "UPDATE",
-    "xPos" : 720,
-    "yPos" : 170,
-    "stageType" : "TARGET"
-  },
-  "ToEvent_02" : {
-    "description" : "",
-    "label" : "LESSON_LOGS",
-    "xPos" : 1160,
-    "yPos" : 150,
-    "stageType" : "TARGET"
-  },
-  "ToEvent_01" : {
-    "description" : "",
-    "label" : "PROBLEM_LOGS",
-    "xPos" : 1160,
-    "yPos" : 20,
-    "stageType" : "TARGET"
+  ":pipeline:" : {
+    "previewConfig" : {
+      "previewSource" : "CONFIGURED_SOURCE",
+      "batchSize" : "1000",
+      "timeout" : 30000,
+      "writeToDestinations" : false,
+      "executeLifecycleEvents" : false,
+      "showHeader" : false,
+      "showFieldType" : true,
+      "rememberMe" : false
+    }
   },
   "MySQLBinaryLog_01" : {
     "description" : "",
@@ -34,23 +25,11 @@
     "yPos" : 50,
     "stageType" : "PROCESSOR"
   },
-  ":pipeline:" : {
-    "previewConfig" : {
-      "previewSource" : "CONFIGURED_SOURCE",
-      "batchSize" : 10,
-      "timeout" : 30000,
-      "writeToDestinations" : false,
-      "executeLifecycleEvents" : false,
-      "showHeader" : false,
-      "showFieldType" : true,
-      "rememberMe" : false
-    }
-  },
-  "StreamSelector_03" : {
+  "StreamSelector_01" : {
     "description" : "",
-    "label" : "LOG TABLES",
-    "xPos" : 940,
-    "yPos" : 30,
+    "label" : "SQL TYPE",
+    "xPos" : 500,
+    "yPos" : 140,
     "stageType" : "PROCESSOR"
   },
   "StreamSelector_02" : {
@@ -60,18 +39,32 @@
     "yPos" : 40,
     "stageType" : "PROCESSOR"
   },
-  "StreamSelector_01" : {
+  "StreamSelector_03" : {
     "description" : "",
-    "label" : "SQL TYPE",
-    "xPos" : 500,
-    "yPos" : 140,
+    "label" : "LOG TABLES",
+    "xPos" : 940,
+    "yPos" : 30,
     "stageType" : "PROCESSOR"
   },
   "Trash_01" : {
     "description" : "",
     "label" : "ETC LOGS",
-    "xPos" : 940,
-    "yPos" : 160,
+    "xPos" : 937.5,
+    "yPos" : 162.5,
+    "stageType" : "TARGET"
+  },
+  "ToEvent_01" : {
+    "description" : "",
+    "label" : "PROBLEM_LOGS",
+    "xPos" : 1157.5,
+    "yPos" : 17.5,
+    "stageType" : "TARGET"
+  },
+  "ToEvent_02" : {
+    "description" : "",
+    "label" : "LESSON_LOGS",
+    "xPos" : 1157.5,
+    "yPos" : 140,
     "stageType" : "TARGET"
   },
   "Trash_03" : {
@@ -79,6 +72,90 @@
     "label" : "ETC",
     "xPos" : 720,
     "yPos" : 300,
+    "stageType" : "TARGET"
+  },
+  "LocalFS_02" : {
+    "description" : "",
+    "label" : "Local FS (INSERT LESSON_LOGS)",
+    "xPos" : 1355,
+    "yPos" : 135,
+    "stageType" : "TARGET"
+  },
+  "LocalFS_03" : {
+    "description" : "",
+    "label" : "Local FS (INSERT PROBLEM_LOGS)",
+    "xPos" : 1357.5,
+    "yPos" : 15,
+    "stageType" : "TARGET"
+  },
+  "StreamSelector_04" : {
+    "description" : "",
+    "label" : "TABLE (UPDATE)",
+    "xPos" : 720,
+    "yPos" : 170,
+    "stageType" : "PROCESSOR"
+  },
+  "StreamSelector_05" : {
+    "description" : "",
+    "label" : "LOG TABLES",
+    "xPos" : 942.5,
+    "yPos" : 295,
+    "stageType" : "PROCESSOR"
+  },
+  "Trash_04" : {
+    "description" : "",
+    "label" : "ETC LOGS",
+    "xPos" : 932.5,
+    "yPos" : 480,
+    "stageType" : "TARGET"
+  },
+  "LocalFS_05" : {
+    "description" : "",
+    "label" : "Local FS (UPDATE LESSON_LOGS)",
+    "xPos" : 1160,
+    "yPos" : 417.5,
+    "stageType" : "TARGET"
+  },
+  "StreamSelector_06" : {
+    "description" : "",
+    "label" : "result",
+    "xPos" : 1157.5,
+    "yPos" : 277.5,
+    "stageType" : "PROCESSOR"
+  },
+  "LocalFS_04" : {
+    "description" : "",
+    "label" : "Local FS (UPDATE PROBLEM_LOGS)",
+    "xPos" : 1352.5,
+    "yPos" : 395,
+    "stageType" : "TARGET"
+  },
+  "StreamSelector_07" : {
+    "description" : "",
+    "label" : "UPDATE PROBLEM_LOGS_NULL",
+    "xPos" : 1353.4971923828125,
+    "yPos" : 261.7616882324219,
+    "stageType" : "PROCESSOR"
+  },
+  "LocalFS_06" : {
+    "description" : "",
+    "label" : "Local FS (UPDATE PROBLEM_LOGS_REMOVED_AT_NULL)",
+    "xPos" : 1666.062255859375,
+    "yPos" : 122.77204132080078,
+    "stageType" : "TARGET"
+  },
+  "LocalFS_07" : {
+    "description" : "",
+    "label" : "Local FS (UPDATE PROBLEM_LOGS_CHANGED_STARTED_AT)",
+    "xPos" : 1663.5750732421875,
+    "yPos" : 242.7979965209961,
+    "stageType" : "TARGET"
+  },
+  "LocalFS_08" : {
+    "description" : "",
+    "label" : "Local FS 7",
+    "xPos" : 1657.590576171875,
+    "yPos" : 359.7409973144531,
     "stageType" : "TARGET"
   }
 }

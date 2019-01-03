@@ -1,0 +1,21 @@
+{
+  ":pipeline:" : {
+    "previewConfig" : {
+      "previewSource" : "CONFIGURED_SOURCE",
+      "batchSize" : 10,
+      "timeout" : 30000,
+      "writeToDestinations" : false,
+      "executeLifecycleEvents" : false,
+      "showHeader" : false,
+      "showFieldType" : true,
+      "rememberMe" : false
+    }
+  },
+  "AmazonS3_01" : {
+    "description" : "",
+    "label" : "Amazon S3 1",
+    "xPos" : 67,
+    "yPos" : 60,
+    "stageType" : "SOURCE"
+  }
+}

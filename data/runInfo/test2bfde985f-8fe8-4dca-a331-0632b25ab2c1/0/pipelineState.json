@@ -1,0 +1,16 @@
+{
+  "pipelineId" : "test2bfde985f-8fe8-4dca-a331-0632b25ab2c1",
+  "rev" : "0",
+  "user" : "admin",
+  "status" : "EDITED",
+  "message" : "Pipeline edited",
+  "timeStamp" : 1546498365815,
+  "attributes" : {
+    "IS_REMOTE_PIPELINE" : false
+  },
+  "executionMode" : "STANDALONE",
+  "metrics" : null,
+  "retryAttempt" : 0,
+  "nextRetryTimeStamp" : 0,
+  "name" : "test2bfde985f-8fe8-4dca-a331-0632b25ab2c1"
+}

@@ -59,13 +59,20 @@
   } ],
   "dataRuleDefinitions" : [ ],
   "driftRuleDefinitions" : [ ],
-  "uuid" : "67540c8c-2ad9-4103-a4d7-82ad863f5ccf",
+  "uuid" : "5677f390-0900-40e4-acc2-4c11277b9da6",
   "configuration" : [ {
     "name" : "emailIDs",
     "value" : [ ]
   }, {
     "name" : "webhookConfigs",
-    "value" : [ ]
+    "value" : [ {
+      "payload" : "{\n  \"text\" : \"{{ALERT_TEXT}}. The alert, {{ALERT_NAME}},  was triggered for pipeline '{{PIPELINE_TITLE}}'. \\n The threshold of {{ALERT_VALUE}} records, for the following condition was reached at {{TIME}}: {{ALERT_CONDITION}} \\n <{{PIPELINE_URL}}|Click here> for details!\"\n}",
+      "webhookUrl" : "https://hooks.slack.com/services/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",
+      "headers" : [ ],
+      "httpMethod" : "POST",
+      "contentType" : "application/json",
+      "authType" : "NONE"
+    } ]
   } ],
   "ruleIssues" : [ ],
   "configIssues" : [ ]

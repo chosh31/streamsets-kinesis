@@ -2,9 +2,9 @@
   "schemaVersion" : 6,
   "version" : 10,
   "pipelineId" : "testaca75696-acb2-4d5e-93c1-157a54ecb6ca",
-  "title" : "binlog-",
+  "title" : "binlog-test",
   "description" : "",
-  "uuid" : "5f02e570-b9ca-419d-b386-72167fae8a24",
+  "uuid" : "da8b078c-93fc-433c-b89b-8423d33e0f50",
   "configuration" : [ {
     "name" : "executionMode",
     "value" : "STANDALONE"
@@ -37,7 +37,7 @@
     "value" : "LOG"
   }, {
     "name" : "notifyOnStates",
-    "value" : [ "RUN_ERROR", "STOPPED", "FINISHED" ]
+    "value" : [ "RUN_ERROR", "STOPPED", "FINISHED", "RUNNING", "START_ERROR", "RUNNING_ERROR" ]
   }, {
     "name" : "emailIDs",
     "value" : [ ]
@@ -88,7 +88,14 @@
     "value" : 60
   }, {
     "name" : "webhookConfigs",
-    "value" : [ ]
+    "value" : [ {
+      "payload" : "{\n  \"text\" : \"Pipeline '{{PIPELINE_TITLE}}' state changed to {{PIPELINE_STATE}} at {{TIME}}. \\n <{{PIPELINE_URL}}|Click here> for details!\",\n  \"fields\": [\n    \t{\n\t\t\t\"title\": \"Pipeline Status Message\", \n\t\t\t\"value\": \"{{PIPELINE_STATE_MESSAGE}}\",\n      \t\t\"short\": true\n\t\t},\n\t\t{\n\t\t\t\"title\": \"Pipeline Input Records Count\", \n\t\t\t\"value\": \"{{PIPELINE_INPUT_RECORDS_COUNT}}\",\n            \"short\": true\n\t\t},\n\t\t{\n\t\t\t\"title\": \"Pipeline Output Records Count\", \n\t\t\t\"value\": \"{{PIPELINE_OUTPUT_RECORDS_COUNT}}\",\n            \"short\": true\n\t\t},\n\t\t{\n\t\t\t\"title\": \"Pipeline Error Records Count\", \n\t\t\t\"value\": \"{{PIPELINE_ERROR_RECORDS_COUNT}}\",\n            \"short\": true\n\t\t},\n\t\t{\n\t\t\t\"title\": \"Pipeline Error Messages Count\", \n\t\t\t\"value\": \"{{PIPELINE_ERROR_MESSAGES_COUNT}}\",\n            \"short\": true\n\t\t},\n\t\t{\n\t\t\t\"title\": \"Pipeline Runtime Parameters\", \n\t\t\t\"value\": \"{{PIPELINE_RUNTIME_PARAMETERS}}\",\n          \t\"short\": true\n\t\t}\n\t]\n}",
+      "headers" : [ ],
+      "httpMethod" : "POST",
+      "contentType" : "application/json",
+      "authType" : "NONE",
+      "webhookUrl" : "https://hooks.slack.com/services/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"
+    } ]
   }, {
     "name" : "sparkConfigs",
     "value" : [ ]
@@ -4500,14 +4507,14 @@
   },
   "info" : {
     "pipelineId" : "testaca75696-acb2-4d5e-93c1-157a54ecb6ca",
-    "title" : "binlog-",
+    "title" : "binlog-test",
     "description" : "",
     "created" : 1545964475529,
-    "lastModified" : 1546506822462,
+    "lastModified" : 1547797179909,
     "creator" : "knowre",
-    "lastModifier" : "admin",
+    "lastModifier" : "knowre",
     "lastRev" : "0",
-    "uuid" : "fbefe343-1873-4c9e-afaf-4d857d285252",
+    "uuid" : "5da17f6e-3228-4fe8-b534-951322f40d0e",
     "valid" : true,
     "metadata" : {
       "labels" : [ ]
@@ -4810,9 +4817,9 @@
   },
   "valid" : true,
   "issues" : {
-    "stageIssues" : { },
     "issueCount" : 0,
-    "pipelineIssues" : [ ]
+    "pipelineIssues" : [ ],
+    "stageIssues" : { }
   },
   "previewable" : true
 }

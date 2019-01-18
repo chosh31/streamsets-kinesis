@@ -1,4 +1,11 @@
 {
+  "FieldMerger_01" : {
+    "description" : "",
+    "label" : "Field Merger 1",
+    "xPos" : 476,
+    "yPos" : 98,
+    "stageType" : "PROCESSOR"
+  },
   ":pipeline:" : {
     "previewConfig" : {
       "previewSource" : "CONFIGURED_SOURCE",
@@ -14,8 +21,15 @@
   "AmazonS3_01" : {
     "description" : "",
     "label" : "Amazon S3 1",
-    "xPos" : 67,
-    "yPos" : 60,
+    "xPos" : 113,
+    "yPos" : 121,
     "stageType" : "SOURCE"
+  },
+  "HTTPClient_01" : {
+    "description" : "",
+    "label" : "HTTP Client 1",
+    "xPos" : 792,
+    "yPos" : 98,
+    "stageType" : "PROCESSOR"
   }
 }

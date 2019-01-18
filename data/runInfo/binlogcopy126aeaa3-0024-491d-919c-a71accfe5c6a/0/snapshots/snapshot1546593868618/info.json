@@ -1,0 +1,11 @@
+{
+  "user" : "admin",
+  "id" : "snapshot1546593868618",
+  "label" : "Snapshot1",
+  "name" : "binlogcopy126aeaa3-0024-491d-919c-a71accfe5c6a",
+  "rev" : "0",
+  "timeStamp" : 1546593892301,
+  "inProgress" : false,
+  "batchNumber" : 60,
+  "failureSnapshot" : false
+}

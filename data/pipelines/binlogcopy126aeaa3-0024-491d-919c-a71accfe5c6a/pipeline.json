@@ -4,7 +4,7 @@
   "pipelineId" : "binlogcopy126aeaa3-0024-491d-919c-a71accfe5c6a",
   "title" : "binlog- copy",
   "description" : "",
-  "uuid" : "d9a72470-784c-45b5-b17b-0f87ee67a188",
+  "uuid" : "181decce-197c-415d-8956-eca8a0526a8d",
   "configuration" : [ {
     "name" : "executionMode",
     "value" : "STANDALONE"
@@ -4541,12 +4541,12 @@
     "title" : "binlog- copy",
     "description" : "",
     "created" : 1546572993217,
-    "lastModified" : 1546593787644,
+    "lastModified" : 1548220404443,
     "creator" : "admin",
     "lastModifier" : "admin",
     "lastRev" : "0",
-    "uuid" : "2996eb70-3af0-47e5-9366-b07013a5c46b",
-    "valid" : true,
+    "uuid" : "8544b2bc-4249-4926-ab34-51443630a9eb",
+    "valid" : false,
     "metadata" : {
       "labels" : [ ]
     },
@@ -4848,8 +4848,8 @@
   },
   "valid" : true,
   "issues" : {
-    "issueCount" : 0,
     "stageIssues" : { },
+    "issueCount" : 0,
     "pipelineIssues" : [ ]
   },
   "previewable" : true

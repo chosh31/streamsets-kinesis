@@ -802,3 +802,21 @@
   "nextRetryTimeStamp" : 0,
   "name" : "binlogcopy126aeaa3-0024-491d-919c-a71accfe5c6a"
 }
+{
+  "pipelineId" : "binlogcopy126aeaa3-0024-491d-919c-a71accfe5c6a",
+  "rev" : "0",
+  "user" : "admin",
+  "status" : "EDITED",
+  "message" : "Pipeline edited",
+  "timeStamp" : 1548219477881,
+  "attributes" : {
+    "IS_REMOTE_PIPELINE" : false,
+    "RUNTIME_PARAMETERS" : null,
+    "INTERCEPTOR_CONFIGS" : [ ]
+  },
+  "executionMode" : "STANDALONE",
+  "metrics" : null,
+  "retryAttempt" : 0,
+  "nextRetryTimeStamp" : 0,
+  "name" : "binlogcopy126aeaa3-0024-491d-919c-a71accfe5c6a"
+}

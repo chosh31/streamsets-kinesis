@@ -1,0 +1,18 @@
+{
+  "pipelineId" : "choooser98760659-e1a3-4ad3-b84a-f57e3ac50dd1",
+  "title" : "choooser",
+  "description" : "",
+  "created" : 1547801983378,
+  "lastModified" : 1548218929257,
+  "creator" : "knowre",
+  "lastModifier" : "admin",
+  "lastRev" : "0",
+  "uuid" : "f1322104-dc4c-40b8-b89e-b76d58983dc6",
+  "valid" : true,
+  "metadata" : {
+    "labels" : [ ]
+  },
+  "name" : "choooser98760659-e1a3-4ad3-b84a-f57e3ac50dd1",
+  "sdcVersion" : "3.6.1",
+  "sdcId" : "0f8f71e0-0a49-11e9-97a1-dbf38039aeee"
+}

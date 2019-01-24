@@ -1,9 +1,17 @@
 # Streamsets-kinesis
 
 
-
 ## Setup
+
 ### pre-configuration
+
+- docker
+```
+$ sudo usermod -aG docker $USER
+```
+
+- change `ulimit` -> minimum `32768`
+
 - path info 
 
 ```
@@ -14,6 +22,7 @@ export STREAMSETS_FS_DATA=$STREAMSETS_HOME/fsData
 ```
 
 - config/runtime.properties
+
 
 ### installation
 
